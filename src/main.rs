@@ -1,5 +1,6 @@
 use std::env;
 use std::process;
+use std::io::{self, Read};
 
 mod bril_parse;
 mod ast;
@@ -13,21 +14,32 @@ use dce::DeadCodeElimination;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-    if args.len() != 2 {
-        eprintln!("Input: {} <bril_json_file>", args[0]);
-        process::exit(1);
-    }
+    let mut buffer = String::new();
 
-    let file_path = &args[1];
+    let program = if args.len() > 1 {
+        // Option to read from file
+        eprintln!("Input: {} <bril_json_file>", args[0]);
     
-    // Parse the Bril program
-    let program = match BrilParser::from_file(file_path) {
-        Ok(prog) => prog,
-        Err(e) => {
-            eprintln!("Error parsing Bril program: {}", e);
-            process::exit(1);
+        // Parse the Bril program
+        match BrilParser::from_file(&args[1]) {
+            Ok(prog) => prog,
+            Err(e) => {
+                eprintln!("Error parsing Bril program: {}", e);
+                process::exit(1);
+            }
+        }
+    } else {
+        io::stdin().read_to_string(&mut buffer).unwrap();
+        match BrilParser::from_string(&buffer) {
+            Ok(prog) => prog,
+            Err(e) => {
+                eprint!("Error parsing Bril program from stdin: {}", e);
+                process::exit(1);
+            }
         }
     };
+
+    
 
     // Build AST representation
     let mut program_ast = ProgramAST::from_bril_program(program);
