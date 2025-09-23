@@ -51,6 +51,16 @@ impl BrilInstruction {
         self.data.get("dest").and_then(|v| v.as_str())
     }
 
+    pub fn get_args(&self) -> Option<Vec<String>> {
+        self.data.get("args")
+            .and_then(|v| v.as_array())
+            .map(|arr| {
+                arr.iter()
+                    .filter_map(|v| v.as_str().map(|s| s.to_string()))
+                    .collect()
+            })
+    }
+
     pub fn get_labels(&self) -> Option<Vec<String>> {
         self.data.get("labels")
             .and_then(|v| v.as_array())
