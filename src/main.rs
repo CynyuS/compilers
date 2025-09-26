@@ -7,6 +7,7 @@ mod ast;
 mod cfg;
 mod basic_block;
 mod dce;
+mod df;
 
 use bril_parse::BrilParser;
 use ast::ProgramAST;

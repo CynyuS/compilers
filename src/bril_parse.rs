@@ -20,7 +20,7 @@ pub struct BrilFunction {
     pub instructions: Vec<BrilInstruction>,
 }
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Eq, PartialEq, Hash)]
 pub struct BrilInstruction {
     pub data: Value,
 }
