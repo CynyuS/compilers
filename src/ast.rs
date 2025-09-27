@@ -14,6 +14,7 @@ pub struct ProgramAST {
 pub struct FunctionAST {
     pub name: String,
     pub cfg: ControlFlowGraph,
+    pub bril_function: crate::bril_parse::BrilFunction,
 }
 
 impl ProgramAST {
@@ -22,9 +23,11 @@ impl ProgramAST {
         
         for bril_function in bril_program.functions {
             let cfg = ControlFlowGraph::from_bril_function(&bril_function);
+            let name = bril_function.name.clone();
             functions.push(FunctionAST {
-                name: bril_function.name,
+                name,
                 cfg,
+                bril_function,
             });
         }
 

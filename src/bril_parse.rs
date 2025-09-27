@@ -12,12 +12,25 @@ pub struct BrilProgram {
 }
 
 #[derive(Debug, Clone)]
+pub struct BrilArg {
+    pub name: String,
+    pub arg_type: String,
+}
+
+#[derive(Debug, Clone)]
 /// Bril functions have a `name` and are made up of a list of 
 /// instructions. We won't need `name` until global basic block analysis
 pub struct BrilFunction {
     #[allow(dead_code)]
     pub name: String, 
+    pub args: Option<Vec<BrilArg>>,
     pub instructions: Vec<BrilInstruction>,
+}
+
+impl BrilFunction {
+    pub fn get_args(&self) -> Option<&Vec<BrilArg>> {
+        self.args.as_ref()
+    }
 }
 
 #[derive(Debug, Clone, Eq, PartialEq, Hash)]
@@ -138,6 +151,22 @@ impl BrilParser {
                 .and_then(|n| n.as_str())
                 .unwrap_or("unnamed")
                 .to_string();
+            
+            let args = func_json.get("args")
+                .and_then(|v| v.as_array())
+                .map(|arr| {
+                    arr.iter()
+                        .filter_map(|arg| {
+                            if let Some(obj) = arg.as_object() {
+                                let name = obj.get("name")?.as_str()?.to_string();
+                                let arg_type = obj.get("type")?.as_str()?.to_string();
+                                Some(BrilArg { name, arg_type })
+                            } else {
+                                None
+                            }
+                        })
+                        .collect()
+                });
 
             let mut instructions = Vec::new();
 
@@ -147,7 +176,7 @@ impl BrilParser {
                 }
             }
 
-            functions.push(BrilFunction { name, instructions });
+            functions.push(BrilFunction { name, args, instructions });
         }
 
         Ok(BrilProgram { functions })
