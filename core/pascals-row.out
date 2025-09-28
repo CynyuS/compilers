@@ -1,0 +1,201 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: v0
+   ┌─ IN:
+   │    ∅
+   └─ OUT:
+        v0 = 5
+        v1 = 5
+        v2 = 0
+        x = 5
+
+DataFlow ConstProp analysis for function 'generateNthRow'
+---------------------------------------------
+
+ Block: for.body.3
+   ┌─ IN:
+   │    curr = NAC
+   │    i = NAC
+   │    prev = NAC
+   │    temp = NAC
+   │    v0 = 1
+   │    v1 = 1
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v12 = 1
+   │    v13 = NAC
+   │    v14 = NAC
+   │    v15 = NAC
+   │    v16 = NAC
+   │    v17 = NAC
+   │    v18 = 0
+   │    v19 = NAC
+   │    v2 = 0
+   │    v20 = NAC
+   │    v21 = 1
+   │    v22 = NAC
+   │    v4 = 0
+   │    v5 = NAC
+   │    v6 = UNDEF
+   │    v7 = NAC
+   │    v8 = UNDEF
+   │    v9 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        curr = NAC
+        i = NAC
+        prev = NAC
+        temp = NAC
+        v0 = 1
+        v1 = 1
+        v10 = NAC
+        v11 = NAC
+        v12 = 1
+        v13 = NAC
+        v14 = NAC
+        v15 = NAC
+        v16 = NAC
+        v17 = NAC
+        v18 = 0
+        v19 = NAC
+        v2 = 0
+        v20 = NAC
+        v21 = 1
+        v22 = NAC
+        v4 = 0
+        v5 = NAC
+        v6 = UNDEF
+        v7 = NAC
+        v8 = UNDEF
+        v9 = NAC
+        x = UNDEF
+
+ Block: for.cond.3
+   ┌─ IN:
+   │    curr = NAC
+   │    i = NAC
+   │    prev = NAC
+   │    temp = NAC
+   │    v0 = 1
+   │    v1 = 1
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v12 = 1
+   │    v13 = NAC
+   │    v14 = NAC
+   │    v15 = NAC
+   │    v16 = NAC
+   │    v17 = NAC
+   │    v18 = 0
+   │    v19 = NAC
+   │    v2 = 0
+   │    v20 = NAC
+   │    v21 = 1
+   │    v22 = NAC
+   │    v4 = 0
+   │    v5 = NAC
+   │    v6 = UNDEF
+   │    v7 = NAC
+   │    v8 = UNDEF
+   │    v9 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        curr = NAC
+        i = NAC
+        prev = NAC
+        temp = NAC
+        v0 = 1
+        v1 = 1
+        v10 = NAC
+        v11 = NAC
+        v12 = 1
+        v13 = NAC
+        v14 = NAC
+        v15 = NAC
+        v16 = NAC
+        v17 = NAC
+        v18 = 0
+        v19 = NAC
+        v2 = 0
+        v20 = NAC
+        v21 = 1
+        v22 = NAC
+        v4 = 0
+        v5 = NAC
+        v6 = UNDEF
+        v7 = NAC
+        v8 = UNDEF
+        v9 = NAC
+        x = UNDEF
+
+ Block: for.end.3
+   ┌─ IN:
+   │    curr = NAC
+   │    i = NAC
+   │    prev = NAC
+   │    temp = NAC
+   │    v0 = 1
+   │    v1 = 1
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v12 = 1
+   │    v13 = NAC
+   │    v14 = NAC
+   │    v15 = NAC
+   │    v16 = NAC
+   │    v17 = NAC
+   │    v18 = 0
+   │    v19 = NAC
+   │    v2 = 0
+   │    v20 = NAC
+   │    v21 = 1
+   │    v22 = NAC
+   │    v4 = 0
+   │    v5 = NAC
+   │    v6 = UNDEF
+   │    v7 = NAC
+   │    v8 = UNDEF
+   │    v9 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        curr = NAC
+        i = NAC
+        prev = NAC
+        temp = NAC
+        v0 = 1
+        v1 = 1
+        v10 = NAC
+        v11 = NAC
+        v12 = 1
+        v13 = NAC
+        v14 = NAC
+        v15 = NAC
+        v16 = NAC
+        v17 = NAC
+        v18 = 0
+        v19 = NAC
+        v2 = 0
+        v20 = NAC
+        v21 = 1
+        v22 = NAC
+        v4 = 0
+        v5 = NAC
+        v6 = UNDEF
+        v7 = NAC
+        v8 = UNDEF
+        v9 = NAC
+        x = UNDEF
+
+ Block: v0
+   ┌─ IN:
+   │    x = UNDEF
+   └─ OUT:
+        i = 0
+        prev = 1
+        v0 = 1
+        v1 = 1
+        v2 = 0
+        v4 = 0
+        x = UNDEF

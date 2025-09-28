@@ -1,0 +1,118 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: for.body.2
+   ┌─ IN:
+   │    i = NAC
+   │    input = UNDEF
+   │    result = NAC
+   │    v1 = 1
+   │    v10 = NAC
+   │    v11 = 1
+   │    v12 = NAC
+   │    v3 = UNDEF
+   │    v4 = NAC
+   │    v5 = 0
+   │    v6 = NAC
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   │    value = UNDEF
+   └─ OUT:
+        i = NAC
+        input = UNDEF
+        result = NAC
+        v1 = 1
+        v10 = NAC
+        v11 = 1
+        v12 = NAC
+        v3 = UNDEF
+        v4 = NAC
+        v5 = 0
+        v6 = NAC
+        v7 = NAC
+        v8 = NAC
+        v9 = NAC
+        value = UNDEF
+
+ Block: for.cond.2
+   ┌─ IN:
+   │    i = NAC
+   │    input = UNDEF
+   │    result = NAC
+   │    v1 = 1
+   │    v10 = NAC
+   │    v11 = 1
+   │    v12 = NAC
+   │    v3 = UNDEF
+   │    v4 = NAC
+   │    v5 = 0
+   │    v6 = NAC
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   │    value = UNDEF
+   └─ OUT:
+        i = NAC
+        input = UNDEF
+        result = NAC
+        v1 = 1
+        v10 = NAC
+        v11 = 1
+        v12 = NAC
+        v3 = UNDEF
+        v4 = NAC
+        v5 = 0
+        v6 = NAC
+        v7 = NAC
+        v8 = NAC
+        v9 = NAC
+        value = UNDEF
+
+ Block: for.end.2
+   ┌─ IN:
+   │    i = NAC
+   │    input = UNDEF
+   │    result = NAC
+   │    v1 = 1
+   │    v10 = NAC
+   │    v11 = 1
+   │    v12 = NAC
+   │    v3 = UNDEF
+   │    v4 = NAC
+   │    v5 = 0
+   │    v6 = NAC
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   │    value = UNDEF
+   └─ OUT:
+        i = NAC
+        input = UNDEF
+        result = NAC
+        v1 = 1
+        v10 = NAC
+        v11 = 1
+        v12 = NAC
+        v13 = NAC
+        v14 = 0
+        v3 = UNDEF
+        v4 = NAC
+        v5 = 0
+        v6 = NAC
+        v7 = NAC
+        v8 = NAC
+        v9 = NAC
+        value = UNDEF
+
+ Block: value
+   ┌─ IN:
+   │    input = UNDEF
+   └─ OUT:
+        i = UNDEF
+        input = UNDEF
+        result = 1
+        v1 = 1
+        v3 = UNDEF
+        value = UNDEF

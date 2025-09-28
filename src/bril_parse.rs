@@ -14,7 +14,7 @@ pub struct BrilProgram {
 #[derive(Debug, Clone)]
 pub struct BrilArg {
     pub name: String,
-    pub arg_type: String,
+    pub _arg_type: String,
 }
 
 #[derive(Debug, Clone)]
@@ -64,6 +64,9 @@ impl BrilInstruction {
         self.data.get("dest").and_then(|v| v.as_str())
     }
 
+    pub fn get_val(&self) -> Option<&str> {
+        self.data.get("value").and_then(|v| v.as_str())
+    }
     pub fn get_args(&self) -> Option<Vec<String>> {
         self.data.get("args")
             .and_then(|v| v.as_array())
@@ -159,8 +162,8 @@ impl BrilParser {
                         .filter_map(|arg| {
                             if let Some(obj) = arg.as_object() {
                                 let name = obj.get("name")?.as_str()?.to_string();
-                                let arg_type = obj.get("type")?.as_str()?.to_string();
-                                Some(BrilArg { name, arg_type })
+                                let _arg_type = obj.get("type")?.as_str()?.to_string();
+                                Some(BrilArg { name, _arg_type })
                             } else {
                                 None
                             }

@@ -1,0 +1,245 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: for.body
+   ┌─ IN:
+   │    comp = NAC
+   │    comp1 = NAC
+   │    dif = NAC
+   │    i = NAC
+   │    ii = NAC
+   │    input = UNDEF
+   │    mpt = NAC
+   │    n = UNDEF
+   │    qut = NAC
+   │    result = 1
+   │    sum = NAC
+   │    v0 = 0
+   │    v1 = 1
+   │    v2 = 2
+   └─ OUT:
+        comp = NAC
+        comp1 = NAC
+        dif = NAC
+        i = NAC
+        ii = NAC
+        input = UNDEF
+        mpt = NAC
+        n = UNDEF
+        qut = NAC
+        result = 1
+        sum = NAC
+        v0 = 0
+        v1 = 1
+        v2 = 2
+
+ Block: for.cond.1
+   ┌─ IN:
+   │    comp = NAC
+   │    comp1 = NAC
+   │    dif = NAC
+   │    i = NAC
+   │    ii = NAC
+   │    input = UNDEF
+   │    mpt = NAC
+   │    n = UNDEF
+   │    qut = NAC
+   │    result = 1
+   │    sum = NAC
+   │    v0 = 0
+   │    v1 = 1
+   │    v2 = 2
+   └─ OUT:
+        comp = NAC
+        comp1 = NAC
+        dif = NAC
+        i = NAC
+        ii = NAC
+        input = UNDEF
+        mpt = NAC
+        n = UNDEF
+        qut = NAC
+        result = 1
+        sum = NAC
+        v0 = 0
+        v1 = 1
+        v2 = 2
+
+ Block: for.end
+   ┌─ IN:
+   │    comp = NAC
+   │    comp1 = NAC
+   │    dif = NAC
+   │    i = NAC
+   │    ii = NAC
+   │    input = UNDEF
+   │    mpt = NAC
+   │    n = UNDEF
+   │    qut = NAC
+   │    result = 1
+   │    sum = NAC
+   │    v0 = 0
+   │    v1 = 1
+   │    v2 = 2
+   └─ OUT:
+        comp = NAC
+        comp1 = NAC
+        comp2 = NAC
+        dif = NAC
+        i = NAC
+        ii = NAC
+        input = UNDEF
+        mpt = NAC
+        n = UNDEF
+        qut = NAC
+        result = 1
+        sum = NAC
+        v0 = 0
+        v1 = 1
+        v2 = 2
+
+ Block: for.incre
+   ┌─ IN:
+   │    comp = NAC
+   │    comp1 = NAC
+   │    dif = NAC
+   │    i = NAC
+   │    ii = NAC
+   │    input = UNDEF
+   │    mpt = NAC
+   │    n = UNDEF
+   │    qut = NAC
+   │    result = 1
+   │    sum = NAC
+   │    v0 = 0
+   │    v1 = 1
+   │    v2 = 2
+   └─ OUT:
+        comp = NAC
+        comp1 = NAC
+        dif = NAC
+        i = NAC
+        ii = NAC
+        input = UNDEF
+        mpt = NAC
+        n = UNDEF
+        qut = NAC
+        result = 1
+        sum = NAC
+        v0 = 0
+        v1 = 1
+        v2 = 2
+
+ Block: if.body
+   ┌─ IN:
+   │    comp = NAC
+   │    comp1 = NAC
+   │    dif = NAC
+   │    i = NAC
+   │    ii = NAC
+   │    input = UNDEF
+   │    mpt = NAC
+   │    n = UNDEF
+   │    qut = NAC
+   │    result = 1
+   │    sum = NAC
+   │    v0 = 0
+   │    v1 = 1
+   │    v2 = 2
+   └─ OUT:
+        comp = NAC
+        comp1 = NAC
+        dif = NAC
+        i = NAC
+        ii = NAC
+        input = UNDEF
+        mpt = NAC
+        n = UNDEF
+        qut = NAC
+        result = 1
+        sum = NAC
+        v0 = 0
+        v1 = 1
+        v2 = 2
+
+ Block: if.failure.end
+   ┌─ IN:
+   │    comp = NAC
+   │    comp1 = NAC
+   │    comp2 = NAC
+   │    dif = NAC
+   │    i = NAC
+   │    ii = NAC
+   │    input = UNDEF
+   │    mpt = NAC
+   │    n = UNDEF
+   │    qut = NAC
+   │    result = NAC
+   │    sum = NAC
+   │    v0 = 0
+   │    v1 = 1
+   │    v2 = 2
+   └─ OUT:
+        comp = NAC
+        comp1 = NAC
+        comp2 = NAC
+        dif = NAC
+        i = NAC
+        ii = NAC
+        input = UNDEF
+        mpt = NAC
+        n = UNDEF
+        qut = NAC
+        result = NAC
+        sum = NAC
+        v0 = 0
+        v1 = 1
+        v2 = 2
+
+ Block: if.success
+   ┌─ IN:
+   │    comp = NAC
+   │    comp1 = NAC
+   │    comp2 = NAC
+   │    dif = NAC
+   │    i = NAC
+   │    ii = NAC
+   │    input = UNDEF
+   │    mpt = NAC
+   │    n = UNDEF
+   │    qut = NAC
+   │    result = 1
+   │    sum = NAC
+   │    v0 = 0
+   │    v1 = 1
+   │    v2 = 2
+   └─ OUT:
+        comp = NAC
+        comp1 = NAC
+        comp2 = NAC
+        dif = NAC
+        i = NAC
+        ii = NAC
+        input = UNDEF
+        mpt = NAC
+        n = UNDEF
+        qut = NAC
+        result = 0
+        sum = NAC
+        v0 = 0
+        v1 = 1
+        v2 = 2
+
+ Block: n
+   ┌─ IN:
+   │    input = UNDEF
+   └─ OUT:
+        i = 2
+        input = UNDEF
+        n = UNDEF
+        result = 1
+        sum = 1
+        v0 = 0
+        v1 = 1
+        v2 = 2

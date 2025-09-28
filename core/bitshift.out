@@ -1,0 +1,273 @@
+
+DataFlow ConstProp analysis for function 'pow'
+---------------------------------------------
+
+ Block: else.0
+   ┌─ IN:
+   │    n = UNDEF
+   │    v1 = UNDEF
+   │    v2 = 1
+   │    v3 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        half = NAC
+        half2 = NAC
+        n = UNDEF
+        v1 = UNDEF
+        v10 = NAC
+        v11 = NAC
+        v13 = UNDEF
+        v14 = 2
+        v15 = NAC
+        v16 = 1
+        v17 = NAC
+        v2 = 1
+        v3 = NAC
+        v5 = UNDEF
+        v6 = UNDEF
+        v7 = 2
+        v8 = NAC
+        v9 = NAC
+        x = UNDEF
+
+ Block: else.12
+   ┌─ IN:
+   │    half = NAC
+   │    half2 = NAC
+   │    n = UNDEF
+   │    v1 = UNDEF
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v13 = UNDEF
+   │    v14 = 2
+   │    v15 = NAC
+   │    v16 = 1
+   │    v17 = NAC
+   │    v2 = 1
+   │    v3 = NAC
+   │    v5 = UNDEF
+   │    v6 = UNDEF
+   │    v7 = 2
+   │    v8 = NAC
+   │    v9 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        ans = NAC
+        half = NAC
+        half2 = NAC
+        n = UNDEF
+        v1 = UNDEF
+        v10 = NAC
+        v11 = NAC
+        v13 = UNDEF
+        v14 = 2
+        v15 = NAC
+        v16 = 1
+        v17 = NAC
+        v2 = 1
+        v21 = NAC
+        v3 = NAC
+        v5 = UNDEF
+        v6 = UNDEF
+        v7 = 2
+        v8 = NAC
+        v9 = NAC
+        x = UNDEF
+
+ Block: endif.12
+   ┌─ IN:
+   │    ans = NAC
+   │    half = NAC
+   │    half2 = NAC
+   │    n = UNDEF
+   │    v1 = UNDEF
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v13 = UNDEF
+   │    v14 = 2
+   │    v15 = NAC
+   │    v16 = 1
+   │    v17 = NAC
+   │    v18 = NAC
+   │    v19 = UNDEF
+   │    v2 = 1
+   │    v20 = NAC
+   │    v21 = NAC
+   │    v3 = NAC
+   │    v5 = UNDEF
+   │    v6 = UNDEF
+   │    v7 = 2
+   │    v8 = NAC
+   │    v9 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        ans = NAC
+        half = NAC
+        half2 = NAC
+        n = UNDEF
+        v1 = UNDEF
+        v10 = NAC
+        v11 = NAC
+        v13 = UNDEF
+        v14 = 2
+        v15 = NAC
+        v16 = 1
+        v17 = NAC
+        v18 = NAC
+        v19 = UNDEF
+        v2 = 1
+        v20 = NAC
+        v21 = NAC
+        v22 = NAC
+        v3 = NAC
+        v5 = UNDEF
+        v6 = UNDEF
+        v7 = 2
+        v8 = NAC
+        v9 = NAC
+        x = UNDEF
+
+ Block: then.0
+   ┌─ IN:
+   │    n = UNDEF
+   │    v1 = UNDEF
+   │    v2 = 1
+   │    v3 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        n = UNDEF
+        v1 = UNDEF
+        v2 = 1
+        v3 = NAC
+        v4 = UNDEF
+        x = UNDEF
+
+ Block: then.12
+   ┌─ IN:
+   │    half = NAC
+   │    half2 = NAC
+   │    n = UNDEF
+   │    v1 = UNDEF
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v13 = UNDEF
+   │    v14 = 2
+   │    v15 = NAC
+   │    v16 = 1
+   │    v17 = NAC
+   │    v2 = 1
+   │    v3 = NAC
+   │    v5 = UNDEF
+   │    v6 = UNDEF
+   │    v7 = 2
+   │    v8 = NAC
+   │    v9 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        ans = NAC
+        half = NAC
+        half2 = NAC
+        n = UNDEF
+        v1 = UNDEF
+        v10 = NAC
+        v11 = NAC
+        v13 = UNDEF
+        v14 = 2
+        v15 = NAC
+        v16 = 1
+        v17 = NAC
+        v18 = NAC
+        v19 = UNDEF
+        v2 = 1
+        v20 = NAC
+        v3 = NAC
+        v5 = UNDEF
+        v6 = UNDEF
+        v7 = 2
+        v8 = NAC
+        v9 = NAC
+        x = UNDEF
+
+ Block: v1
+   ┌─ IN:
+   │    n = UNDEF
+   │    x = UNDEF
+   └─ OUT:
+        n = UNDEF
+        v1 = UNDEF
+        v2 = 1
+        v3 = NAC
+        x = UNDEF
+
+DataFlow ConstProp analysis for function 'mod'
+---------------------------------------------
+
+ Block: v0
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        v0 = UNDEF
+        v1 = UNDEF
+        v2 = UNDEF
+        v3 = NAC
+        v4 = UNDEF
+        v5 = NAC
+        v6 = NAC
+
+DataFlow ConstProp analysis for function 'LEFTSHIFT'
+---------------------------------------------
+
+ Block: v0
+   ┌─ IN:
+   │    step = UNDEF
+   │    x = UNDEF
+   └─ OUT:
+        p = NAC
+        step = UNDEF
+        v0 = 2
+        v1 = UNDEF
+        v2 = UNDEF
+        v3 = NAC
+        v4 = NAC
+        x = UNDEF
+
+DataFlow ConstProp analysis for function 'RIGHTSHIFT'
+---------------------------------------------
+
+ Block: v0
+   ┌─ IN:
+   │    step = UNDEF
+   │    x = UNDEF
+   └─ OUT:
+        p = NAC
+        step = UNDEF
+        v0 = 2
+        v1 = UNDEF
+        v2 = UNDEF
+        v3 = NAC
+        v4 = NAC
+        x = UNDEF
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: v2
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   │    c = UNDEF
+   │    d = UNDEF
+   └─ OUT:
+        a = UNDEF
+        ans1 = NAC
+        ans2 = NAC
+        b = UNDEF
+        c = UNDEF
+        d = UNDEF
+        v2 = UNDEF
+        v3 = UNDEF
+        v4 = UNDEF
+        v5 = UNDEF

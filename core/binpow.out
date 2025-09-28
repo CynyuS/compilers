@@ -1,0 +1,126 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: acc
+   ┌─ IN:
+   │    n = UNDEF
+   │    x = UNDEF
+   └─ OUT:
+        acc = 1
+        n = UNDEF
+        x = UNDEF
+        y = NAC
+
+DataFlow ConstProp analysis for function 'is_even'
+---------------------------------------------
+
+ Block: two
+   ┌─ IN:
+   │    x = UNDEF
+   └─ OUT:
+        half = NAC
+        reconstruct = NAC
+        same = NAC
+        two = 2
+        x = UNDEF
+
+DataFlow ConstProp analysis for function 'bin_pow'
+---------------------------------------------
+
+ Block: else.0
+   ┌─ IN:
+   │    acc = UNDEF
+   │    cond0 = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    two = 2
+   │    x = UNDEF
+   │    zero = 0
+   └─ OUT:
+        acc = UNDEF
+        cond0 = NAC
+        is_even = NAC
+        n = UNDEF
+        one = 1
+        two = 2
+        x = UNDEF
+        zero = 0
+
+ Block: else.1
+   ┌─ IN:
+   │    acc = UNDEF
+   │    cond0 = NAC
+   │    is_even = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    two = 2
+   │    x = UNDEF
+   │    zero = 0
+   └─ OUT:
+        acc = UNDEF
+        acc2 = NAC
+        cond0 = NAC
+        is_even = NAC
+        n = UNDEF
+        n2 = NAC
+        one = 1
+        two = 2
+        val = NAC
+        x = UNDEF
+        zero = 0
+
+ Block: then.0
+   ┌─ IN:
+   │    acc = UNDEF
+   │    cond0 = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    two = 2
+   │    x = UNDEF
+   │    zero = 0
+   └─ OUT:
+        acc = UNDEF
+        cond0 = NAC
+        n = UNDEF
+        one = 1
+        two = 2
+        x = UNDEF
+        zero = 0
+
+ Block: then.1
+   ┌─ IN:
+   │    acc = UNDEF
+   │    cond0 = NAC
+   │    is_even = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    two = 2
+   │    x = UNDEF
+   │    zero = 0
+   └─ OUT:
+        acc = UNDEF
+        cond0 = NAC
+        is_even = NAC
+        n = UNDEF
+        n2 = NAC
+        one = 1
+        two = 2
+        val = NAC
+        x = UNDEF
+        x2 = NAC
+        zero = 0
+
+ Block: zero
+   ┌─ IN:
+   │    acc = UNDEF
+   │    n = UNDEF
+   │    x = UNDEF
+   └─ OUT:
+        acc = UNDEF
+        cond0 = NAC
+        n = UNDEF
+        one = 1
+        two = 2
+        x = UNDEF
+        zero = 0

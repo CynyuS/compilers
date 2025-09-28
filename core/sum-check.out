@@ -1,0 +1,80 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: first
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        first = NAC
+        isSame = NAC
+        n = UNDEF
+        second = NAC
+
+DataFlow ConstProp analysis for function 'sum_by_loop'
+---------------------------------------------
+
+ Block: end
+   ┌─ IN:
+   │    con = NAC
+   │    i = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    sum = NAC
+   └─ OUT:
+        con = NAC
+        i = NAC
+        n = UNDEF
+        one = 1
+        sum = NAC
+
+ Block: for
+   ┌─ IN:
+   │    con = NAC
+   │    i = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    sum = NAC
+   └─ OUT:
+        con = NAC
+        i = NAC
+        n = UNDEF
+        one = 1
+        sum = NAC
+
+ Block: for_start
+   ┌─ IN:
+   │    con = NAC
+   │    i = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    sum = NAC
+   └─ OUT:
+        con = NAC
+        i = NAC
+        n = UNDEF
+        one = 1
+        sum = NAC
+
+ Block: one
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        i = 1
+        n = UNDEF
+        one = 1
+        sum = 0
+
+DataFlow ConstProp analysis for function 'sum_by_formula'
+---------------------------------------------
+
+ Block: one
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        multi = NAC
+        n = UNDEF
+        n_1 = NAC
+        one = 1
+        sum = NAC
+        two = 2

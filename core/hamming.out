@@ -1,0 +1,150 @@
+
+DataFlow ConstProp analysis for function 'lsb'
+---------------------------------------------
+
+ Block: two
+   ┌─ IN:
+   │    val = UNDEF
+   └─ OUT:
+        div = NAC
+        lsb = NAC
+        mul = NAC
+        two = 2
+        val = UNDEF
+
+DataFlow ConstProp analysis for function 'hamm_lsb'
+---------------------------------------------
+
+ Block: else
+   ┌─ IN:
+   │    a = UNDEF
+   │    a_lsb = NAC
+   │    b = UNDEF
+   │    b_lsb = NAC
+   │    guard = NAC
+   │    one = 1
+   │    xor = NAC
+   │    zero = 0
+   └─ OUT:
+        a = UNDEF
+        a_lsb = NAC
+        b = UNDEF
+        b_lsb = NAC
+        guard = NAC
+        one = 1
+        xor = NAC
+        zero = 0
+
+ Block: if
+   ┌─ IN:
+   │    a = UNDEF
+   │    a_lsb = NAC
+   │    b = UNDEF
+   │    b_lsb = NAC
+   │    guard = NAC
+   │    one = 1
+   │    xor = NAC
+   │    zero = 0
+   └─ OUT:
+        a = UNDEF
+        a_lsb = NAC
+        b = UNDEF
+        b_lsb = NAC
+        guard = NAC
+        one = 1
+        xor = NAC
+        zero = 0
+
+ Block: zero
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   └─ OUT:
+        a = UNDEF
+        a_lsb = NAC
+        b = UNDEF
+        b_lsb = NAC
+        guard = NAC
+        one = 1
+        xor = NAC
+        zero = 0
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: body
+   ┌─ IN:
+   │    a = NAC
+   │    a_done = NAC
+   │    b = NAC
+   │    b_done = NAC
+   │    dist = NAC
+   │    done = NAC
+   │    hamm = NAC
+   │    two = 2
+   │    zero = 0
+   └─ OUT:
+        a = NAC
+        a_done = NAC
+        b = NAC
+        b_done = NAC
+        dist = NAC
+        done = NAC
+        hamm = NAC
+        two = 2
+        zero = 0
+
+ Block: end
+   ┌─ IN:
+   │    a = NAC
+   │    a_done = NAC
+   │    b = NAC
+   │    b_done = NAC
+   │    dist = NAC
+   │    done = NAC
+   │    hamm = NAC
+   │    two = 2
+   │    zero = 0
+   └─ OUT:
+        a = NAC
+        a_done = NAC
+        b = NAC
+        b_done = NAC
+        dist = NAC
+        done = NAC
+        hamm = NAC
+        two = 2
+        zero = 0
+
+ Block: while
+   ┌─ IN:
+   │    a = NAC
+   │    a_done = NAC
+   │    b = NAC
+   │    b_done = NAC
+   │    dist = NAC
+   │    done = NAC
+   │    hamm = NAC
+   │    two = 2
+   │    zero = 0
+   └─ OUT:
+        a = NAC
+        a_done = NAC
+        b = NAC
+        b_done = NAC
+        dist = NAC
+        done = NAC
+        hamm = NAC
+        two = 2
+        zero = 0
+
+ Block: zero
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        dist = 0
+        two = 2
+        zero = 0

@@ -1,0 +1,212 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: body
+   ┌─ IN:
+   │    b = NAC
+   │    digit = NAC
+   │    digits = NAC
+   │    input = UNDEF
+   │    pow = NAC
+   │    sum = NAC
+   │    ten = 10
+   │    tmp = NAC
+   │    zero = 0
+   └─ OUT:
+        b = NAC
+        digit = NAC
+        digits = NAC
+        input = UNDEF
+        pow = NAC
+        sum = NAC
+        ten = 10
+        tmp = NAC
+        zero = 0
+
+ Block: done
+   ┌─ IN:
+   │    b = NAC
+   │    digit = NAC
+   │    digits = NAC
+   │    input = UNDEF
+   │    pow = NAC
+   │    sum = NAC
+   │    ten = 10
+   │    tmp = NAC
+   │    zero = 0
+   └─ OUT:
+        b = NAC
+        digit = NAC
+        digits = NAC
+        input = UNDEF
+        pow = NAC
+        res = NAC
+        sum = NAC
+        ten = 10
+        tmp = NAC
+        zero = 0
+
+ Block: loop
+   ┌─ IN:
+   │    b = NAC
+   │    digit = NAC
+   │    digits = NAC
+   │    input = UNDEF
+   │    pow = NAC
+   │    sum = NAC
+   │    ten = 10
+   │    tmp = NAC
+   │    zero = 0
+   └─ OUT:
+        b = NAC
+        digit = NAC
+        digits = NAC
+        input = UNDEF
+        pow = NAC
+        sum = NAC
+        ten = 10
+        tmp = NAC
+        zero = 0
+
+ Block: zero
+   ┌─ IN:
+   │    input = UNDEF
+   └─ OUT:
+        digits = NAC
+        input = UNDEF
+        sum = 0
+        ten = 10
+        tmp = UNDEF
+        zero = 0
+
+DataFlow ConstProp analysis for function 'getDigits'
+---------------------------------------------
+
+ Block: else
+   ┌─ IN:
+   │    cond = NAC
+   │    div = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    ten = 10
+   │    zero = 0
+   └─ OUT:
+        cond = NAC
+        div = NAC
+        n = UNDEF
+        one = 1
+        rec = NAC
+        res = NAC
+        ten = 10
+        zero = 0
+
+ Block: ten
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        cond = NAC
+        div = NAC
+        n = UNDEF
+        one = 1
+        ten = 10
+        zero = 0
+
+ Block: then
+   ┌─ IN:
+   │    cond = NAC
+   │    div = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    ten = 10
+   │    zero = 0
+   └─ OUT:
+        cond = NAC
+        div = NAC
+        n = UNDEF
+        one = 1
+        ten = 10
+        zero = 0
+
+DataFlow ConstProp analysis for function 'mod'
+---------------------------------------------
+
+ Block: q
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   └─ OUT:
+        a = UNDEF
+        aq = NAC
+        b = UNDEF
+        mod = NAC
+        q = NAC
+
+DataFlow ConstProp analysis for function 'power'
+---------------------------------------------
+
+ Block: body
+   ┌─ IN:
+   │    b = NAC
+   │    base = UNDEF
+   │    exp = NAC
+   │    one = 1
+   │    res = NAC
+   │    ten = 10
+   │    zero = 0
+   └─ OUT:
+        b = NAC
+        base = UNDEF
+        exp = NAC
+        one = 1
+        res = NAC
+        ten = 10
+        zero = 0
+
+ Block: done
+   ┌─ IN:
+   │    b = NAC
+   │    base = UNDEF
+   │    exp = NAC
+   │    one = 1
+   │    res = NAC
+   │    ten = 10
+   │    zero = 0
+   └─ OUT:
+        b = NAC
+        base = UNDEF
+        exp = NAC
+        one = 1
+        res = NAC
+        ten = 10
+        zero = 0
+
+ Block: loop
+   ┌─ IN:
+   │    b = NAC
+   │    base = UNDEF
+   │    exp = NAC
+   │    one = 1
+   │    res = NAC
+   │    ten = 10
+   │    zero = 0
+   └─ OUT:
+        b = NAC
+        base = UNDEF
+        exp = NAC
+        one = 1
+        res = NAC
+        ten = 10
+        zero = 0
+
+ Block: ten
+   ┌─ IN:
+   │    base = UNDEF
+   │    exp = UNDEF
+   └─ OUT:
+        base = UNDEF
+        exp = UNDEF
+        one = 1
+        res = 1
+        ten = 10
+        zero = 0

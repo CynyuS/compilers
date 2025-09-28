@@ -1,0 +1,74 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: a1
+   ┌─ IN:
+   │    x1 = UNDEF
+   │    x2 = UNDEF
+   │    y1 = UNDEF
+   │    y2 = UNDEF
+   └─ OUT:
+        a1 = NAC
+        a1_bigger = NAC
+        a2 = NAC
+        res = NAC
+        x1 = UNDEF
+        x2 = UNDEF
+        y1 = UNDEF
+        y2 = UNDEF
+
+ Block: end
+   ┌─ IN:
+   │    a1 = NAC
+   │    a1_bigger = NAC
+   │    a2 = NAC
+   │    neg1 = -1
+   │    res = NAC
+   │    x1 = UNDEF
+   │    x2 = UNDEF
+   │    y1 = UNDEF
+   │    y2 = UNDEF
+   └─ OUT:
+        a1 = NAC
+        a1_bigger = NAC
+        a2 = NAC
+        neg1 = -1
+        res = NAC
+        x1 = UNDEF
+        x2 = UNDEF
+        y1 = UNDEF
+        y2 = UNDEF
+
+ Block: flip
+   ┌─ IN:
+   │    a1 = NAC
+   │    a1_bigger = NAC
+   │    a2 = NAC
+   │    res = NAC
+   │    x1 = UNDEF
+   │    x2 = UNDEF
+   │    y1 = UNDEF
+   │    y2 = UNDEF
+   └─ OUT:
+        a1 = NAC
+        a1_bigger = NAC
+        a2 = NAC
+        neg1 = -1
+        res = NAC
+        x1 = UNDEF
+        x2 = UNDEF
+        y1 = UNDEF
+        y2 = UNDEF
+
+DataFlow ConstProp analysis for function 'area'
+---------------------------------------------
+
+ Block: area
+   ┌─ IN:
+   │    x = UNDEF
+   │    y = UNDEF
+   └─ OUT:
+        area = NAC
+        x = UNDEF
+        y = UNDEF

@@ -1,0 +1,54 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: x
+   ┌─ IN:
+   │    a = UNDEF
+   └─ OUT:
+        a = UNDEF
+        v13 = 0
+        x = NAC
+
+DataFlow ConstProp analysis for function 'fact'
+---------------------------------------------
+
+ Block: else.0
+   ┌─ IN:
+   │    a = UNDEF
+   │    v1 = UNDEF
+   │    v2 = 0
+   │    v3 = NAC
+   └─ OUT:
+        a = UNDEF
+        v1 = UNDEF
+        v10 = NAC
+        v2 = 0
+        v3 = NAC
+        v5 = UNDEF
+        v6 = UNDEF
+        v7 = 1
+        v8 = NAC
+        v9 = NAC
+
+ Block: then.0
+   ┌─ IN:
+   │    a = UNDEF
+   │    v1 = UNDEF
+   │    v2 = 0
+   │    v3 = NAC
+   └─ OUT:
+        a = UNDEF
+        v1 = UNDEF
+        v2 = 0
+        v3 = NAC
+        v4 = 1
+
+ Block: v1
+   ┌─ IN:
+   │    a = UNDEF
+   └─ OUT:
+        a = UNDEF
+        v1 = UNDEF
+        v2 = 0
+        v3 = NAC

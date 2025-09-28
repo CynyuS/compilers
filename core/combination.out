@@ -1,0 +1,172 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: final
+   ┌─ IN:
+   │    k = UNDEF
+   │    n = UNDEF
+   └─ OUT:
+        final = NAC
+        k = UNDEF
+        n = UNDEF
+
+DataFlow ConstProp analysis for function 'combo'
+---------------------------------------------
+
+ Block: natural
+   ┌─ IN:
+   │    eitherneg = NAC
+   │    k = UNDEF
+   │    kneg = NAC
+   │    n = UNDEF
+   │    nneg = NAC
+   │    one = 1
+   │    zero = 0
+   └─ OUT:
+        eitherneg = NAC
+        k = UNDEF
+        kneg = NAC
+        kzero = NAC
+        n = UNDEF
+        nneg = NAC
+        one = 1
+        zero = 0
+
+ Block: negatives
+   ┌─ IN:
+   │    eitherneg = NAC
+   │    k = UNDEF
+   │    kneg = NAC
+   │    kzero = NAC
+   │    n = UNDEF
+   │    nltk = NAC
+   │    nneg = NAC
+   │    one = 1
+   │    zero = 0
+   └─ OUT:
+        eitherneg = NAC
+        k = UNDEF
+        kneg = NAC
+        kzero = NAC
+        n = UNDEF
+        nltk = NAC
+        nneg = NAC
+        one = 1
+        zero = 0
+
+ Block: positive
+   ┌─ IN:
+   │    eitherneg = NAC
+   │    k = UNDEF
+   │    kneg = NAC
+   │    kzero = NAC
+   │    n = UNDEF
+   │    nneg = NAC
+   │    one = 1
+   │    zero = 0
+   └─ OUT:
+        eitherneg = NAC
+        k = UNDEF
+        kneg = NAC
+        kzero = NAC
+        n = UNDEF
+        nltk = NAC
+        nneg = NAC
+        one = 1
+        zero = 0
+
+ Block: valid
+   ┌─ IN:
+   │    eitherneg = NAC
+   │    k = UNDEF
+   │    kneg = NAC
+   │    kzero = NAC
+   │    n = UNDEF
+   │    nltk = NAC
+   │    nneg = NAC
+   │    one = 1
+   │    zero = 0
+   └─ OUT:
+        combo = NAC
+        comboden = NAC
+        eitherneg = NAC
+        k = UNDEF
+        kfac = NAC
+        kneg = NAC
+        kzero = NAC
+        n = UNDEF
+        nfac = NAC
+        nkfac = NAC
+        nltk = NAC
+        nmink = NAC
+        nneg = NAC
+        one = 1
+        zero = 0
+
+ Block: zero
+   ┌─ IN:
+   │    k = UNDEF
+   │    n = UNDEF
+   └─ OUT:
+        eitherneg = NAC
+        k = UNDEF
+        kneg = NAC
+        n = UNDEF
+        nneg = NAC
+        one = 1
+        zero = 0
+
+ Block: zeroes
+   ┌─ IN:
+   │    eitherneg = NAC
+   │    k = UNDEF
+   │    kneg = NAC
+   │    kzero = NAC
+   │    n = UNDEF
+   │    nneg = NAC
+   │    one = 1
+   │    zero = 0
+   └─ OUT:
+        eitherneg = NAC
+        k = UNDEF
+        kneg = NAC
+        kzero = NAC
+        n = UNDEF
+        nneg = NAC
+        one = 1
+        zero = 0
+
+DataFlow ConstProp analysis for function 'factorial'
+---------------------------------------------
+
+ Block: base
+   ┌─ IN:
+   │    basee = NAC
+   │    one = 1
+   │    x = UNDEF
+   └─ OUT:
+        basee = NAC
+        one = 1
+        x = UNDEF
+
+ Block: one
+   ┌─ IN:
+   │    x = UNDEF
+   └─ OUT:
+        basee = NAC
+        one = 1
+        x = UNDEF
+
+ Block: recurs
+   ┌─ IN:
+   │    basee = NAC
+   │    one = 1
+   │    x = UNDEF
+   └─ OUT:
+        basee = NAC
+        fact = NAC
+        one = 1
+        oneless = NAC
+        stepback = NAC
+        x = UNDEF

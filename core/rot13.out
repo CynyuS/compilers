@@ -1,0 +1,51 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: aed
+   ┌─ IN:
+   │    input = UNDEF
+   └─ OUT:
+        aed = NAC
+        input = UNDEF
+
+DataFlow ConstProp analysis for function 'rot'
+---------------------------------------------
+
+ Block: else
+   ┌─ IN:
+   │    n = UNDEF
+   │    over = NAC
+   │    shifted = NAC
+   │    thirteen = 13
+   │    twenty_six = 26
+   └─ OUT:
+        n = UNDEF
+        over = NAC
+        shifted = NAC
+        thirteen = 13
+        twenty_six = 26
+
+ Block: if
+   ┌─ IN:
+   │    n = UNDEF
+   │    over = NAC
+   │    shifted = NAC
+   │    thirteen = 13
+   │    twenty_six = 26
+   └─ OUT:
+        n = UNDEF
+        over = NAC
+        shifted = NAC
+        thirteen = 13
+        twenty_six = 26
+
+ Block: thirteen
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        n = UNDEF
+        over = NAC
+        shifted = NAC
+        thirteen = 13
+        twenty_six = 26

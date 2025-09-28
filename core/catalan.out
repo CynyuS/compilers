@@ -1,0 +1,126 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: catn
+   ┌─ IN:
+   │    input = UNDEF
+   └─ OUT:
+        catn = NAC
+        input = UNDEF
+
+DataFlow ConstProp analysis for function 'catalan'
+---------------------------------------------
+
+ Block: else
+   ┌─ IN:
+   │    guard0 = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    zero = 0
+   └─ OUT:
+        guard0 = NAC
+        idx = 0
+        n = NAC
+        one = 1
+        sum = 0
+        zero = 0
+
+ Block: if
+   ┌─ IN:
+   │    guard0 = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    zero = 0
+   └─ OUT:
+        guard0 = NAC
+        n = UNDEF
+        one = 1
+        zero = 0
+
+ Block: one
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        guard0 = NAC
+        n = UNDEF
+        one = 1
+        zero = 0
+
+ Block: while
+   ┌─ IN:
+   │    elti = NAC
+   │    guard0 = NAC
+   │    guard1 = NAC
+   │    idx = NAC
+   │    n = NAC
+   │    n2 = NAC
+   │    one = 1
+   │    sum = NAC
+   │    v1 = NAC
+   │    v2 = NAC
+   │    zero = 0
+   └─ OUT:
+        elti = NAC
+        guard0 = NAC
+        guard1 = NAC
+        idx = NAC
+        n = NAC
+        n2 = NAC
+        one = 1
+        sum = NAC
+        v1 = NAC
+        v2 = NAC
+        zero = 0
+
+ Block: while.body
+   ┌─ IN:
+   │    elti = NAC
+   │    guard0 = NAC
+   │    guard1 = NAC
+   │    idx = NAC
+   │    n = NAC
+   │    n2 = NAC
+   │    one = 1
+   │    sum = NAC
+   │    v1 = NAC
+   │    v2 = NAC
+   │    zero = 0
+   └─ OUT:
+        elti = NAC
+        guard0 = NAC
+        guard1 = NAC
+        idx = NAC
+        n = NAC
+        n2 = NAC
+        one = 1
+        sum = NAC
+        v1 = NAC
+        v2 = NAC
+        zero = 0
+
+ Block: while.end
+   ┌─ IN:
+   │    elti = NAC
+   │    guard0 = NAC
+   │    guard1 = NAC
+   │    idx = NAC
+   │    n = NAC
+   │    n2 = NAC
+   │    one = 1
+   │    sum = NAC
+   │    v1 = NAC
+   │    v2 = NAC
+   │    zero = 0
+   └─ OUT:
+        elti = NAC
+        guard0 = NAC
+        guard1 = NAC
+        idx = NAC
+        n = NAC
+        n2 = NAC
+        one = 1
+        sum = NAC
+        v1 = NAC
+        v2 = NAC
+        zero = 0

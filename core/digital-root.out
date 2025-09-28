@@ -1,0 +1,139 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: begin
+   ┌─ IN:
+   │    digit = NAC
+   │    done = NAC
+   │    input = NAC
+   │    processed = NAC
+   │    r0 = NAC
+   │    result = NAC
+   │    ten = 10
+   │    zero = 0
+   └─ OUT:
+        digit = NAC
+        done = NAC
+        input = NAC
+        processed = NAC
+        r0 = NAC
+        result = NAC
+        ten = 10
+        zero = 0
+
+ Block: check_done
+   ┌─ IN:
+   │    digit = NAC
+   │    done = NAC
+   │    input = NAC
+   │    processed = NAC
+   │    r0 = NAC
+   │    result = NAC
+   │    ten = 10
+   │    zero = 0
+   └─ OUT:
+        digit = NAC
+        done = NAC
+        input = NAC
+        processed = NAC
+        r0 = NAC
+        result = NAC
+        ten = 10
+        zero = 0
+
+ Block: check_result
+   ┌─ IN:
+   │    digit = NAC
+   │    done = NAC
+   │    input = NAC
+   │    processed = NAC
+   │    r0 = NAC
+   │    result = NAC
+   │    ten = 10
+   │    zero = 0
+   └─ OUT:
+        digit = NAC
+        done = NAC
+        input = NAC
+        processed = NAC
+        r0 = NAC
+        result = NAC
+        ten = 10
+        zero = 0
+
+ Block: done
+   ┌─ IN:
+   │    digit = NAC
+   │    done = NAC
+   │    input = NAC
+   │    processed = NAC
+   │    r0 = NAC
+   │    result = NAC
+   │    ten = 10
+   │    zero = 0
+   └─ OUT:
+        digit = NAC
+        done = NAC
+        input = NAC
+        processed = NAC
+        r0 = NAC
+        result = NAC
+        ten = 10
+        zero = 0
+
+ Block: process_result
+   ┌─ IN:
+   │    digit = NAC
+   │    done = NAC
+   │    input = NAC
+   │    processed = NAC
+   │    r0 = NAC
+   │    result = NAC
+   │    ten = 10
+   │    zero = 0
+   └─ OUT:
+        digit = NAC
+        done = NAC
+        input = NAC
+        processed = NAC
+        r0 = NAC
+        result = NAC
+        ten = 10
+        zero = 0
+
+ Block: zero
+   ┌─ IN:
+   │    input = UNDEF
+   └─ OUT:
+        input = UNDEF
+        result = 0
+        ten = 10
+        zero = 0
+
+DataFlow ConstProp analysis for function 'is_single_digit'
+---------------------------------------------
+
+ Block: ten
+   ┌─ IN:
+   │    input = UNDEF
+   └─ OUT:
+        divided = NAC
+        input = UNDEF
+        mul_by_ten = NAC
+        result = NAC
+        ten = 10
+        zero = 0
+
+DataFlow ConstProp analysis for function 'peel_last_digit'
+---------------------------------------------
+
+ Block: ten
+   ┌─ IN:
+   │    input = UNDEF
+   └─ OUT:
+        div_by_ten = NAC
+        input = UNDEF
+        last_digit = NAC
+        mul_by_ten = NAC
+        ten = 10

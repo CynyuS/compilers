@@ -1,1 +1,174 @@
-4
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: cmp.val
+   ┌─ IN:
+   │    op1 = UNDEF
+   │    op2 = UNDEF
+   │    v0 = NAC
+   │    v1 = NAC
+   │    v2 = NAC
+   │    v3 = NAC
+   │    v4 = NAC
+   │    vc0 = 0
+   └─ OUT:
+        op1 = UNDEF
+        op2 = UNDEF
+        v0 = NAC
+        v1 = NAC
+        v2 = NAC
+        v3 = NAC
+        v4 = NAC
+        vc0 = 0
+
+ Block: else.1
+   ┌─ IN:
+   │    op1 = UNDEF
+   │    op2 = UNDEF
+   │    v0 = NAC
+   │    v1 = NAC
+   │    v2 = NAC
+   │    v3 = NAC
+   │    v4 = NAC
+   │    vc0 = 0
+   └─ OUT:
+        op1 = UNDEF
+        op2 = UNDEF
+        v0 = NAC
+        v1 = NAC
+        v2 = NAC
+        v3 = NAC
+        v4 = NAC
+        vc0 = 0
+
+ Block: else.2
+   ┌─ IN:
+   │    op1 = UNDEF
+   │    op2 = UNDEF
+   │    v0 = NAC
+   │    v1 = NAC
+   │    v2 = NAC
+   │    v3 = NAC
+   │    v4 = NAC
+   │    vc0 = 0
+   └─ OUT:
+        op1 = UNDEF
+        op2 = UNDEF
+        v0 = NAC
+        v1 = NAC
+        v2 = NAC
+        v3 = NAC
+        v4 = NAC
+        vc0 = 0
+
+ Block: if.1
+   ┌─ IN:
+   │    op1 = UNDEF
+   │    op2 = UNDEF
+   │    v0 = NAC
+   │    v1 = NAC
+   │    v2 = NAC
+   │    v3 = NAC
+   │    v4 = NAC
+   │    vc0 = 0
+   └─ OUT:
+        op1 = UNDEF
+        op2 = UNDEF
+        v0 = NAC
+        v1 = NAC
+        v2 = NAC
+        v3 = NAC
+        v4 = NAC
+        vc0 = 0
+
+ Block: if.2
+   ┌─ IN:
+   │    op1 = UNDEF
+   │    op2 = UNDEF
+   │    v0 = NAC
+   │    v1 = NAC
+   │    v2 = NAC
+   │    v3 = NAC
+   │    v4 = NAC
+   │    vc0 = 0
+   └─ OUT:
+        op1 = UNDEF
+        op2 = UNDEF
+        v0 = NAC
+        v1 = NAC
+        v2 = NAC
+        v3 = NAC
+        v4 = NAC
+        vc0 = 0
+
+ Block: loop.bound
+   ┌─ IN:
+   │    op1 = UNDEF
+   │    op2 = UNDEF
+   │    v0 = NAC
+   │    v1 = NAC
+   │    v2 = NAC
+   │    v3 = NAC
+   │    v4 = NAC
+   │    vc0 = 0
+   └─ OUT:
+        op1 = UNDEF
+        op2 = UNDEF
+        v0 = NAC
+        v1 = NAC
+        v2 = NAC
+        v3 = NAC
+        v4 = NAC
+        vc0 = 0
+
+ Block: program.end
+   ┌─ IN:
+   │    op1 = UNDEF
+   │    op2 = UNDEF
+   │    v0 = NAC
+   │    v1 = NAC
+   │    v2 = NAC
+   │    v3 = NAC
+   │    v4 = NAC
+   │    vc0 = 0
+   └─ OUT:
+        op1 = UNDEF
+        op2 = UNDEF
+        v0 = NAC
+        v1 = NAC
+        v2 = NAC
+        v3 = NAC
+        v4 = NAC
+        vc0 = 0
+
+ Block: update.val
+   ┌─ IN:
+   │    op1 = UNDEF
+   │    op2 = UNDEF
+   │    v0 = NAC
+   │    v1 = NAC
+   │    v2 = NAC
+   │    v3 = NAC
+   │    v4 = NAC
+   │    vc0 = 0
+   └─ OUT:
+        op1 = UNDEF
+        op2 = UNDEF
+        v0 = NAC
+        v1 = NAC
+        v2 = NAC
+        v3 = NAC
+        v4 = NAC
+        vc0 = 0
+
+ Block: vc0
+   ┌─ IN:
+   │    op1 = UNDEF
+   │    op2 = UNDEF
+   └─ OUT:
+        op1 = UNDEF
+        op2 = UNDEF
+        v0 = UNDEF
+        v1 = UNDEF
+        vc0 = 0

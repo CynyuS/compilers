@@ -1,0 +1,132 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: cond
+   ┌─ IN:
+   │    doublehalf = NAC
+   │    eq_one = NAC
+   │    even = NAC
+   │    half = NAC
+   │    one = 1
+   │    three = 3
+   │    two = 2
+   │    x = NAC
+   └─ OUT:
+        doublehalf = NAC
+        eq_one = NAC
+        even = NAC
+        half = NAC
+        one = 1
+        three = 3
+        two = 2
+        x = NAC
+
+ Block: end
+   ┌─ IN:
+   │    doublehalf = NAC
+   │    eq_one = NAC
+   │    even = NAC
+   │    half = NAC
+   │    one = 1
+   │    three = 3
+   │    two = 2
+   │    x = NAC
+   └─ OUT:
+        doublehalf = NAC
+        eq_one = NAC
+        even = NAC
+        half = NAC
+        one = 1
+        three = 3
+        two = 2
+        x = NAC
+
+ Block: even
+   ┌─ IN:
+   │    doublehalf = NAC
+   │    eq_one = NAC
+   │    even = NAC
+   │    half = NAC
+   │    one = 1
+   │    three = 3
+   │    two = 2
+   │    x = NAC
+   └─ OUT:
+        doublehalf = NAC
+        eq_one = NAC
+        even = NAC
+        half = NAC
+        one = 1
+        three = 3
+        two = 2
+        x = NAC
+
+ Block: loop
+   ┌─ IN:
+   │    doublehalf = NAC
+   │    eq_one = NAC
+   │    even = NAC
+   │    half = NAC
+   │    one = 1
+   │    three = 3
+   │    two = 2
+   │    x = NAC
+   └─ OUT:
+        doublehalf = NAC
+        eq_one = NAC
+        even = NAC
+        half = NAC
+        one = 1
+        three = 3
+        two = 2
+        x = NAC
+
+ Block: odd
+   ┌─ IN:
+   │    doublehalf = NAC
+   │    eq_one = NAC
+   │    even = NAC
+   │    half = NAC
+   │    one = 1
+   │    three = 3
+   │    two = 2
+   │    x = NAC
+   └─ OUT:
+        doublehalf = NAC
+        eq_one = NAC
+        even = NAC
+        half = NAC
+        one = 1
+        three = 3
+        two = 2
+        x = NAC
+
+ Block: one
+   ┌─ IN:
+   │    x = UNDEF
+   └─ OUT:
+        one = 1
+        three = 3
+        two = 2
+        x = UNDEF
+
+ Block: print
+   ┌─ IN:
+   │    doublehalf = NAC
+   │    eq_one = NAC
+   │    even = NAC
+   │    half = NAC
+   │    one = 1
+   │    three = 3
+   │    two = 2
+   │    x = NAC
+   └─ OUT:
+        doublehalf = NAC
+        eq_one = NAC
+        even = NAC
+        half = NAC
+        one = 1
+        three = 3
+        two = 2
+        x = NAC

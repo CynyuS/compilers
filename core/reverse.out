@@ -1,0 +1,165 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: for.body.3
+   ┌─ IN:
+   │    a = NAC
+   │    comp1 = NAC
+   │    floor = NAC
+   │    input = UNDEF
+   │    n = NAC
+   │    notdone = NAC
+   │    remainder = NAC
+   │    result = NAC
+   │    v0 = 0
+   │    v1 = 10
+   │    v2 = NAC
+   │    v4 = NAC
+   │    v5 = NAC
+   └─ OUT:
+        a = NAC
+        comp1 = NAC
+        floor = NAC
+        input = UNDEF
+        n = NAC
+        notdone = NAC
+        remainder = NAC
+        result = NAC
+        v0 = 0
+        v1 = 10
+        v2 = NAC
+        v4 = NAC
+        v5 = NAC
+
+ Block: for.cond.3
+   ┌─ IN:
+   │    a = NAC
+   │    comp1 = NAC
+   │    floor = NAC
+   │    input = UNDEF
+   │    n = NAC
+   │    notdone = NAC
+   │    remainder = NAC
+   │    result = NAC
+   │    v0 = 0
+   │    v1 = 10
+   │    v2 = NAC
+   │    v4 = NAC
+   │    v5 = NAC
+   └─ OUT:
+        a = NAC
+        comp1 = NAC
+        floor = NAC
+        input = UNDEF
+        n = NAC
+        notdone = NAC
+        remainder = NAC
+        result = NAC
+        v0 = 0
+        v1 = 10
+        v2 = NAC
+        v4 = NAC
+        v5 = NAC
+
+ Block: for.end.3
+   ┌─ IN:
+   │    a = NAC
+   │    comp1 = NAC
+   │    floor = NAC
+   │    input = UNDEF
+   │    n = NAC
+   │    notdone = NAC
+   │    remainder = NAC
+   │    result = NAC
+   │    v0 = 0
+   │    v1 = 10
+   │    v2 = NAC
+   │    v4 = NAC
+   │    v5 = NAC
+   └─ OUT:
+        a = NAC
+        comp1 = NAC
+        floor = NAC
+        input = UNDEF
+        n = NAC
+        notdone = NAC
+        remainder = NAC
+        result = NAC
+        v0 = 0
+        v1 = 10
+        v2 = NAC
+        v4 = NAC
+        v5 = NAC
+
+ Block: for.incre
+   ┌─ IN:
+   │    a = NAC
+   │    comp1 = NAC
+   │    floor = NAC
+   │    input = UNDEF
+   │    n = NAC
+   │    notdone = NAC
+   │    remainder = NAC
+   │    result = NAC
+   │    v0 = 0
+   │    v1 = 10
+   │    v2 = NAC
+   │    v4 = NAC
+   │    v5 = NAC
+   └─ OUT:
+        a = NAC
+        comp1 = NAC
+        floor = NAC
+        input = UNDEF
+        n = NAC
+        notdone = NAC
+        remainder = NAC
+        result = NAC
+        v0 = 0
+        v1 = 10
+        v2 = NAC
+        v4 = NAC
+        v5 = NAC
+
+ Block: if.body
+   ┌─ IN:
+   │    a = NAC
+   │    comp1 = NAC
+   │    floor = NAC
+   │    input = UNDEF
+   │    n = NAC
+   │    notdone = NAC
+   │    remainder = NAC
+   │    result = NAC
+   │    v0 = 0
+   │    v1 = 10
+   │    v2 = NAC
+   │    v4 = NAC
+   │    v5 = NAC
+   └─ OUT:
+        a = NAC
+        comp1 = NAC
+        floor = NAC
+        input = UNDEF
+        n = NAC
+        notdone = NAC
+        remainder = NAC
+        result = NAC
+        v0 = 0
+        v1 = 10
+        v2 = NAC
+        v4 = NAC
+        v5 = NAC
+
+ Block: n
+   ┌─ IN:
+   │    input = UNDEF
+   └─ OUT:
+        input = UNDEF
+        n = UNDEF
+        notdone = NAC
+        result = 0
+        v0 = 0
+        v1 = 10
+        v2 = NAC

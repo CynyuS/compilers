@@ -1,0 +1,424 @@
+
+DataFlow ConstProp analysis for function 'mod2'
+---------------------------------------------
+
+ Block: two
+   ┌─ IN:
+   │    a = UNDEF
+   └─ OUT:
+        a = UNDEF
+        ans = NAC
+        one = 1
+        tmp = NAC
+        tmp2 = NAC
+        tmp3 = NAC
+        two = 2
+
+DataFlow ConstProp analysis for function 'loop_subroutine'
+---------------------------------------------
+
+ Block: add
+   ┌─ IN:
+   │    a = NAC
+   │    ans = NAC
+   │    b = NAC
+   │    c = UNDEF
+   │    cond = NAC
+   │    cond_add = NAC
+   │    i = NAC
+   │    mod2a = NAC
+   │    mod2b = NAC
+   │    n = 63
+   │    one = 1
+   │    to_add = NAC
+   │    two = 2
+   └─ OUT:
+        a = NAC
+        ans = NAC
+        b = NAC
+        c = UNDEF
+        cond = NAC
+        cond_add = NAC
+        i = NAC
+        mod2a = NAC
+        mod2b = NAC
+        n = 63
+        one = 1
+        to_add = NAC
+        two = 2
+
+ Block: doOr
+   ┌─ IN:
+   │    a = NAC
+   │    ans = NAC
+   │    b = NAC
+   │    c = UNDEF
+   │    cond = NAC
+   │    cond_add = NAC
+   │    i = NAC
+   │    mod2a = NAC
+   │    mod2b = NAC
+   │    n = 63
+   │    one = 1
+   │    to_add = NAC
+   │    two = 2
+   └─ OUT:
+        a = NAC
+        ans = NAC
+        b = NAC
+        c = UNDEF
+        cond = NAC
+        cond_add = NAC
+        i = NAC
+        mod2a = NAC
+        mod2b = NAC
+        n = 63
+        one = 1
+        to_add = NAC
+        two = 2
+
+ Block: end
+   ┌─ IN:
+   │    a = NAC
+   │    ans = NAC
+   │    b = NAC
+   │    c = UNDEF
+   │    cond = NAC
+   │    cond_add = NAC
+   │    i = NAC
+   │    mod2a = NAC
+   │    mod2b = NAC
+   │    n = 63
+   │    one = 1
+   │    to_add = NAC
+   │    two = 2
+   └─ OUT:
+        a = NAC
+        ans = NAC
+        b = NAC
+        c = UNDEF
+        cond = NAC
+        cond_add = NAC
+        i = NAC
+        mod2a = NAC
+        mod2b = NAC
+        n = 63
+        one = 1
+        to_add = NAC
+        two = 2
+
+ Block: end_loop
+   ┌─ IN:
+   │    a = NAC
+   │    ans = NAC
+   │    b = NAC
+   │    c = UNDEF
+   │    cond = NAC
+   │    cond_add = NAC
+   │    i = NAC
+   │    mod2a = NAC
+   │    mod2b = NAC
+   │    n = 63
+   │    one = 1
+   │    to_add = NAC
+   │    two = 2
+   └─ OUT:
+        a = NAC
+        ans = NAC
+        b = NAC
+        c = UNDEF
+        cond = NAC
+        cond_add = NAC
+        i = NAC
+        mod2a = NAC
+        mod2b = NAC
+        n = 63
+        one = 1
+        to_add = NAC
+        two = 2
+
+ Block: here
+   ┌─ IN:
+   │    a = NAC
+   │    ans = NAC
+   │    b = NAC
+   │    c = UNDEF
+   │    cond = NAC
+   │    cond_add = NAC
+   │    i = NAC
+   │    mod2a = NAC
+   │    mod2b = NAC
+   │    n = 63
+   │    one = 1
+   │    to_add = NAC
+   │    two = 2
+   └─ OUT:
+        a = NAC
+        ans = NAC
+        b = NAC
+        c = UNDEF
+        cond = NAC
+        cond_add = NAC
+        i = NAC
+        mod2a = NAC
+        mod2b = NAC
+        n = 63
+        one = 1
+        to_add = NAC
+        two = 2
+
+ Block: i
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   │    c = UNDEF
+   └─ OUT:
+        a = UNDEF
+        ans = 0
+        b = UNDEF
+        c = UNDEF
+        i = 0
+        n = 63
+        one = 1
+        to_add = 1
+        two = 2
+
+ Block: loop
+   ┌─ IN:
+   │    a = NAC
+   │    ans = NAC
+   │    b = NAC
+   │    c = UNDEF
+   │    cond = NAC
+   │    cond_add = NAC
+   │    i = NAC
+   │    mod2a = NAC
+   │    mod2b = NAC
+   │    n = 63
+   │    one = 1
+   │    to_add = NAC
+   │    two = 2
+   └─ OUT:
+        a = NAC
+        ans = NAC
+        b = NAC
+        c = UNDEF
+        cond = NAC
+        cond_add = NAC
+        i = NAC
+        mod2a = NAC
+        mod2b = NAC
+        n = 63
+        one = 1
+        to_add = NAC
+        two = 2
+
+ Block: stay
+   ┌─ IN:
+   │    a = NAC
+   │    ans = NAC
+   │    b = NAC
+   │    c = UNDEF
+   │    cond = NAC
+   │    cond_add = NAC
+   │    i = NAC
+   │    mod2a = NAC
+   │    mod2b = NAC
+   │    n = 63
+   │    one = 1
+   │    to_add = NAC
+   │    two = 2
+   └─ OUT:
+        a = NAC
+        ans = NAC
+        b = NAC
+        c = UNDEF
+        cond = NAC
+        cond_add = NAC
+        i = NAC
+        mod2a = NAC
+        mod2b = NAC
+        n = 63
+        one = 1
+        to_add = NAC
+        two = 2
+
+DataFlow ConstProp analysis for function 'OR'
+---------------------------------------------
+
+ Block: oper
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        oper = NAC
+        v1 = NAC
+
+DataFlow ConstProp analysis for function 'AND'
+---------------------------------------------
+
+ Block: oper
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        oper = NAC
+        v1 = NAC
+
+DataFlow ConstProp analysis for function 'XOR'
+---------------------------------------------
+
+ Block: and_val
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   └─ OUT:
+        a = UNDEF
+        and_val = NAC
+        ans = NAC
+        b = UNDEF
+        or_val = NAC
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: and_op
+   ┌─ IN:
+   │    a = UNDEF
+   │    ans = 0
+   │    b = UNDEF
+   │    c = UNDEF
+   │    equal = NAC
+   │    greater = NAC
+   │    less = NAC
+   │    one = 1
+   │    sel = NAC
+   │    zero = 0
+   └─ OUT:
+        a = UNDEF
+        ans = NAC
+        b = UNDEF
+        c = UNDEF
+        equal = NAC
+        greater = NAC
+        less = NAC
+        one = 1
+        sel = NAC
+        zero = 0
+
+ Block: end
+   ┌─ IN:
+   │    a = UNDEF
+   │    ans = NAC
+   │    b = UNDEF
+   │    c = UNDEF
+   │    equal = NAC
+   │    greater = NAC
+   │    less = NAC
+   │    one = 1
+   │    sel = NAC
+   │    zero = 0
+   └─ OUT:
+        a = UNDEF
+        ans = NAC
+        b = UNDEF
+        c = UNDEF
+        equal = NAC
+        greater = NAC
+        less = NAC
+        one = 1
+        sel = NAC
+        zero = 0
+
+ Block: one
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   │    c = UNDEF
+   └─ OUT:
+        a = UNDEF
+        ans = 0
+        b = UNDEF
+        c = UNDEF
+        equal = NAC
+        greater = NAC
+        less = NAC
+        one = 1
+        sel = NAC
+        zero = 0
+
+ Block: or_op
+   ┌─ IN:
+   │    a = UNDEF
+   │    ans = 0
+   │    b = UNDEF
+   │    c = UNDEF
+   │    equal = NAC
+   │    greater = NAC
+   │    less = NAC
+   │    one = 1
+   │    sel = NAC
+   │    zero = 0
+   └─ OUT:
+        a = UNDEF
+        ans = NAC
+        b = UNDEF
+        c = UNDEF
+        equal = NAC
+        greater = NAC
+        less = NAC
+        one = 1
+        sel = NAC
+        zero = 0
+
+ Block: useless_lbl
+   ┌─ IN:
+   │    a = UNDEF
+   │    ans = 0
+   │    b = UNDEF
+   │    c = UNDEF
+   │    equal = NAC
+   │    greater = NAC
+   │    less = NAC
+   │    one = 1
+   │    sel = NAC
+   │    zero = 0
+   └─ OUT:
+        a = UNDEF
+        ans = 0
+        b = UNDEF
+        c = UNDEF
+        equal = NAC
+        greater = NAC
+        less = NAC
+        one = 1
+        sel = NAC
+        zero = 0
+
+ Block: xor_op
+   ┌─ IN:
+   │    a = UNDEF
+   │    ans = 0
+   │    b = UNDEF
+   │    c = UNDEF
+   │    equal = NAC
+   │    greater = NAC
+   │    less = NAC
+   │    one = 1
+   │    sel = NAC
+   │    zero = 0
+   └─ OUT:
+        a = UNDEF
+        ans = NAC
+        b = UNDEF
+        c = UNDEF
+        equal = NAC
+        greater = NAC
+        less = NAC
+        one = 1
+        sel = NAC
+        zero = 0

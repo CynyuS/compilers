@@ -1,0 +1,271 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: else.18
+   ┌─ IN:
+   │    max_guess = UNDEF
+   │    mid = NAC
+   │    mid_squared = NAC
+   │    min_guess = UNDEF
+   │    min_plus_1 = NAC
+   │    sum_bounds = NAC
+   │    v0 = UNDEF
+   │    v1 = 1
+   │    v10 = UNDEF
+   │    v11 = NAC
+   │    v12 = NAC
+   │    v13 = 2
+   │    v14 = NAC
+   │    v15 = NAC
+   │    v16 = NAC
+   │    v17 = NAC
+   │    v19 = NAC
+   │    v2 = NAC
+   │    v20 = UNDEF
+   │    v21 = NAC
+   │    v4 = NAC
+   │    v5 = UNDEF
+   │    v6 = NAC
+   │    v9 = UNDEF
+   │    x = UNDEF
+   └─ OUT:
+        max_guess = UNDEF
+        mid = NAC
+        mid_squared = NAC
+        min_guess = UNDEF
+        min_plus_1 = NAC
+        sum_bounds = NAC
+        v0 = UNDEF
+        v1 = 1
+        v10 = UNDEF
+        v11 = NAC
+        v12 = NAC
+        v13 = 2
+        v14 = NAC
+        v15 = NAC
+        v16 = NAC
+        v17 = NAC
+        v19 = NAC
+        v2 = NAC
+        v20 = UNDEF
+        v21 = NAC
+        v26 = UNDEF
+        v27 = UNDEF
+        v28 = NAC
+        v29 = 0
+        v4 = NAC
+        v5 = UNDEF
+        v6 = NAC
+        v9 = UNDEF
+        x = UNDEF
+
+ Block: else.3
+   ┌─ IN:
+   │    max_guess = UNDEF
+   │    min_guess = UNDEF
+   │    min_plus_1 = NAC
+   │    v0 = UNDEF
+   │    v1 = 1
+   │    v2 = NAC
+   │    v4 = NAC
+   │    v5 = UNDEF
+   │    v6 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        max_guess = UNDEF
+        mid = NAC
+        mid_squared = NAC
+        min_guess = UNDEF
+        min_plus_1 = NAC
+        sum_bounds = NAC
+        v0 = UNDEF
+        v1 = 1
+        v10 = UNDEF
+        v11 = NAC
+        v12 = NAC
+        v13 = 2
+        v14 = NAC
+        v15 = NAC
+        v16 = NAC
+        v17 = NAC
+        v19 = NAC
+        v2 = NAC
+        v20 = UNDEF
+        v21 = NAC
+        v4 = NAC
+        v5 = UNDEF
+        v6 = NAC
+        v9 = UNDEF
+        x = UNDEF
+
+ Block: endif.18
+   ┌─ IN:
+   │    max_guess = UNDEF
+   │    mid = NAC
+   │    mid_squared = NAC
+   │    min_guess = UNDEF
+   │    min_plus_1 = NAC
+   │    sum_bounds = NAC
+   │    v0 = UNDEF
+   │    v1 = 1
+   │    v10 = UNDEF
+   │    v11 = NAC
+   │    v12 = NAC
+   │    v13 = 2
+   │    v14 = NAC
+   │    v15 = NAC
+   │    v16 = NAC
+   │    v17 = NAC
+   │    v19 = NAC
+   │    v2 = NAC
+   │    v20 = UNDEF
+   │    v21 = NAC
+   │    v22 = UNDEF
+   │    v23 = NAC
+   │    v24 = UNDEF
+   │    v25 = 0
+   │    v26 = UNDEF
+   │    v27 = UNDEF
+   │    v28 = NAC
+   │    v29 = 0
+   │    v4 = NAC
+   │    v5 = UNDEF
+   │    v6 = NAC
+   │    v9 = UNDEF
+   │    x = UNDEF
+   └─ OUT:
+        max_guess = UNDEF
+        mid = NAC
+        mid_squared = NAC
+        min_guess = UNDEF
+        min_plus_1 = NAC
+        sum_bounds = NAC
+        v0 = UNDEF
+        v1 = 1
+        v10 = UNDEF
+        v11 = NAC
+        v12 = NAC
+        v13 = 2
+        v14 = NAC
+        v15 = NAC
+        v16 = NAC
+        v17 = NAC
+        v19 = NAC
+        v2 = NAC
+        v20 = UNDEF
+        v21 = NAC
+        v22 = UNDEF
+        v23 = NAC
+        v24 = UNDEF
+        v25 = 0
+        v26 = UNDEF
+        v27 = UNDEF
+        v28 = NAC
+        v29 = 0
+        v4 = NAC
+        v5 = UNDEF
+        v6 = NAC
+        v9 = UNDEF
+        x = UNDEF
+
+ Block: then.18
+   ┌─ IN:
+   │    max_guess = UNDEF
+   │    mid = NAC
+   │    mid_squared = NAC
+   │    min_guess = UNDEF
+   │    min_plus_1 = NAC
+   │    sum_bounds = NAC
+   │    v0 = UNDEF
+   │    v1 = 1
+   │    v10 = UNDEF
+   │    v11 = NAC
+   │    v12 = NAC
+   │    v13 = 2
+   │    v14 = NAC
+   │    v15 = NAC
+   │    v16 = NAC
+   │    v17 = NAC
+   │    v19 = NAC
+   │    v2 = NAC
+   │    v20 = UNDEF
+   │    v21 = NAC
+   │    v4 = NAC
+   │    v5 = UNDEF
+   │    v6 = NAC
+   │    v9 = UNDEF
+   │    x = UNDEF
+   └─ OUT:
+        max_guess = UNDEF
+        mid = NAC
+        mid_squared = NAC
+        min_guess = UNDEF
+        min_plus_1 = NAC
+        sum_bounds = NAC
+        v0 = UNDEF
+        v1 = 1
+        v10 = UNDEF
+        v11 = NAC
+        v12 = NAC
+        v13 = 2
+        v14 = NAC
+        v15 = NAC
+        v16 = NAC
+        v17 = NAC
+        v19 = NAC
+        v2 = NAC
+        v20 = UNDEF
+        v21 = NAC
+        v22 = UNDEF
+        v23 = NAC
+        v24 = UNDEF
+        v25 = 0
+        v4 = NAC
+        v5 = UNDEF
+        v6 = NAC
+        v9 = UNDEF
+        x = UNDEF
+
+ Block: then.3
+   ┌─ IN:
+   │    max_guess = UNDEF
+   │    min_guess = UNDEF
+   │    min_plus_1 = NAC
+   │    v0 = UNDEF
+   │    v1 = 1
+   │    v2 = NAC
+   │    v4 = NAC
+   │    v5 = UNDEF
+   │    v6 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        max_guess = UNDEF
+        min_guess = UNDEF
+        min_plus_1 = NAC
+        v0 = UNDEF
+        v1 = 1
+        v2 = NAC
+        v4 = NAC
+        v5 = UNDEF
+        v6 = NAC
+        v7 = UNDEF
+        v8 = 0
+        x = UNDEF
+
+ Block: v0
+   ┌─ IN:
+   │    max_guess = UNDEF
+   │    min_guess = UNDEF
+   │    x = UNDEF
+   └─ OUT:
+        max_guess = UNDEF
+        min_guess = UNDEF
+        min_plus_1 = NAC
+        v0 = UNDEF
+        v1 = 1
+        v2 = NAC
+        v4 = NAC
+        v5 = UNDEF
+        v6 = NAC
+        x = UNDEF

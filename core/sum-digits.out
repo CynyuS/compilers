@@ -1,0 +1,145 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: for.body.1
+   ┌─ IN:
+   │    currentDigit = NAC
+   │    n = NAC
+   │    tenth = NAC
+   │    total = NAC
+   │    v0 = 0
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v12 = NAC
+   │    v13 = NAC
+   │    v14 = NAC
+   │    v15 = NAC
+   │    v16 = NAC
+   │    v2 = NAC
+   │    v3 = 0
+   │    v4 = NAC
+   │    v5 = NAC
+   │    v6 = 10
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = 10
+   └─ OUT:
+        currentDigit = NAC
+        n = NAC
+        tenth = NAC
+        total = NAC
+        v0 = 0
+        v10 = NAC
+        v11 = NAC
+        v12 = NAC
+        v13 = NAC
+        v14 = NAC
+        v15 = NAC
+        v16 = NAC
+        v2 = NAC
+        v3 = 0
+        v4 = NAC
+        v5 = NAC
+        v6 = 10
+        v7 = NAC
+        v8 = NAC
+        v9 = 10
+
+ Block: for.cond.1
+   ┌─ IN:
+   │    currentDigit = NAC
+   │    n = NAC
+   │    tenth = NAC
+   │    total = NAC
+   │    v0 = 0
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v12 = NAC
+   │    v13 = NAC
+   │    v14 = NAC
+   │    v15 = NAC
+   │    v16 = NAC
+   │    v2 = NAC
+   │    v3 = 0
+   │    v4 = NAC
+   │    v5 = NAC
+   │    v6 = 10
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = 10
+   └─ OUT:
+        currentDigit = NAC
+        n = NAC
+        tenth = NAC
+        total = NAC
+        v0 = 0
+        v10 = NAC
+        v11 = NAC
+        v12 = NAC
+        v13 = NAC
+        v14 = NAC
+        v15 = NAC
+        v16 = NAC
+        v2 = NAC
+        v3 = 0
+        v4 = NAC
+        v5 = NAC
+        v6 = 10
+        v7 = NAC
+        v8 = NAC
+        v9 = 10
+
+ Block: for.end.1
+   ┌─ IN:
+   │    currentDigit = NAC
+   │    n = NAC
+   │    tenth = NAC
+   │    total = NAC
+   │    v0 = 0
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v12 = NAC
+   │    v13 = NAC
+   │    v14 = NAC
+   │    v15 = NAC
+   │    v16 = NAC
+   │    v2 = NAC
+   │    v3 = 0
+   │    v4 = NAC
+   │    v5 = NAC
+   │    v6 = 10
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = 10
+   └─ OUT:
+        currentDigit = NAC
+        n = NAC
+        tenth = NAC
+        total = NAC
+        v0 = 0
+        v10 = NAC
+        v11 = NAC
+        v12 = NAC
+        v13 = NAC
+        v14 = NAC
+        v15 = NAC
+        v16 = NAC
+        v17 = NAC
+        v18 = 0
+        v2 = NAC
+        v3 = 0
+        v4 = NAC
+        v5 = NAC
+        v6 = 10
+        v7 = NAC
+        v8 = NAC
+        v9 = 10
+
+ Block: v0
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        n = UNDEF
+        total = 0
+        v0 = 0

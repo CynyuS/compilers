@@ -1,0 +1,38 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: output
+   ┌─ IN:
+   │    height1 = UNDEF
+   │    height2 = UNDEF
+   │    width1 = UNDEF
+   │    width2 = UNDEF
+   └─ OUT:
+        height1 = UNDEF
+        height2 = UNDEF
+        output = NAC
+        width1 = UNDEF
+        width2 = UNDEF
+
+DataFlow ConstProp analysis for function 'fitsInside'
+---------------------------------------------
+
+ Block: width_check
+   ┌─ IN:
+   │    h1 = UNDEF
+   │    h2 = UNDEF
+   │    w1 = UNDEF
+   │    w2 = UNDEF
+   └─ OUT:
+        first_check = NAC
+        h1 = UNDEF
+        h2 = UNDEF
+        height_check = NAC
+        heightwidth_check = NAC
+        ret_val = NAC
+        second_check = NAC
+        w1 = UNDEF
+        w2 = UNDEF
+        width_check = NAC
+        widthheight_check = NAC

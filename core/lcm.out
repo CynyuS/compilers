@@ -1,0 +1,167 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: else.1
+   ┌─ IN:
+   │    greater = UNDEF
+   │    v4 = NAC
+   │    x = UNDEF
+   │    y = UNDEF
+   └─ OUT:
+        greater = UNDEF
+        v4 = NAC
+        x = UNDEF
+        y = UNDEF
+
+ Block: else.2
+   ┌─ IN:
+   │    bothZero = NAC
+   │    greater = NAC
+   │    modX = NAC
+   │    modY = NAC
+   │    one = 1
+   │    v4 = NAC
+   │    x = UNDEF
+   │    xZero = NAC
+   │    y = UNDEF
+   │    yZero = NAC
+   │    zero = 0
+   └─ OUT:
+        bothZero = NAC
+        greater = NAC
+        modX = NAC
+        modY = NAC
+        one = 1
+        v4 = NAC
+        x = UNDEF
+        xZero = NAC
+        y = UNDEF
+        yZero = NAC
+        zero = 0
+
+ Block: endif.1
+   ┌─ IN:
+   │    greater = UNDEF
+   │    v4 = NAC
+   │    x = UNDEF
+   │    y = UNDEF
+   └─ OUT:
+        greater = UNDEF
+        v4 = NAC
+        x = UNDEF
+        y = UNDEF
+
+ Block: foreverloop
+   ┌─ IN:
+   │    bothZero = NAC
+   │    greater = NAC
+   │    modX = NAC
+   │    modY = NAC
+   │    one = 1
+   │    v4 = NAC
+   │    x = UNDEF
+   │    xZero = NAC
+   │    y = UNDEF
+   │    yZero = NAC
+   │    zero = 0
+   └─ OUT:
+        bothZero = NAC
+        greater = NAC
+        modX = NAC
+        modY = NAC
+        one = 1
+        v4 = NAC
+        x = UNDEF
+        xZero = NAC
+        y = UNDEF
+        yZero = NAC
+        zero = 0
+
+ Block: greater
+   ┌─ IN:
+   │    x = UNDEF
+   │    y = UNDEF
+   └─ OUT:
+        greater = UNDEF
+        v4 = NAC
+        x = UNDEF
+        y = UNDEF
+
+ Block: loopend
+   ┌─ IN:
+   │    bothZero = NAC
+   │    greater = NAC
+   │    modX = NAC
+   │    modY = NAC
+   │    one = 1
+   │    v4 = NAC
+   │    x = UNDEF
+   │    xZero = NAC
+   │    y = UNDEF
+   │    yZero = NAC
+   │    zero = 0
+   └─ OUT:
+        bothZero = NAC
+        greater = NAC
+        modX = NAC
+        modY = NAC
+        one = 1
+        v4 = NAC
+        x = UNDEF
+        xZero = NAC
+        y = UNDEF
+        yZero = NAC
+        zero = 0
+
+ Block: then.1
+   ┌─ IN:
+   │    greater = UNDEF
+   │    v4 = NAC
+   │    x = UNDEF
+   │    y = UNDEF
+   └─ OUT:
+        greater = UNDEF
+        v4 = NAC
+        x = UNDEF
+        y = UNDEF
+
+ Block: then.2
+   ┌─ IN:
+   │    bothZero = NAC
+   │    greater = NAC
+   │    modX = NAC
+   │    modY = NAC
+   │    one = 1
+   │    v4 = NAC
+   │    x = UNDEF
+   │    xZero = NAC
+   │    y = UNDEF
+   │    yZero = NAC
+   │    zero = 0
+   └─ OUT:
+        bothZero = NAC
+        greater = NAC
+        modX = NAC
+        modY = NAC
+        one = 1
+        v4 = NAC
+        x = UNDEF
+        xZero = NAC
+        y = UNDEF
+        yZero = NAC
+        zero = 0
+
+DataFlow ConstProp analysis for function 'getMod'
+---------------------------------------------
+
+ Block: divisor
+   ┌─ IN:
+   │    mod = UNDEF
+   │    val = UNDEF
+   └─ OUT:
+        divisor = NAC
+        mod = UNDEF
+        multiple = NAC
+        rem = NAC
+        val = UNDEF

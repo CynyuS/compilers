@@ -1,0 +1,162 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: ans
+   ┌─ IN:
+   │    arrows = UNDEF
+   │    n = UNDEF
+   │    repeats = UNDEF
+   └─ OUT:
+        ans = NAC
+        arrows = UNDEF
+        n = UNDEF
+        repeats = UNDEF
+
+DataFlow ConstProp analysis for function 'up_arrow'
+---------------------------------------------
+
+ Block: arrowsgreaterthan1
+   ┌─ IN:
+   │    ans = NAC
+   │    arrows = UNDEF
+   │    base_case = NAC
+   │    i = NAC
+   │    keepgoing = NAC
+   │    new_arrows = NAC
+   │    num = UNDEF
+   │    one = 1
+   │    repeats = UNDEF
+   └─ OUT:
+        ans = NAC
+        arrows = UNDEF
+        base_case = NAC
+        i = NAC
+        keepgoing = NAC
+        new_arrows = NAC
+        num = UNDEF
+        one = 1
+        repeats = UNDEF
+
+ Block: base
+   ┌─ IN:
+   │    ans = NAC
+   │    arrows = UNDEF
+   │    base_case = NAC
+   │    i = NAC
+   │    keepgoing = NAC
+   │    new_arrows = NAC
+   │    num = UNDEF
+   │    one = 1
+   │    repeats = UNDEF
+   └─ OUT:
+        ans = NAC
+        arrows = UNDEF
+        base_case = NAC
+        i = NAC
+        keepgoing = NAC
+        new_arrows = NAC
+        num = UNDEF
+        one = 1
+        repeats = UNDEF
+
+ Block: endloop
+   ┌─ IN:
+   │    ans = NAC
+   │    arrows = UNDEF
+   │    base_case = NAC
+   │    i = NAC
+   │    keepgoing = NAC
+   │    new_arrows = NAC
+   │    num = UNDEF
+   │    one = 1
+   │    repeats = UNDEF
+   └─ OUT:
+        ans = NAC
+        arrows = UNDEF
+        base_case = NAC
+        i = NAC
+        keepgoing = NAC
+        new_arrows = NAC
+        num = UNDEF
+        one = 1
+        repeats = UNDEF
+
+ Block: finally
+   ┌─ IN:
+   │    ans = NAC
+   │    arrows = UNDEF
+   │    base_case = NAC
+   │    i = NAC
+   │    keepgoing = NAC
+   │    new_arrows = NAC
+   │    num = UNDEF
+   │    one = 1
+   │    repeats = UNDEF
+   └─ OUT:
+        ans = NAC
+        arrows = UNDEF
+        base_case = NAC
+        i = NAC
+        keepgoing = NAC
+        new_arrows = NAC
+        num = UNDEF
+        one = 1
+        repeats = UNDEF
+
+ Block: loopbody
+   ┌─ IN:
+   │    ans = NAC
+   │    arrows = UNDEF
+   │    base_case = NAC
+   │    i = NAC
+   │    keepgoing = NAC
+   │    new_arrows = NAC
+   │    num = UNDEF
+   │    one = 1
+   │    repeats = UNDEF
+   └─ OUT:
+        ans = NAC
+        arrows = UNDEF
+        base_case = NAC
+        i = NAC
+        keepgoing = NAC
+        new_arrows = NAC
+        num = UNDEF
+        one = 1
+        repeats = UNDEF
+
+ Block: loopstart
+   ┌─ IN:
+   │    ans = NAC
+   │    arrows = UNDEF
+   │    base_case = NAC
+   │    i = NAC
+   │    keepgoing = NAC
+   │    new_arrows = NAC
+   │    num = UNDEF
+   │    one = 1
+   │    repeats = UNDEF
+   └─ OUT:
+        ans = NAC
+        arrows = UNDEF
+        base_case = NAC
+        i = NAC
+        keepgoing = NAC
+        new_arrows = NAC
+        num = UNDEF
+        one = 1
+        repeats = UNDEF
+
+ Block: one
+   ┌─ IN:
+   │    arrows = UNDEF
+   │    num = UNDEF
+   │    repeats = UNDEF
+   └─ OUT:
+        ans = UNDEF
+        arrows = UNDEF
+        i = 1
+        num = UNDEF
+        one = 1
+        repeats = UNDEF

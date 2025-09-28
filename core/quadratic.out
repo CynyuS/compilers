@@ -1,0 +1,291 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: quadratic
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   │    c = UNDEF
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        c = UNDEF
+
+DataFlow ConstProp analysis for function 'sqrt'
+---------------------------------------------
+
+ Block: else.7
+   ┌─ IN:
+   │    i = NAC
+   │    v1 = 1
+   │    v10 = NAC
+   │    v11 = UNDEF
+   │    v12 = NAC
+   │    v14 = NAC
+   │    v15 = 1
+   │    v16 = NAC
+   │    v2 = NAC
+   │    v3 = UNDEF
+   │    v4 = 1
+   │    v5 = NAC
+   │    v6 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        i = NAC
+        v1 = 1
+        v10 = NAC
+        v11 = UNDEF
+        v12 = NAC
+        v14 = NAC
+        v15 = 1
+        v16 = NAC
+        v2 = NAC
+        v3 = UNDEF
+        v4 = 1
+        v5 = NAC
+        v6 = NAC
+        v8 = NAC
+        v9 = NAC
+        x = UNDEF
+
+ Block: endif.7
+   ┌─ IN:
+   │    i = NAC
+   │    v1 = 1
+   │    v10 = NAC
+   │    v11 = UNDEF
+   │    v12 = NAC
+   │    v14 = NAC
+   │    v15 = 1
+   │    v16 = NAC
+   │    v2 = NAC
+   │    v3 = UNDEF
+   │    v4 = 1
+   │    v5 = NAC
+   │    v6 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        i = NAC
+        v1 = 1
+        v10 = NAC
+        v11 = UNDEF
+        v12 = NAC
+        v14 = NAC
+        v15 = 1
+        v16 = NAC
+        v2 = NAC
+        v3 = UNDEF
+        v4 = 1
+        v5 = NAC
+        v6 = NAC
+        v8 = NAC
+        v9 = NAC
+        x = UNDEF
+
+ Block: for.body.0
+   ┌─ IN:
+   │    i = NAC
+   │    v1 = 1
+   │    v10 = NAC
+   │    v11 = UNDEF
+   │    v12 = NAC
+   │    v14 = NAC
+   │    v15 = 1
+   │    v16 = NAC
+   │    v2 = NAC
+   │    v3 = UNDEF
+   │    v4 = 1
+   │    v5 = NAC
+   │    v6 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        i = NAC
+        v1 = 1
+        v10 = NAC
+        v11 = UNDEF
+        v12 = NAC
+        v14 = NAC
+        v15 = 1
+        v16 = NAC
+        v2 = NAC
+        v3 = UNDEF
+        v4 = 1
+        v5 = NAC
+        v6 = NAC
+        v8 = NAC
+        v9 = NAC
+        x = UNDEF
+
+ Block: for.cond.0
+   ┌─ IN:
+   │    i = NAC
+   │    v1 = 1
+   │    v10 = NAC
+   │    v11 = UNDEF
+   │    v12 = NAC
+   │    v14 = NAC
+   │    v15 = 1
+   │    v16 = NAC
+   │    v2 = NAC
+   │    v3 = UNDEF
+   │    v4 = 1
+   │    v5 = NAC
+   │    v6 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        i = NAC
+        v1 = 1
+        v10 = NAC
+        v11 = UNDEF
+        v12 = NAC
+        v14 = NAC
+        v15 = 1
+        v16 = NAC
+        v2 = NAC
+        v3 = UNDEF
+        v4 = 1
+        v5 = NAC
+        v6 = NAC
+        v8 = NAC
+        v9 = NAC
+        x = UNDEF
+
+ Block: for.end.0
+   ┌─ IN:
+   │    i = NAC
+   │    v1 = 1
+   │    v10 = NAC
+   │    v11 = UNDEF
+   │    v12 = NAC
+   │    v14 = NAC
+   │    v15 = 1
+   │    v16 = NAC
+   │    v2 = NAC
+   │    v3 = UNDEF
+   │    v4 = 1
+   │    v5 = NAC
+   │    v6 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        i = NAC
+        v1 = 1
+        v10 = NAC
+        v11 = UNDEF
+        v12 = NAC
+        v14 = NAC
+        v15 = 1
+        v16 = NAC
+        v17 = 0
+        v2 = NAC
+        v3 = UNDEF
+        v4 = 1
+        v5 = NAC
+        v6 = NAC
+        v8 = NAC
+        v9 = NAC
+        x = UNDEF
+
+ Block: then.7
+   ┌─ IN:
+   │    i = NAC
+   │    v1 = 1
+   │    v10 = NAC
+   │    v11 = UNDEF
+   │    v12 = NAC
+   │    v14 = NAC
+   │    v15 = 1
+   │    v16 = NAC
+   │    v2 = NAC
+   │    v3 = UNDEF
+   │    v4 = 1
+   │    v5 = NAC
+   │    v6 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        i = NAC
+        v1 = 1
+        v10 = NAC
+        v11 = UNDEF
+        v12 = NAC
+        v13 = NAC
+        v14 = NAC
+        v15 = 1
+        v16 = NAC
+        v2 = NAC
+        v3 = UNDEF
+        v4 = 1
+        v5 = NAC
+        v6 = NAC
+        v8 = NAC
+        v9 = NAC
+        x = UNDEF
+
+ Block: v1
+   ┌─ IN:
+   │    x = UNDEF
+   └─ OUT:
+        i = 1
+        v1 = 1
+        x = UNDEF
+
+DataFlow ConstProp analysis for function 'quadratic'
+---------------------------------------------
+
+ Block: v0
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   │    c = UNDEF
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        c = UNDEF
+        d = NAC
+        r1 = NAC
+        r2 = NAC
+        s = NAC
+        v0 = UNDEF
+        v1 = UNDEF
+        v10 = UNDEF
+        v11 = NAC
+        v12 = 0
+        v13 = UNDEF
+        v14 = NAC
+        v15 = NAC
+        v16 = NAC
+        v17 = NAC
+        v18 = 0
+        v19 = UNDEF
+        v2 = NAC
+        v20 = NAC
+        v21 = NAC
+        v22 = NAC
+        v23 = NAC
+        v24 = NAC
+        v25 = NAC
+        v26 = NAC
+        v27 = 0
+        v28 = NAC
+        v29 = NAC
+        v3 = 4
+        v30 = NAC
+        v31 = 0
+        v4 = UNDEF
+        v5 = NAC
+        v6 = UNDEF
+        v7 = NAC
+        v8 = NAC
+        v9 = 2

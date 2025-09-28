@@ -1,0 +1,86 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: else
+   ┌─ IN:
+   │    b = NAC
+   │    m = NAC
+   │    mn = NAC
+   │    n = UNDEF
+   │    nn = UNDEF
+   │    r = UNDEF
+   │    res = NAC
+   │    t = NAC
+   │    tmn = NAC
+   │    tr = NAC
+   │    trnn = NAC
+   └─ OUT:
+        b = NAC
+        m = NAC
+        mn = NAC
+        n = UNDEF
+        nn = UNDEF
+        r = UNDEF
+        res = NAC
+        t = NAC
+        tmn = NAC
+        tr = NAC
+        trnn = NAC
+
+ Block: then
+   ┌─ IN:
+   │    b = NAC
+   │    m = NAC
+   │    mn = NAC
+   │    n = UNDEF
+   │    nn = UNDEF
+   │    r = UNDEF
+   │    t = NAC
+   │    tmn = NAC
+   │    tr = NAC
+   │    trnn = NAC
+   └─ OUT:
+        b = NAC
+        m = NAC
+        mn = NAC
+        n = UNDEF
+        nn = UNDEF
+        r = UNDEF
+        res = NAC
+        t = NAC
+        tmn = NAC
+        tr = NAC
+        trnn = NAC
+
+ Block: tr
+   ┌─ IN:
+   │    n = UNDEF
+   │    nn = UNDEF
+   │    r = UNDEF
+   │    t = UNDEF
+   └─ OUT:
+        b = NAC
+        m = NAC
+        mn = NAC
+        n = UNDEF
+        nn = UNDEF
+        r = UNDEF
+        t = NAC
+        tmn = NAC
+        tr = NAC
+        trnn = NAC
+
+DataFlow ConstProp analysis for function 'mod'
+---------------------------------------------
+
+ Block: q
+   ┌─ IN:
+   │    x = UNDEF
+   │    y = UNDEF
+   └─ OUT:
+        q = NAC
+        result = NAC
+        x = UNDEF
+        xq = NAC
+        y = UNDEF

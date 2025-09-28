@@ -1,0 +1,99 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: v0
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        n = UNDEF
+        result = NAC
+        v0 = UNDEF
+
+DataFlow ConstProp analysis for function 'fib'
+---------------------------------------------
+
+ Block: else.0
+   ┌─ IN:
+   │    v1 = UNDEF
+   │    v2 = 0
+   │    v3 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        v1 = UNDEF
+        v2 = 0
+        v3 = NAC
+        v6 = UNDEF
+        v7 = 1
+        v8 = NAC
+        x = UNDEF
+
+ Block: else.5
+   ┌─ IN:
+   │    v1 = UNDEF
+   │    v2 = 0
+   │    v3 = NAC
+   │    v6 = UNDEF
+   │    v7 = 1
+   │    v8 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        f1 = NAC
+        f2 = NAC
+        v1 = UNDEF
+        v10 = UNDEF
+        v11 = 1
+        v12 = NAC
+        v13 = UNDEF
+        v14 = 2
+        v15 = NAC
+        v16 = NAC
+        v17 = NAC
+        v18 = NAC
+        v2 = 0
+        v3 = NAC
+        v6 = UNDEF
+        v7 = 1
+        v8 = NAC
+        x = UNDEF
+
+ Block: then.0
+   ┌─ IN:
+   │    v1 = UNDEF
+   │    v2 = 0
+   │    v3 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        v1 = UNDEF
+        v2 = 0
+        v3 = NAC
+        v4 = 0
+        x = UNDEF
+
+ Block: then.5
+   ┌─ IN:
+   │    v1 = UNDEF
+   │    v2 = 0
+   │    v3 = NAC
+   │    v6 = UNDEF
+   │    v7 = 1
+   │    v8 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        v1 = UNDEF
+        v2 = 0
+        v3 = NAC
+        v6 = UNDEF
+        v7 = 1
+        v8 = NAC
+        v9 = 1
+        x = UNDEF
+
+ Block: v1
+   ┌─ IN:
+   │    x = UNDEF
+   └─ OUT:
+        v1 = UNDEF
+        v2 = 0
+        v3 = NAC
+        x = UNDEF

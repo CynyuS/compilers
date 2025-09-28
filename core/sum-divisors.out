@@ -1,0 +1,197 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: begin
+   ┌─ IN:
+   │    d = NAC
+   │    deqi = NAC
+   │    eqz = NAC
+   │    i = NAC
+   │    isq = NAC
+   │    m = NAC
+   │    n = NAC
+   │    nlz = NAC
+   │    non = -1
+   │    one = 1
+   │    res = NAC
+   │    sqgt = NAC
+   │    zer = 0
+   └─ OUT:
+        d = NAC
+        deqi = NAC
+        eqz = NAC
+        i = NAC
+        isq = NAC
+        m = NAC
+        n = NAC
+        nlz = NAC
+        non = -1
+        one = 1
+        res = NAC
+        sqgt = NAC
+        zer = 0
+
+ Block: body
+   ┌─ IN:
+   │    d = NAC
+   │    deqi = NAC
+   │    eqz = NAC
+   │    i = NAC
+   │    isq = NAC
+   │    m = NAC
+   │    n = NAC
+   │    nlz = NAC
+   │    non = -1
+   │    one = 1
+   │    res = NAC
+   │    sqgt = NAC
+   │    zer = 0
+   └─ OUT:
+        d = NAC
+        deqi = NAC
+        eqz = NAC
+        i = NAC
+        isq = NAC
+        m = NAC
+        n = NAC
+        nlz = NAC
+        non = -1
+        one = 1
+        res = NAC
+        sqgt = NAC
+        zer = 0
+
+ Block: check
+   ┌─ IN:
+   │    d = NAC
+   │    deqi = NAC
+   │    eqz = NAC
+   │    i = NAC
+   │    isq = NAC
+   │    m = NAC
+   │    n = NAC
+   │    nlz = NAC
+   │    non = -1
+   │    one = 1
+   │    res = NAC
+   │    sqgt = NAC
+   │    zer = 0
+   └─ OUT:
+        d = NAC
+        deqi = NAC
+        eqz = NAC
+        i = NAC
+        isq = NAC
+        m = NAC
+        n = NAC
+        nlz = NAC
+        non = -1
+        one = 1
+        res = NAC
+        sqgt = NAC
+        zer = 0
+
+ Block: end
+   ┌─ IN:
+   │    d = NAC
+   │    deqi = NAC
+   │    eqz = NAC
+   │    i = NAC
+   │    isq = NAC
+   │    m = NAC
+   │    n = NAC
+   │    nlz = NAC
+   │    non = -1
+   │    one = 1
+   │    res = NAC
+   │    sqgt = NAC
+   │    zer = 0
+   └─ OUT:
+        d = NAC
+        deqi = NAC
+        eqz = NAC
+        i = NAC
+        isq = NAC
+        m = NAC
+        n = NAC
+        nlz = NAC
+        non = -1
+        one = 1
+        res = NAC
+        sqgt = NAC
+        zer = 0
+
+ Block: i
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        i = 0
+        n = UNDEF
+        nlz = NAC
+        non = -1
+        one = 1
+        res = 0
+        zer = 0
+
+ Block: neg
+   ┌─ IN:
+   │    i = 0
+   │    n = UNDEF
+   │    nlz = NAC
+   │    non = -1
+   │    one = 1
+   │    res = 0
+   │    zer = 0
+   └─ OUT:
+        i = 0
+        n = NAC
+        nlz = NAC
+        non = -1
+        one = 1
+        res = 0
+        zer = 0
+
+ Block: then
+   ┌─ IN:
+   │    d = NAC
+   │    deqi = NAC
+   │    eqz = NAC
+   │    i = NAC
+   │    isq = NAC
+   │    m = NAC
+   │    n = NAC
+   │    nlz = NAC
+   │    non = -1
+   │    one = 1
+   │    res = NAC
+   │    sqgt = NAC
+   │    zer = 0
+   └─ OUT:
+        d = NAC
+        deqi = NAC
+        eqz = NAC
+        i = NAC
+        isq = NAC
+        m = NAC
+        n = NAC
+        nlz = NAC
+        non = -1
+        one = 1
+        res = NAC
+        sqgt = NAC
+        zer = 0
+
+DataFlow ConstProp analysis for function 'mod'
+---------------------------------------------
+
+ Block: quot
+   ┌─ IN:
+   │    dividend = UNDEF
+   │    divisor = UNDEF
+   └─ OUT:
+        diff = NAC
+        dividend = UNDEF
+        divisor = UNDEF
+        prod = NAC
+        quot = NAC

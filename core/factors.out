@@ -1,0 +1,122 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: ifno
+   ┌─ IN:
+   │    fac = NAC
+   │    ispos = NAC
+   │    iszero = NAC
+   │    mod = NAC
+   │    num = NAC
+   │    one = 1
+   │    quo = NAC
+   │    tmp = NAC
+   │    zer = 0
+   └─ OUT:
+        fac = NAC
+        ispos = NAC
+        iszero = NAC
+        mod = NAC
+        num = NAC
+        one = 1
+        quo = NAC
+        tmp = NAC
+        zer = 0
+
+ Block: ifyes
+   ┌─ IN:
+   │    fac = NAC
+   │    ispos = NAC
+   │    iszero = NAC
+   │    mod = NAC
+   │    num = NAC
+   │    one = 1
+   │    quo = NAC
+   │    tmp = NAC
+   │    zer = 0
+   └─ OUT:
+        fac = NAC
+        ispos = NAC
+        iszero = NAC
+        mod = NAC
+        num = NAC
+        one = 1
+        quo = NAC
+        tmp = NAC
+        zer = 0
+
+ Block: loopbody
+   ┌─ IN:
+   │    fac = NAC
+   │    ispos = NAC
+   │    iszero = NAC
+   │    mod = NAC
+   │    num = NAC
+   │    one = 1
+   │    quo = NAC
+   │    tmp = NAC
+   │    zer = 0
+   └─ OUT:
+        fac = NAC
+        ispos = NAC
+        iszero = NAC
+        mod = NAC
+        num = NAC
+        one = 1
+        quo = NAC
+        tmp = NAC
+        zer = 0
+
+ Block: loopcheck
+   ┌─ IN:
+   │    fac = NAC
+   │    ispos = NAC
+   │    iszero = NAC
+   │    mod = NAC
+   │    num = NAC
+   │    one = 1
+   │    quo = NAC
+   │    tmp = NAC
+   │    zer = 0
+   └─ OUT:
+        fac = NAC
+        ispos = NAC
+        iszero = NAC
+        mod = NAC
+        num = NAC
+        one = 1
+        quo = NAC
+        tmp = NAC
+        zer = 0
+
+ Block: loopend
+   ┌─ IN:
+   │    fac = NAC
+   │    ispos = NAC
+   │    iszero = NAC
+   │    mod = NAC
+   │    num = NAC
+   │    one = 1
+   │    quo = NAC
+   │    tmp = NAC
+   │    zer = 0
+   └─ OUT:
+        fac = NAC
+        ispos = NAC
+        iszero = NAC
+        mod = NAC
+        num = NAC
+        one = 1
+        quo = NAC
+        tmp = NAC
+        zer = 0
+
+ Block: zer
+   ┌─ IN:
+   │    num = UNDEF
+   └─ OUT:
+        fac = 2
+        num = UNDEF
+        one = 1
+        zer = 0

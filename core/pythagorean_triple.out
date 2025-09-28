@@ -1,0 +1,156 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: finish
+   ┌─ IN:
+   │    a = NAC
+   │    a_sq = NAC
+   │    b = NAC
+   │    b_sq = NAC
+   │    done = NAC
+   │    found = NAC
+   │    n = UNDEF
+   │    n_sq = NAC
+   │    one = 1
+   │    sum = NAC
+   └─ OUT:
+        a = NAC
+        a_sq = NAC
+        b = NAC
+        b_sq = NAC
+        done = NAC
+        found = NAC
+        n = UNDEF
+        n_sq = NAC
+        one = 1
+        sum = NAC
+
+ Block: found
+   ┌─ IN:
+   │    a = NAC
+   │    a_sq = NAC
+   │    b = NAC
+   │    b_sq = NAC
+   │    done = NAC
+   │    found = NAC
+   │    n = UNDEF
+   │    n_sq = NAC
+   │    one = 1
+   │    sum = NAC
+   └─ OUT:
+        a = NAC
+        a_sq = NAC
+        b = NAC
+        b_sq = NAC
+        done = NAC
+        found = NAC
+        n = UNDEF
+        n_sq = NAC
+        one = 1
+        sum = NAC
+
+ Block: inner_continue
+   ┌─ IN:
+   │    a = NAC
+   │    a_sq = NAC
+   │    b = NAC
+   │    b_sq = NAC
+   │    done = NAC
+   │    found = NAC
+   │    n = UNDEF
+   │    n_sq = NAC
+   │    one = 1
+   │    sum = NAC
+   └─ OUT:
+        a = NAC
+        a_sq = NAC
+        b = NAC
+        b_sq = NAC
+        done = NAC
+        found = NAC
+        n = UNDEF
+        n_sq = NAC
+        one = 1
+        sum = NAC
+
+ Block: inner_loop
+   ┌─ IN:
+   │    a = NAC
+   │    a_sq = NAC
+   │    b = NAC
+   │    b_sq = NAC
+   │    done = NAC
+   │    found = NAC
+   │    n = UNDEF
+   │    n_sq = NAC
+   │    one = 1
+   │    sum = NAC
+   └─ OUT:
+        a = NAC
+        a_sq = NAC
+        b = NAC
+        b_sq = NAC
+        done = NAC
+        found = NAC
+        n = UNDEF
+        n_sq = NAC
+        one = 1
+        sum = NAC
+
+ Block: one
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        a = 1
+        n = UNDEF
+        n_sq = NAC
+        one = 1
+
+ Block: outer_continue
+   ┌─ IN:
+   │    a = NAC
+   │    a_sq = NAC
+   │    b = NAC
+   │    b_sq = NAC
+   │    done = NAC
+   │    found = NAC
+   │    n = UNDEF
+   │    n_sq = NAC
+   │    one = 1
+   │    sum = NAC
+   └─ OUT:
+        a = NAC
+        a_sq = NAC
+        b = NAC
+        b_sq = NAC
+        done = NAC
+        found = NAC
+        n = UNDEF
+        n_sq = NAC
+        one = 1
+        sum = NAC
+
+ Block: outer_loop
+   ┌─ IN:
+   │    a = NAC
+   │    a_sq = NAC
+   │    b = NAC
+   │    b_sq = NAC
+   │    done = NAC
+   │    found = NAC
+   │    n = UNDEF
+   │    n_sq = NAC
+   │    one = 1
+   │    sum = NAC
+   └─ OUT:
+        a = NAC
+        a_sq = NAC
+        b = 1
+        b_sq = NAC
+        done = NAC
+        found = NAC
+        n = UNDEF
+        n_sq = NAC
+        one = 1
+        sum = NAC

@@ -1,0 +1,75 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: body
+   ┌─ IN:
+   │    bit = NAC
+   │    cond = NAC
+   │    input = NAC
+   │    sum = NAC
+   │    two = 2
+   │    zero = 0
+   └─ OUT:
+        bit = NAC
+        cond = NAC
+        input = NAC
+        sum = NAC
+        two = 2
+        zero = 0
+
+ Block: done
+   ┌─ IN:
+   │    bit = NAC
+   │    cond = NAC
+   │    input = NAC
+   │    sum = NAC
+   │    two = 2
+   │    zero = 0
+   └─ OUT:
+        bit = NAC
+        cond = NAC
+        input = NAC
+        sum = NAC
+        two = 2
+        zero = 0
+
+ Block: loop
+   ┌─ IN:
+   │    bit = NAC
+   │    cond = NAC
+   │    input = NAC
+   │    sum = NAC
+   │    two = 2
+   │    zero = 0
+   └─ OUT:
+        bit = NAC
+        cond = NAC
+        input = NAC
+        sum = NAC
+        two = 2
+        zero = 0
+
+ Block: sum
+   ┌─ IN:
+   │    input = UNDEF
+   └─ OUT:
+        input = UNDEF
+        sum = 0
+        two = 2
+        zero = 0
+
+DataFlow ConstProp analysis for function 'mod'
+---------------------------------------------
+
+ Block: quotient
+   ┌─ IN:
+   │    dividend = UNDEF
+   │    divisor = UNDEF
+   └─ OUT:
+        diff = NAC
+        dividend = UNDEF
+        divisor = UNDEF
+        prod = NAC
+        quotient = NAC
+        two = 2

@@ -1,0 +1,388 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: for.body
+   ┌─ IN:
+   │    check = NAC
+   │    d = NAC
+   │    in = UNDEF
+   │    index = NAC
+   │    not_finished = NAC
+   │    one = 1
+   │    power = NAC
+   │    ten = 10
+   │    zero = 0
+   └─ OUT:
+        check = NAC
+        d = NAC
+        in = UNDEF
+        index = NAC
+        not_finished = NAC
+        one = 1
+        power = NAC
+        ten = 10
+        zero = 0
+
+ Block: for.cond
+   ┌─ IN:
+   │    check = NAC
+   │    d = NAC
+   │    in = UNDEF
+   │    index = NAC
+   │    not_finished = NAC
+   │    one = 1
+   │    power = NAC
+   │    ten = 10
+   │    zero = 0
+   └─ OUT:
+        check = NAC
+        d = NAC
+        in = UNDEF
+        index = NAC
+        not_finished = NAC
+        one = 1
+        power = NAC
+        ten = 10
+        zero = 0
+
+ Block: for.end
+   ┌─ IN:
+   │    check = NAC
+   │    d = NAC
+   │    in = UNDEF
+   │    index = NAC
+   │    not_finished = NAC
+   │    one = 1
+   │    power = NAC
+   │    ten = 10
+   │    zero = 0
+   └─ OUT:
+        check = NAC
+        d = NAC
+        exp = NAC
+        in = UNDEF
+        index = NAC
+        is_palindrome = NAC
+        not_finished = NAC
+        one = 1
+        power = NAC
+        ten = 10
+        zero = 0
+
+ Block: if.false
+   ┌─ IN:
+   │    check = NAC
+   │    d = NAC
+   │    in = UNDEF
+   │    index = NAC
+   │    not_finished = NAC
+   │    one = 1
+   │    power = NAC
+   │    ten = 10
+   │    zero = 0
+   └─ OUT:
+        check = NAC
+        d = NAC
+        in = UNDEF
+        index = NAC
+        not_finished = NAC
+        one = 1
+        power = NAC
+        ten = 10
+        zero = 0
+
+ Block: if.true
+   ┌─ IN:
+   │    check = NAC
+   │    d = NAC
+   │    in = UNDEF
+   │    index = NAC
+   │    not_finished = NAC
+   │    one = 1
+   │    power = NAC
+   │    ten = 10
+   │    zero = 0
+   └─ OUT:
+        check = NAC
+        d = NAC
+        in = UNDEF
+        index = NAC
+        not_finished = NAC
+        one = 1
+        power = NAC
+        ten = 10
+        zero = 0
+
+ Block: ten
+   ┌─ IN:
+   │    in = UNDEF
+   └─ OUT:
+        in = UNDEF
+        index = 1
+        not_finished = NAC
+        one = 1
+        ten = 10
+        zero = 0
+
+DataFlow ConstProp analysis for function 'pow'
+---------------------------------------------
+
+ Block: for.body.pow
+   ┌─ IN:
+   │    base = UNDEF
+   │    exp = NAC
+   │    finished = NAC
+   │    not_finished = NAC
+   │    one = 1
+   │    res = NAC
+   │    zero = 0
+   └─ OUT:
+        base = UNDEF
+        exp = NAC
+        finished = NAC
+        not_finished = NAC
+        one = 1
+        res = NAC
+        zero = 0
+
+ Block: for.cond.pow
+   ┌─ IN:
+   │    base = UNDEF
+   │    exp = NAC
+   │    finished = NAC
+   │    not_finished = NAC
+   │    one = 1
+   │    res = NAC
+   │    zero = 0
+   └─ OUT:
+        base = UNDEF
+        exp = NAC
+        finished = NAC
+        not_finished = NAC
+        one = 1
+        res = NAC
+        zero = 0
+
+ Block: for.end.pow
+   ┌─ IN:
+   │    base = UNDEF
+   │    exp = NAC
+   │    finished = NAC
+   │    not_finished = NAC
+   │    one = 1
+   │    res = NAC
+   │    zero = 0
+   └─ OUT:
+        base = UNDEF
+        exp = NAC
+        finished = NAC
+        not_finished = NAC
+        one = 1
+        res = NAC
+        zero = 0
+
+ Block: if.false.pow
+   ┌─ IN:
+   │    base = UNDEF
+   │    exp = NAC
+   │    finished = NAC
+   │    not_finished = NAC
+   │    one = 1
+   │    res = NAC
+   │    zero = 0
+   └─ OUT:
+        base = UNDEF
+        exp = NAC
+        finished = NAC
+        not_finished = NAC
+        one = 1
+        res = NAC
+        zero = 0
+
+ Block: if.true.pow
+   ┌─ IN:
+   │    base = UNDEF
+   │    exp = NAC
+   │    finished = NAC
+   │    not_finished = NAC
+   │    one = 1
+   │    res = NAC
+   │    zero = 0
+   └─ OUT:
+        base = UNDEF
+        exp = NAC
+        finished = NAC
+        not_finished = NAC
+        one = 1
+        res = NAC
+        zero = 0
+
+ Block: res
+   ┌─ IN:
+   │    base = UNDEF
+   │    exp = UNDEF
+   └─ OUT:
+        base = UNDEF
+        exp = UNDEF
+        not_finished = NAC
+        one = 1
+        res = 1
+        zero = 0
+
+DataFlow ConstProp analysis for function 'palindrome'
+---------------------------------------------
+
+ Block: if.end.palindrome
+   ┌─ IN:
+   │    check = NAC
+   │    in = UNDEF
+   │    is_equal = NAC
+   │    is_palindrome = NAC
+   │    left = NAC
+   │    len = UNDEF
+   │    next_in = NAC
+   │    next_len = NAC
+   │    power = NAC
+   │    right = NAC
+   │    temp = NAC
+   │    ten = 10
+   │    two = 2
+   │    v1 = NAC
+   │    v2 = NAC
+   │    zero = 0
+   └─ OUT:
+        check = NAC
+        in = UNDEF
+        is_equal = NAC
+        is_palindrome = NAC
+        left = NAC
+        len = UNDEF
+        next_in = NAC
+        next_len = NAC
+        power = NAC
+        right = NAC
+        temp = NAC
+        ten = 10
+        two = 2
+        v1 = NAC
+        v2 = NAC
+        zero = 0
+
+ Block: if.false.mirror
+   ┌─ IN:
+   │    check = NAC
+   │    in = UNDEF
+   │    is_equal = NAC
+   │    is_palindrome = NAC
+   │    left = NAC
+   │    len = UNDEF
+   │    power = NAC
+   │    right = NAC
+   │    ten = 10
+   │    two = 2
+   │    v1 = NAC
+   │    v2 = NAC
+   │    zero = 0
+   └─ OUT:
+        check = NAC
+        in = UNDEF
+        is_equal = NAC
+        is_palindrome = NAC
+        left = NAC
+        len = UNDEF
+        power = NAC
+        right = NAC
+        ten = 10
+        two = 2
+        v1 = NAC
+        v2 = NAC
+        zero = 0
+
+ Block: if.false.palindrome
+   ┌─ IN:
+   │    check = NAC
+   │    in = UNDEF
+   │    is_palindrome = NAC
+   │    len = UNDEF
+   │    ten = 10
+   │    two = 2
+   │    zero = 0
+   └─ OUT:
+        check = NAC
+        in = UNDEF
+        is_equal = NAC
+        is_palindrome = NAC
+        left = NAC
+        len = UNDEF
+        power = NAC
+        right = NAC
+        ten = 10
+        two = 2
+        v1 = NAC
+        v2 = NAC
+        zero = 0
+
+ Block: if.true.mirror
+   ┌─ IN:
+   │    check = NAC
+   │    in = UNDEF
+   │    is_equal = NAC
+   │    is_palindrome = NAC
+   │    left = NAC
+   │    len = UNDEF
+   │    power = NAC
+   │    right = NAC
+   │    ten = 10
+   │    two = 2
+   │    v1 = NAC
+   │    v2 = NAC
+   │    zero = 0
+   └─ OUT:
+        check = NAC
+        in = UNDEF
+        is_equal = NAC
+        is_palindrome = NAC
+        left = NAC
+        len = UNDEF
+        next_in = NAC
+        next_len = NAC
+        power = NAC
+        right = NAC
+        temp = NAC
+        ten = 10
+        two = 2
+        v1 = NAC
+        v2 = NAC
+        zero = 0
+
+ Block: if.true.palindrome
+   ┌─ IN:
+   │    check = NAC
+   │    in = UNDEF
+   │    is_palindrome = NAC
+   │    len = UNDEF
+   │    ten = 10
+   │    two = 2
+   │    zero = 0
+   └─ OUT:
+        check = NAC
+        in = UNDEF
+        is_palindrome = NAC
+        len = UNDEF
+        ten = 10
+        two = 2
+        zero = 0
+
+ Block: is_palindrome
+   ┌─ IN:
+   │    in = UNDEF
+   │    len = UNDEF
+   └─ OUT:
+        check = NAC
+        in = UNDEF
+        is_palindrome = NAC
+        len = UNDEF
+        ten = 10
+        two = 2
+        zero = 0

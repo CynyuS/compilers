@@ -1,0 +1,575 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: add_dp
+   ┌─ IN:
+   │    a = UNDEF
+   │    a_bit = NAC
+   │    a_bit_b_bit = NAC
+   │    b = UNDEF
+   │    b_bit = NAC
+   │    dim1 = UNDEF
+   │    dim2 = UNDEF
+   │    dim3 = UNDEF
+   │    dot_product = NAC
+   │    dot_product_odd = NAC
+   │    dp_bit = NAC
+   │    i = NAC
+   │    i_lt_dim1 = NAC
+   │    index = NAC
+   │    j = NAC
+   │    j_lt_dim3 = NAC
+   │    k = NAC
+   │    k_lt_dim2 = NAC
+   │    one = 1
+   │    output = NAC
+   └─ OUT:
+        a = UNDEF
+        a_bit = NAC
+        a_bit_b_bit = NAC
+        b = UNDEF
+        b_bit = NAC
+        dim1 = UNDEF
+        dim2 = UNDEF
+        dim3 = UNDEF
+        dot_product = NAC
+        dot_product_odd = NAC
+        dp_bit = NAC
+        i = NAC
+        i_lt_dim1 = NAC
+        index = NAC
+        j = NAC
+        j_lt_dim3 = NAC
+        k = NAC
+        k_lt_dim2 = NAC
+        one = 1
+        output = NAC
+
+ Block: col_loop
+   ┌─ IN:
+   │    a = UNDEF
+   │    a_bit = NAC
+   │    a_bit_b_bit = NAC
+   │    b = UNDEF
+   │    b_bit = NAC
+   │    dim1 = UNDEF
+   │    dim2 = UNDEF
+   │    dim3 = UNDEF
+   │    dot_product = NAC
+   │    dot_product_odd = NAC
+   │    dp_bit = NAC
+   │    i = NAC
+   │    i_lt_dim1 = NAC
+   │    index = NAC
+   │    j = NAC
+   │    j_lt_dim3 = NAC
+   │    k = NAC
+   │    k_lt_dim2 = NAC
+   │    one = 1
+   │    output = NAC
+   └─ OUT:
+        a = UNDEF
+        a_bit = NAC
+        a_bit_b_bit = NAC
+        b = UNDEF
+        b_bit = NAC
+        dim1 = UNDEF
+        dim2 = UNDEF
+        dim3 = UNDEF
+        dot_product = 0
+        dot_product_odd = NAC
+        dp_bit = NAC
+        i = NAC
+        i_lt_dim1 = NAC
+        index = NAC
+        j = NAC
+        j_lt_dim3 = NAC
+        k = -1
+        k_lt_dim2 = NAC
+        one = 1
+        output = NAC
+
+ Block: end_col
+   ┌─ IN:
+   │    a = UNDEF
+   │    a_bit = NAC
+   │    a_bit_b_bit = NAC
+   │    b = UNDEF
+   │    b_bit = NAC
+   │    dim1 = UNDEF
+   │    dim2 = UNDEF
+   │    dim3 = UNDEF
+   │    dot_product = NAC
+   │    dot_product_odd = NAC
+   │    dp_bit = NAC
+   │    i = NAC
+   │    i_lt_dim1 = NAC
+   │    index = NAC
+   │    j = NAC
+   │    j_lt_dim3 = NAC
+   │    k = NAC
+   │    k_lt_dim2 = NAC
+   │    one = 1
+   │    output = NAC
+   └─ OUT:
+        a = UNDEF
+        a_bit = NAC
+        a_bit_b_bit = NAC
+        b = UNDEF
+        b_bit = NAC
+        dim1 = UNDEF
+        dim2 = UNDEF
+        dim3 = UNDEF
+        dot_product = NAC
+        dot_product_odd = NAC
+        dp_bit = NAC
+        i = NAC
+        i_lt_dim1 = NAC
+        index = NAC
+        j = NAC
+        j_lt_dim3 = NAC
+        k = NAC
+        k_lt_dim2 = NAC
+        one = 1
+        output = NAC
+
+ Block: inner_loop
+   ┌─ IN:
+   │    a = UNDEF
+   │    a_bit = NAC
+   │    a_bit_b_bit = NAC
+   │    b = UNDEF
+   │    b_bit = NAC
+   │    dim1 = UNDEF
+   │    dim2 = UNDEF
+   │    dim3 = UNDEF
+   │    dot_product = NAC
+   │    dot_product_odd = NAC
+   │    dp_bit = NAC
+   │    i = NAC
+   │    i_lt_dim1 = NAC
+   │    index = NAC
+   │    j = NAC
+   │    j_lt_dim3 = NAC
+   │    k = NAC
+   │    k_lt_dim2 = NAC
+   │    one = 1
+   │    output = NAC
+   └─ OUT:
+        a = UNDEF
+        a_bit = NAC
+        a_bit_b_bit = NAC
+        b = UNDEF
+        b_bit = NAC
+        dim1 = UNDEF
+        dim2 = UNDEF
+        dim3 = UNDEF
+        dot_product = NAC
+        dot_product_odd = NAC
+        dp_bit = NAC
+        i = NAC
+        i_lt_dim1 = NAC
+        index = NAC
+        j = NAC
+        j_lt_dim3 = NAC
+        k = NAC
+        k_lt_dim2 = NAC
+        one = 1
+        output = NAC
+
+ Block: multiply
+   ┌─ IN:
+   │    a = UNDEF
+   │    a_bit = NAC
+   │    a_bit_b_bit = NAC
+   │    b = UNDEF
+   │    b_bit = NAC
+   │    dim1 = UNDEF
+   │    dim2 = UNDEF
+   │    dim3 = UNDEF
+   │    dot_product = NAC
+   │    dot_product_odd = NAC
+   │    dp_bit = NAC
+   │    i = NAC
+   │    i_lt_dim1 = NAC
+   │    index = NAC
+   │    j = NAC
+   │    j_lt_dim3 = NAC
+   │    k = NAC
+   │    k_lt_dim2 = NAC
+   │    one = 1
+   │    output = NAC
+   └─ OUT:
+        a = UNDEF
+        a_bit = NAC
+        a_bit_b_bit = NAC
+        b = UNDEF
+        b_bit = NAC
+        dim1 = UNDEF
+        dim2 = UNDEF
+        dim3 = UNDEF
+        dot_product = NAC
+        dot_product_odd = NAC
+        dp_bit = NAC
+        i = NAC
+        i_lt_dim1 = NAC
+        index = NAC
+        j = NAC
+        j_lt_dim3 = NAC
+        k = NAC
+        k_lt_dim2 = NAC
+        one = 1
+        output = NAC
+
+ Block: one
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   │    dim1 = UNDEF
+   │    dim2 = UNDEF
+   │    dim3 = UNDEF
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        dim1 = UNDEF
+        dim2 = UNDEF
+        dim3 = UNDEF
+        i = -1
+        one = 1
+        output = 0
+
+ Block: return
+   ┌─ IN:
+   │    a = UNDEF
+   │    a_bit = NAC
+   │    a_bit_b_bit = NAC
+   │    b = UNDEF
+   │    b_bit = NAC
+   │    dim1 = UNDEF
+   │    dim2 = UNDEF
+   │    dim3 = UNDEF
+   │    dot_product = 0
+   │    dot_product_odd = NAC
+   │    dp_bit = NAC
+   │    i = NAC
+   │    i_lt_dim1 = NAC
+   │    index = NAC
+   │    j = -1
+   │    j_lt_dim3 = NAC
+   │    k = -1
+   │    k_lt_dim2 = NAC
+   │    one = 1
+   │    output = NAC
+   └─ OUT:
+        a = UNDEF
+        a_bit = NAC
+        a_bit_b_bit = NAC
+        b = UNDEF
+        b_bit = NAC
+        dim1 = UNDEF
+        dim2 = UNDEF
+        dim3 = UNDEF
+        dot_product = 0
+        dot_product_odd = NAC
+        dp_bit = NAC
+        i = NAC
+        i_lt_dim1 = NAC
+        index = NAC
+        j = -1
+        j_lt_dim3 = NAC
+        k = -1
+        k_lt_dim2 = NAC
+        one = 1
+        output = NAC
+
+ Block: row_loop
+   ┌─ IN:
+   │    a = UNDEF
+   │    a_bit = NAC
+   │    a_bit_b_bit = NAC
+   │    b = UNDEF
+   │    b_bit = NAC
+   │    dim1 = UNDEF
+   │    dim2 = UNDEF
+   │    dim3 = UNDEF
+   │    dot_product = 0
+   │    dot_product_odd = NAC
+   │    dp_bit = NAC
+   │    i = NAC
+   │    i_lt_dim1 = NAC
+   │    index = NAC
+   │    j = NAC
+   │    j_lt_dim3 = NAC
+   │    k = -1
+   │    k_lt_dim2 = NAC
+   │    one = 1
+   │    output = NAC
+   └─ OUT:
+        a = UNDEF
+        a_bit = NAC
+        a_bit_b_bit = NAC
+        b = UNDEF
+        b_bit = NAC
+        dim1 = UNDEF
+        dim2 = UNDEF
+        dim3 = UNDEF
+        dot_product = 0
+        dot_product_odd = NAC
+        dp_bit = NAC
+        i = NAC
+        i_lt_dim1 = NAC
+        index = NAC
+        j = -1
+        j_lt_dim3 = NAC
+        k = -1
+        k_lt_dim2 = NAC
+        one = 1
+        output = NAC
+
+DataFlow ConstProp analysis for function 'mat_bitsel'
+---------------------------------------------
+
+ Block: index
+   ┌─ IN:
+   │    cols = UNDEF
+   │    i = UNDEF
+   │    j = UNDEF
+   │    m = UNDEF
+   └─ OUT:
+        cols = UNDEF
+        i = UNDEF
+        index = NAC
+        j = UNDEF
+        m = UNDEF
+        ret_val = NAC
+
+ Block: ret_one
+   ┌─ IN:
+   │    cols = UNDEF
+   │    i = UNDEF
+   │    index = NAC
+   │    j = UNDEF
+   │    m = UNDEF
+   │    ret_val = NAC
+   └─ OUT:
+        cols = UNDEF
+        i = UNDEF
+        index = NAC
+        j = UNDEF
+        m = UNDEF
+        one = 1
+        ret_val = NAC
+
+ Block: ret_zero
+   ┌─ IN:
+   │    cols = UNDEF
+   │    i = UNDEF
+   │    index = NAC
+   │    j = UNDEF
+   │    m = UNDEF
+   │    ret_val = NAC
+   └─ OUT:
+        cols = UNDEF
+        i = UNDEF
+        index = NAC
+        j = UNDEF
+        m = UNDEF
+        ret_val = NAC
+        zero = 0
+
+DataFlow ConstProp analysis for function 'mat_packed_index'
+---------------------------------------------
+
+ Block: index
+   ┌─ IN:
+   │    cols = UNDEF
+   │    i = UNDEF
+   │    j = UNDEF
+   └─ OUT:
+        cols = UNDEF
+        i = UNDEF
+        index = NAC
+        j = UNDEF
+
+DataFlow ConstProp analysis for function 'pow2'
+---------------------------------------------
+
+ Block: loop
+   ┌─ IN:
+   │    i = NAC
+   │    i_lt_n = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    result = NAC
+   │    two = 2
+   └─ OUT:
+        i = NAC
+        i_lt_n = NAC
+        n = UNDEF
+        one = 1
+        result = NAC
+        two = 2
+
+ Block: multiply
+   ┌─ IN:
+   │    i = NAC
+   │    i_lt_n = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    result = NAC
+   │    two = 2
+   └─ OUT:
+        i = NAC
+        i_lt_n = NAC
+        n = UNDEF
+        one = 1
+        result = NAC
+        two = 2
+
+ Block: one
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        i = 0
+        n = UNDEF
+        one = 1
+        result = 1
+        two = 2
+
+ Block: return
+   ┌─ IN:
+   │    i = NAC
+   │    i_lt_n = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    result = NAC
+   │    two = 2
+   └─ OUT:
+        i = NAC
+        i_lt_n = NAC
+        n = UNDEF
+        one = 1
+        result = NAC
+        two = 2
+
+DataFlow ConstProp analysis for function 'bitsel'
+---------------------------------------------
+
+ Block: divide
+   ┌─ IN:
+   │    i = NAC
+   │    i_eq_zero = NAC
+   │    m = NAC
+   │    one = 1
+   │    two = 2
+   │    zero = 0
+   └─ OUT:
+        i = NAC
+        i_eq_zero = NAC
+        m = NAC
+        one = 1
+        two = 2
+        zero = 0
+
+ Block: loop
+   ┌─ IN:
+   │    i = NAC
+   │    i_eq_zero = NAC
+   │    m = NAC
+   │    one = 1
+   │    two = 2
+   │    zero = 0
+   └─ OUT:
+        i = NAC
+        i_eq_zero = NAC
+        m = NAC
+        one = 1
+        two = 2
+        zero = 0
+
+ Block: return
+   ┌─ IN:
+   │    i = NAC
+   │    i_eq_zero = NAC
+   │    m = NAC
+   │    one = 1
+   │    two = 2
+   │    zero = 0
+   └─ OUT:
+        i = NAC
+        i_eq_zero = NAC
+        m = NAC
+        m_bit = NAC
+        one = 1
+        two = 2
+        zero = 0
+
+ Block: zero
+   ┌─ IN:
+   │    i = UNDEF
+   │    m = UNDEF
+   └─ OUT:
+        i = UNDEF
+        m = UNDEF
+        one = 1
+        two = 2
+        zero = 0
+
+DataFlow ConstProp analysis for function 'abs'
+---------------------------------------------
+
+ Block: negative
+   ┌─ IN:
+   │    is_neg = NAC
+   │    n = UNDEF
+   │    zero = 0
+   └─ OUT:
+        is_neg = NAC
+        n = NAC
+        zero = 0
+
+ Block: positive
+   ┌─ IN:
+   │    is_neg = NAC
+   │    n = NAC
+   │    zero = 0
+   └─ OUT:
+        is_neg = NAC
+        n = NAC
+        zero = 0
+
+ Block: zero
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        is_neg = NAC
+        n = UNDEF
+        zero = 0
+
+DataFlow ConstProp analysis for function 'is_even'
+---------------------------------------------
+
+ Block: n0
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        half = NAC
+        n = UNDEF
+        n0 = NAC
+        np1 = NAC
+        np1_half = NAC
+        one = 1
+        ret_val = NAC
+        two = 2
+
+DataFlow ConstProp analysis for function 'is_odd'
+---------------------------------------------
+
+ Block: is_even
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        is_even = NAC
+        n = UNDEF
+        ret_val = NAC

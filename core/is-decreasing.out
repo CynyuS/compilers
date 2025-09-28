@@ -1,0 +1,227 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: tmp0
+   ┌─ IN:
+   │    x = UNDEF
+   └─ OUT:
+        tmp = NAC
+        tmp0 = NAC
+        x = UNDEF
+
+DataFlow ConstProp analysis for function 'is_decreasing'
+---------------------------------------------
+
+ Block: jmp
+   ┌─ IN:
+   │    ∅
+   └─ OUT:
+        ∅
+
+ Block: label11
+   ┌─ IN:
+   │    digit = NAC
+   │    prev = NAC
+   │    tmp = NAC
+   │    tmp1 = 1
+   │    tmp10 = NAC
+   │    tmp15 = 10
+   │    tmp16 = NAC
+   │    tmp2 = -1
+   │    tmp3 = -1
+   │    tmp7 = 0
+   │    tmp8 = NAC
+   │    tmp9 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        digit = NAC
+        prev = NAC
+        tmp = NAC
+        tmp1 = 1
+        tmp10 = NAC
+        tmp14 = NAC
+        tmp15 = 10
+        tmp16 = NAC
+        tmp2 = -1
+        tmp3 = -1
+        tmp7 = 0
+        tmp8 = NAC
+        tmp9 = NAC
+        x = UNDEF
+
+ Block: label12
+   ┌─ IN:
+   │    digit = NAC
+   │    prev = NAC
+   │    tmp = NAC
+   │    tmp1 = 1
+   │    tmp10 = NAC
+   │    tmp15 = 10
+   │    tmp16 = NAC
+   │    tmp2 = -1
+   │    tmp3 = -1
+   │    tmp7 = 0
+   │    tmp8 = NAC
+   │    tmp9 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        digit = NAC
+        prev = NAC
+        tmp = NAC
+        tmp1 = 1
+        tmp10 = NAC
+        tmp15 = 10
+        tmp16 = NAC
+        tmp2 = -1
+        tmp3 = -1
+        tmp7 = 0
+        tmp8 = NAC
+        tmp9 = NAC
+        x = UNDEF
+
+ Block: label13
+   ┌─ IN:
+   │    digit = NAC
+   │    prev = NAC
+   │    tmp = NAC
+   │    tmp1 = 1
+   │    tmp10 = NAC
+   │    tmp15 = 10
+   │    tmp16 = NAC
+   │    tmp2 = -1
+   │    tmp3 = -1
+   │    tmp7 = 0
+   │    tmp8 = NAC
+   │    tmp9 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        digit = NAC
+        prev = NAC
+        tmp = NAC
+        tmp1 = 1
+        tmp10 = NAC
+        tmp15 = 10
+        tmp16 = NAC
+        tmp2 = -1
+        tmp3 = -1
+        tmp7 = 0
+        tmp8 = NAC
+        tmp9 = NAC
+        x = UNDEF
+
+ Block: label4
+   ┌─ IN:
+   │    digit = NAC
+   │    prev = NAC
+   │    tmp = NAC
+   │    tmp1 = 1
+   │    tmp10 = NAC
+   │    tmp15 = 10
+   │    tmp16 = NAC
+   │    tmp2 = -1
+   │    tmp3 = -1
+   │    tmp7 = 0
+   │    tmp8 = NAC
+   │    tmp9 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        digit = NAC
+        prev = NAC
+        tmp = NAC
+        tmp1 = 1
+        tmp10 = NAC
+        tmp15 = 10
+        tmp16 = NAC
+        tmp2 = -1
+        tmp3 = -1
+        tmp7 = 0
+        tmp8 = NAC
+        tmp9 = NAC
+        x = UNDEF
+
+ Block: label5
+   ┌─ IN:
+   │    digit = NAC
+   │    prev = NAC
+   │    tmp = NAC
+   │    tmp1 = 1
+   │    tmp10 = NAC
+   │    tmp15 = 10
+   │    tmp16 = NAC
+   │    tmp2 = -1
+   │    tmp3 = -1
+   │    tmp7 = 0
+   │    tmp8 = NAC
+   │    tmp9 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        digit = NAC
+        prev = NAC
+        tmp = NAC
+        tmp1 = 1
+        tmp10 = NAC
+        tmp15 = 10
+        tmp16 = NAC
+        tmp2 = -1
+        tmp3 = -1
+        tmp7 = 0
+        tmp8 = NAC
+        tmp9 = NAC
+        x = UNDEF
+
+ Block: label6
+   ┌─ IN:
+   │    digit = NAC
+   │    prev = NAC
+   │    tmp = NAC
+   │    tmp1 = 1
+   │    tmp10 = NAC
+   │    tmp15 = 10
+   │    tmp16 = NAC
+   │    tmp2 = -1
+   │    tmp3 = -1
+   │    tmp7 = 0
+   │    tmp8 = NAC
+   │    tmp9 = NAC
+   │    x = UNDEF
+   └─ OUT:
+        digit = NAC
+        prev = NAC
+        tmp = NAC
+        tmp1 = 1
+        tmp10 = NAC
+        tmp15 = 10
+        tmp16 = NAC
+        tmp17 = NAC
+        tmp2 = -1
+        tmp3 = -1
+        tmp7 = 0
+        tmp8 = NAC
+        tmp9 = NAC
+        x = UNDEF
+
+ Block: tmp
+   ┌─ IN:
+   │    x = UNDEF
+   └─ OUT:
+        prev = -1
+        tmp = UNDEF
+        tmp1 = 1
+        tmp2 = -1
+        tmp3 = -1
+        x = UNDEF
+
+DataFlow ConstProp analysis for function 'last_digit'
+---------------------------------------------
+
+ Block: tmp18
+   ┌─ IN:
+   │    x = UNDEF
+   └─ OUT:
+        tmp18 = 10
+        tmp19 = NAC
+        tmp20 = 10
+        tmp21 = NAC
+        tmp22 = NAC
+        x = UNDEF

@@ -1,0 +1,131 @@
+
+DataFlow ConstProp analysis for function 'mod'
+---------------------------------------------
+
+ Block: result
+   ┌─ IN:
+   │    modulus = UNDEF
+   │    n = UNDEF
+   └─ OUT:
+        modulus = UNDEF
+        multiple = NAC
+        n = UNDEF
+        remainder = NAC
+        result = NAC
+
+DataFlow ConstProp analysis for function 'lsb'
+---------------------------------------------
+
+ Block: two
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        bit = NAC
+        n = UNDEF
+        two = 2
+
+DataFlow ConstProp analysis for function 'square'
+---------------------------------------------
+
+ Block: result
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        n = UNDEF
+        result = NAC
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: loop.body
+   ┌─ IN:
+   │    cond = NAC
+   │    end = UNDEF
+   │    least_significant_bit = NAC
+   │    modulus = NAC
+   │    one = 1
+   │    p = UNDEF
+   │    q = UNDEF
+   │    seed = NAC
+   │    sequence_length = UNDEF
+   │    squared = NAC
+   │    start = NAC
+   └─ OUT:
+        cond = NAC
+        end = UNDEF
+        least_significant_bit = NAC
+        modulus = NAC
+        one = 1
+        p = UNDEF
+        q = UNDEF
+        seed = NAC
+        sequence_length = UNDEF
+        squared = NAC
+        start = NAC
+
+ Block: loop.branch
+   ┌─ IN:
+   │    cond = NAC
+   │    end = UNDEF
+   │    least_significant_bit = NAC
+   │    modulus = NAC
+   │    one = 1
+   │    p = UNDEF
+   │    q = UNDEF
+   │    seed = NAC
+   │    sequence_length = UNDEF
+   │    squared = NAC
+   │    start = NAC
+   └─ OUT:
+        cond = NAC
+        end = UNDEF
+        least_significant_bit = NAC
+        modulus = NAC
+        one = 1
+        p = UNDEF
+        q = UNDEF
+        seed = NAC
+        sequence_length = UNDEF
+        squared = NAC
+        start = NAC
+
+ Block: loop.end
+   ┌─ IN:
+   │    cond = NAC
+   │    end = UNDEF
+   │    least_significant_bit = NAC
+   │    modulus = NAC
+   │    one = 1
+   │    p = UNDEF
+   │    q = UNDEF
+   │    seed = NAC
+   │    sequence_length = UNDEF
+   │    squared = NAC
+   │    start = NAC
+   └─ OUT:
+        cond = NAC
+        end = UNDEF
+        least_significant_bit = NAC
+        modulus = NAC
+        one = 1
+        p = UNDEF
+        q = UNDEF
+        seed = NAC
+        sequence_length = UNDEF
+        squared = NAC
+        start = NAC
+
+ Block: modulus
+   ┌─ IN:
+   │    p = UNDEF
+   │    q = UNDEF
+   │    seed = UNDEF
+   │    sequence_length = UNDEF
+   └─ OUT:
+        end = UNDEF
+        modulus = NAC
+        p = UNDEF
+        q = UNDEF
+        seed = UNDEF
+        sequence_length = UNDEF
+        start = 0

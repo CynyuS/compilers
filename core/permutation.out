@@ -1,0 +1,176 @@
+
+DataFlow ConstProp analysis for function 'permutation'
+---------------------------------------------
+
+ Block: else.0
+   ┌─ IN:
+   │    k = UNDEF
+   │    n = UNDEF
+   │    v1 = UNDEF
+   │    v2 = UNDEF
+   │    v3 = NAC
+   └─ OUT:
+        k = UNDEF
+        n = UNDEF
+        v1 = UNDEF
+        v10 = NAC
+        v11 = NAC
+        v2 = UNDEF
+        v3 = NAC
+        v5 = UNDEF
+        v6 = NAC
+        v7 = UNDEF
+        v8 = UNDEF
+        v9 = NAC
+
+ Block: then.0
+   ┌─ IN:
+   │    k = UNDEF
+   │    n = UNDEF
+   │    v1 = UNDEF
+   │    v2 = UNDEF
+   │    v3 = NAC
+   └─ OUT:
+        k = UNDEF
+        n = UNDEF
+        v1 = UNDEF
+        v2 = UNDEF
+        v3 = NAC
+        v4 = 0
+
+ Block: v1
+   ┌─ IN:
+   │    k = UNDEF
+   │    n = UNDEF
+   └─ OUT:
+        k = UNDEF
+        n = UNDEF
+        v1 = UNDEF
+        v2 = UNDEF
+        v3 = NAC
+
+DataFlow ConstProp analysis for function 'factorial'
+---------------------------------------------
+
+ Block: for.body.0
+   ┌─ IN:
+   │    i = NAC
+   │    n = NAC
+   │    v1 = UNDEF
+   │    v10 = NAC
+   │    v11 = 1
+   │    v12 = NAC
+   │    v2 = 1
+   │    v3 = NAC
+   │    v4 = NAC
+   │    v5 = 0
+   │    v6 = NAC
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   └─ OUT:
+        i = NAC
+        n = NAC
+        v1 = UNDEF
+        v10 = NAC
+        v11 = 1
+        v12 = NAC
+        v2 = 1
+        v3 = NAC
+        v4 = NAC
+        v5 = 0
+        v6 = NAC
+        v7 = NAC
+        v8 = NAC
+        v9 = NAC
+
+ Block: for.cond.0
+   ┌─ IN:
+   │    i = NAC
+   │    n = NAC
+   │    v1 = UNDEF
+   │    v10 = NAC
+   │    v11 = 1
+   │    v12 = NAC
+   │    v2 = 1
+   │    v3 = NAC
+   │    v4 = NAC
+   │    v5 = 0
+   │    v6 = NAC
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   └─ OUT:
+        i = NAC
+        n = NAC
+        v1 = UNDEF
+        v10 = NAC
+        v11 = 1
+        v12 = NAC
+        v2 = 1
+        v3 = NAC
+        v4 = NAC
+        v5 = 0
+        v6 = NAC
+        v7 = NAC
+        v8 = NAC
+        v9 = NAC
+
+ Block: for.end.0
+   ┌─ IN:
+   │    i = NAC
+   │    n = NAC
+   │    v1 = UNDEF
+   │    v10 = NAC
+   │    v11 = 1
+   │    v12 = NAC
+   │    v2 = 1
+   │    v3 = NAC
+   │    v4 = NAC
+   │    v5 = 0
+   │    v6 = NAC
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   └─ OUT:
+        i = NAC
+        n = NAC
+        v1 = UNDEF
+        v10 = NAC
+        v11 = 1
+        v12 = NAC
+        v13 = NAC
+        v2 = 1
+        v3 = NAC
+        v4 = NAC
+        v5 = 0
+        v6 = NAC
+        v7 = NAC
+        v8 = NAC
+        v9 = NAC
+
+ Block: v1
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        i = NAC
+        n = UNDEF
+        v1 = UNDEF
+        v2 = 1
+        v3 = NAC
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: v0
+   ┌─ IN:
+   │    k = UNDEF
+   │    n = UNDEF
+   └─ OUT:
+        k = UNDEF
+        n = UNDEF
+        res = NAC
+        v0 = UNDEF
+        v1 = UNDEF
+        v2 = NAC
+        v3 = 0

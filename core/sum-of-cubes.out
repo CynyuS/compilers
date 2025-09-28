@@ -1,0 +1,16 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: v0
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        n = UNDEF
+        v0 = 1
+        v1 = 2
+        v2 = UNDEF
+        v3 = NAC
+        v4 = NAC
+        v5 = NAC
+        v6 = NAC

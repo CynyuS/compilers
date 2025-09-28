@@ -1,0 +1,53 @@
+
+DataFlow ConstProp analysis for function 'mccarthy91'
+---------------------------------------------
+
+ Block: big
+   ┌─ IN:
+   │    big = NAC
+   │    eleven = 11
+   │    hundred = 100
+   │    n = UNDEF
+   │    ten = 10
+   └─ OUT:
+        big = NAC
+        eleven = 11
+        hundred = 100
+        n = UNDEF
+        ten = 10
+        tmp = NAC
+
+ Block: small
+   ┌─ IN:
+   │    big = NAC
+   │    eleven = 11
+   │    hundred = 100
+   │    n = UNDEF
+   │    ten = 10
+   └─ OUT:
+        big = NAC
+        eleven = 11
+        hundred = 100
+        n = UNDEF
+        ten = 10
+        tmp = NAC
+
+ Block: ten
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        big = NAC
+        eleven = 11
+        hundred = 100
+        n = UNDEF
+        ten = 10
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: result
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        n = UNDEF
+        result = NAC

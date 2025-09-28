@@ -1,0 +1,74 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: body
+   ┌─ IN:
+   │    a = UNDEF
+   │    cond = NAC
+   │    i = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    r = UNDEF
+   │    r_n = NAC
+   └─ OUT:
+        a = UNDEF
+        cond = NAC
+        i = NAC
+        n = UNDEF
+        one = 1
+        r = UNDEF
+        r_n = NAC
+
+ Block: done
+   ┌─ IN:
+   │    a = UNDEF
+   │    cond = NAC
+   │    i = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    r = UNDEF
+   │    r_n = NAC
+   └─ OUT:
+        a = UNDEF
+        cond = NAC
+        i = NAC
+        n = UNDEF
+        numerator = NAC
+        one = 1
+        one_minus_r = NAC
+        one_minus_r_n = NAC
+        r = UNDEF
+        r_n = NAC
+        sum = NAC
+
+ Block: loop
+   ┌─ IN:
+   │    a = UNDEF
+   │    cond = NAC
+   │    i = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    r = UNDEF
+   │    r_n = NAC
+   └─ OUT:
+        a = UNDEF
+        cond = NAC
+        i = NAC
+        n = UNDEF
+        one = 1
+        r = UNDEF
+        r_n = NAC
+
+ Block: one
+   ┌─ IN:
+   │    a = UNDEF
+   │    n = UNDEF
+   │    r = UNDEF
+   └─ OUT:
+        a = UNDEF
+        i = 0
+        n = UNDEF
+        one = 1
+        r = UNDEF
+        r_n = 1

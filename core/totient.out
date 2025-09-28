@@ -1,0 +1,322 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: print
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        n = UNDEF
+        tot = NAC
+
+DataFlow ConstProp analysis for function 'totient'
+---------------------------------------------
+
+ Block: else_lbl
+   ┌─ IN:
+   │    cond = NAC
+   │    if_cond = NAC
+   │    n = NAC
+   │    npdiv = NAC
+   │    npmod = NAC
+   │    one = 1
+   │    p = NAC
+   │    pp = NAC
+   │    resdiv = NAC
+   │    result = NAC
+   │    while_cond = NAC
+   │    zero = 0
+   └─ OUT:
+        cond = NAC
+        if_cond = NAC
+        n = NAC
+        npdiv = NAC
+        npmod = NAC
+        one = 1
+        p = NAC
+        pp = NAC
+        resdiv = NAC
+        result = NAC
+        while_cond = NAC
+        zero = 0
+
+ Block: final_else_label
+   ┌─ IN:
+   │    cond = NAC
+   │    final_if_cond = NAC
+   │    if_cond = NAC
+   │    n = NAC
+   │    npdiv = NAC
+   │    npmod = NAC
+   │    one = 1
+   │    p = NAC
+   │    pp = NAC
+   │    resdiv = NAC
+   │    result = NAC
+   │    while_cond = NAC
+   │    zero = 0
+   └─ OUT:
+        cond = NAC
+        final_if_cond = NAC
+        if_cond = NAC
+        n = NAC
+        npdiv = NAC
+        npmod = NAC
+        one = 1
+        p = NAC
+        pp = NAC
+        resdiv = NAC
+        result = NAC
+        while_cond = NAC
+        zero = 0
+
+ Block: final_if_label
+   ┌─ IN:
+   │    cond = NAC
+   │    final_if_cond = NAC
+   │    if_cond = NAC
+   │    n = NAC
+   │    npdiv = NAC
+   │    npmod = NAC
+   │    one = 1
+   │    p = NAC
+   │    pp = NAC
+   │    resdiv = NAC
+   │    result = NAC
+   │    while_cond = NAC
+   │    zero = 0
+   └─ OUT:
+        cond = NAC
+        final_if_cond = NAC
+        if_cond = NAC
+        n = NAC
+        npdiv = NAC
+        npmod = NAC
+        one = 1
+        p = NAC
+        pp = NAC
+        resdiv = NAC
+        result = NAC
+        while_cond = NAC
+        zero = 0
+
+ Block: for.set.body
+   ┌─ IN:
+   │    cond = NAC
+   │    if_cond = NAC
+   │    n = NAC
+   │    npdiv = NAC
+   │    npmod = NAC
+   │    one = 1
+   │    p = NAC
+   │    pp = NAC
+   │    resdiv = NAC
+   │    result = NAC
+   │    while_cond = NAC
+   │    zero = 0
+   └─ OUT:
+        cond = NAC
+        if_cond = NAC
+        n = NAC
+        npdiv = NAC
+        npmod = NAC
+        one = 1
+        p = NAC
+        pp = NAC
+        resdiv = NAC
+        result = NAC
+        while_cond = NAC
+        zero = 0
+
+ Block: for.set.cond
+   ┌─ IN:
+   │    cond = NAC
+   │    if_cond = NAC
+   │    n = NAC
+   │    npdiv = NAC
+   │    npmod = NAC
+   │    one = 1
+   │    p = NAC
+   │    pp = NAC
+   │    resdiv = NAC
+   │    result = NAC
+   │    while_cond = NAC
+   │    zero = 0
+   └─ OUT:
+        cond = NAC
+        if_cond = NAC
+        n = NAC
+        npdiv = NAC
+        npmod = NAC
+        one = 1
+        p = NAC
+        pp = NAC
+        resdiv = NAC
+        result = NAC
+        while_cond = NAC
+        zero = 0
+
+ Block: for.set.end
+   ┌─ IN:
+   │    cond = NAC
+   │    if_cond = NAC
+   │    n = NAC
+   │    npdiv = NAC
+   │    npmod = NAC
+   │    one = 1
+   │    p = NAC
+   │    pp = NAC
+   │    resdiv = NAC
+   │    result = NAC
+   │    while_cond = NAC
+   │    zero = 0
+   └─ OUT:
+        cond = NAC
+        final_if_cond = NAC
+        if_cond = NAC
+        n = NAC
+        npdiv = NAC
+        npmod = NAC
+        one = 1
+        p = NAC
+        pp = NAC
+        resdiv = NAC
+        result = NAC
+        while_cond = NAC
+        zero = 0
+
+ Block: if_lbl
+   ┌─ IN:
+   │    cond = NAC
+   │    if_cond = NAC
+   │    n = NAC
+   │    npdiv = NAC
+   │    npmod = NAC
+   │    one = 1
+   │    p = NAC
+   │    pp = NAC
+   │    resdiv = NAC
+   │    result = NAC
+   │    while_cond = NAC
+   │    zero = 0
+   └─ OUT:
+        cond = NAC
+        if_cond = NAC
+        n = NAC
+        npdiv = NAC
+        npmod = NAC
+        one = 1
+        p = NAC
+        pp = NAC
+        resdiv = NAC
+        result = NAC
+        while_cond = NAC
+        zero = 0
+
+ Block: result
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        n = UNDEF
+        one = 1
+        p = 2
+        result = UNDEF
+        zero = 0
+
+ Block: while.body
+   ┌─ IN:
+   │    cond = NAC
+   │    if_cond = NAC
+   │    n = NAC
+   │    npdiv = NAC
+   │    npmod = NAC
+   │    one = 1
+   │    p = NAC
+   │    pp = NAC
+   │    resdiv = NAC
+   │    result = NAC
+   │    while_cond = NAC
+   │    zero = 0
+   └─ OUT:
+        cond = NAC
+        if_cond = NAC
+        n = NAC
+        npdiv = NAC
+        npmod = NAC
+        one = 1
+        p = NAC
+        pp = NAC
+        resdiv = NAC
+        result = NAC
+        while_cond = NAC
+        zero = 0
+
+ Block: while.end
+   ┌─ IN:
+   │    cond = NAC
+   │    if_cond = NAC
+   │    n = NAC
+   │    npdiv = NAC
+   │    npmod = NAC
+   │    one = 1
+   │    p = NAC
+   │    pp = NAC
+   │    resdiv = NAC
+   │    result = NAC
+   │    while_cond = NAC
+   │    zero = 0
+   └─ OUT:
+        cond = NAC
+        if_cond = NAC
+        n = NAC
+        npdiv = NAC
+        npmod = NAC
+        one = 1
+        p = NAC
+        pp = NAC
+        resdiv = NAC
+        result = NAC
+        while_cond = NAC
+        zero = 0
+
+ Block: while.set.cond
+   ┌─ IN:
+   │    cond = NAC
+   │    if_cond = NAC
+   │    n = NAC
+   │    npdiv = NAC
+   │    npmod = NAC
+   │    one = 1
+   │    p = NAC
+   │    pp = NAC
+   │    resdiv = NAC
+   │    result = NAC
+   │    while_cond = NAC
+   │    zero = 0
+   └─ OUT:
+        cond = NAC
+        if_cond = NAC
+        n = NAC
+        npdiv = NAC
+        npmod = NAC
+        one = 1
+        p = NAC
+        pp = NAC
+        resdiv = NAC
+        result = NAC
+        while_cond = NAC
+        zero = 0
+
+DataFlow ConstProp analysis for function 'mod'
+---------------------------------------------
+
+ Block: ad
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   └─ OUT:
+        a = UNDEF
+        ad = NAC
+        ans = NAC
+        b = UNDEF
+        mad = NAC

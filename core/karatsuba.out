@@ -1,0 +1,401 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: result
+   ┌─ IN:
+   │    x = UNDEF
+   │    y = UNDEF
+   └─ OUT:
+        result = NAC
+        x = UNDEF
+        y = UNDEF
+
+DataFlow ConstProp analysis for function 'karatsuba'
+---------------------------------------------
+
+ Block: else
+   ┌─ IN:
+   │    base = 10
+   │    cond = NAC
+   │    one = 1
+   │    two = 2
+   │    x = UNDEF
+   │    x_1_digit = NAC
+   │    x_digits = NAC
+   │    y = UNDEF
+   │    y_1_digit = NAC
+   │    y_digits = NAC
+   └─ OUT:
+        a = NAC
+        a_plus_b = NAC
+        b = NAC
+        base = 10
+        c = NAC
+        c_plus_d = NAC
+        cond = NAC
+        d = NAC
+        hi_shift = NAC
+        hi_shift_factor = NAC
+        hi_shifted = NAC
+        mid = NAC
+        mid_shifted = NAC
+        n = NAC
+        n2 = NAC
+        one = 1
+        pow_n2 = NAC
+        result = NAC
+        two = 2
+        x = UNDEF
+        x_1_digit = NAC
+        x_digits = NAC
+        y = UNDEF
+        y_1_digit = NAC
+        y_digits = NAC
+        z0 = NAC
+        z1 = NAC
+        z2 = NAC
+
+ Block: end
+   ┌─ IN:
+   │    a = NAC
+   │    a_plus_b = NAC
+   │    b = NAC
+   │    base = 10
+   │    c = NAC
+   │    c_plus_d = NAC
+   │    cond = NAC
+   │    d = NAC
+   │    hi_shift = NAC
+   │    hi_shift_factor = NAC
+   │    hi_shifted = NAC
+   │    mid = NAC
+   │    mid_shifted = NAC
+   │    n = NAC
+   │    n2 = NAC
+   │    one = 1
+   │    pow_n2 = NAC
+   │    result = NAC
+   │    two = 2
+   │    x = UNDEF
+   │    x_1_digit = NAC
+   │    x_digits = NAC
+   │    y = UNDEF
+   │    y_1_digit = NAC
+   │    y_digits = NAC
+   │    z0 = NAC
+   │    z1 = NAC
+   │    z2 = NAC
+   └─ OUT:
+        a = NAC
+        a_plus_b = NAC
+        b = NAC
+        base = 10
+        c = NAC
+        c_plus_d = NAC
+        cond = NAC
+        d = NAC
+        hi_shift = NAC
+        hi_shift_factor = NAC
+        hi_shifted = NAC
+        mid = NAC
+        mid_shifted = NAC
+        n = NAC
+        n2 = NAC
+        one = 1
+        pow_n2 = NAC
+        result = NAC
+        two = 2
+        x = UNDEF
+        x_1_digit = NAC
+        x_digits = NAC
+        y = UNDEF
+        y_1_digit = NAC
+        y_digits = NAC
+        z0 = NAC
+        z1 = NAC
+        z2 = NAC
+
+ Block: one
+   ┌─ IN:
+   │    x = UNDEF
+   │    y = UNDEF
+   └─ OUT:
+        base = 10
+        cond = NAC
+        one = 1
+        two = 2
+        x = UNDEF
+        x_1_digit = NAC
+        x_digits = NAC
+        y = UNDEF
+        y_1_digit = NAC
+        y_digits = NAC
+
+ Block: then
+   ┌─ IN:
+   │    base = 10
+   │    cond = NAC
+   │    one = 1
+   │    two = 2
+   │    x = UNDEF
+   │    x_1_digit = NAC
+   │    x_digits = NAC
+   │    y = UNDEF
+   │    y_1_digit = NAC
+   │    y_digits = NAC
+   └─ OUT:
+        base = 10
+        cond = NAC
+        one = 1
+        result = NAC
+        two = 2
+        x = UNDEF
+        x_1_digit = NAC
+        x_digits = NAC
+        y = UNDEF
+        y_1_digit = NAC
+        y_digits = NAC
+
+DataFlow ConstProp analysis for function 'num_digits'
+---------------------------------------------
+
+ Block: one
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        base = 10
+        digits = 1
+        n = UNDEF
+        one = 1
+        power = 1
+
+ Block: while.body
+   ┌─ IN:
+   │    base = 10
+   │    digits = NAC
+   │    is_term = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    power = NAC
+   │    temp = NAC
+   └─ OUT:
+        base = 10
+        digits = NAC
+        is_term = NAC
+        n = UNDEF
+        one = 1
+        power = NAC
+        temp = NAC
+
+ Block: while.cond
+   ┌─ IN:
+   │    base = 10
+   │    digits = NAC
+   │    is_term = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    power = NAC
+   │    temp = NAC
+   └─ OUT:
+        base = 10
+        digits = NAC
+        is_term = NAC
+        n = UNDEF
+        one = 1
+        power = NAC
+        temp = NAC
+
+ Block: while.finish
+   ┌─ IN:
+   │    base = 10
+   │    digits = NAC
+   │    is_term = NAC
+   │    n = UNDEF
+   │    one = 1
+   │    power = NAC
+   │    temp = NAC
+   └─ OUT:
+        base = 10
+        digits = NAC
+        is_term = NAC
+        n = UNDEF
+        one = 1
+        power = NAC
+        temp = NAC
+
+DataFlow ConstProp analysis for function 'max'
+---------------------------------------------
+
+ Block: cond
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        cond = NAC
+
+ Block: else
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   │    cond = NAC
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        cond = NAC
+
+ Block: then
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   │    cond = NAC
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        cond = NAC
+
+DataFlow ConstProp analysis for function 'mod'
+---------------------------------------------
+
+ Block: c
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        c = NAC
+        d = NAC
+        remainder = NAC
+
+DataFlow ConstProp analysis for function 'pow'
+---------------------------------------------
+
+ Block: for.body.1
+   ┌─ IN:
+   │    _i = NAC
+   │    n = UNDEF
+   │    res = NAC
+   │    v0 = UNDEF
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v12 = 1
+   │    v13 = NAC
+   │    v2 = 0
+   │    v3 = NAC
+   │    v4 = UNDEF
+   │    v5 = 1
+   │    v6 = NAC
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = UNDEF
+   │    x = UNDEF
+   └─ OUT:
+        _i = NAC
+        n = UNDEF
+        res = NAC
+        v0 = UNDEF
+        v10 = NAC
+        v11 = NAC
+        v12 = 1
+        v13 = NAC
+        v2 = 0
+        v3 = NAC
+        v4 = UNDEF
+        v5 = 1
+        v6 = NAC
+        v7 = NAC
+        v8 = NAC
+        v9 = UNDEF
+        x = UNDEF
+
+ Block: for.cond.1
+   ┌─ IN:
+   │    _i = NAC
+   │    n = UNDEF
+   │    res = NAC
+   │    v0 = UNDEF
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v12 = 1
+   │    v13 = NAC
+   │    v2 = 0
+   │    v3 = NAC
+   │    v4 = UNDEF
+   │    v5 = 1
+   │    v6 = NAC
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = UNDEF
+   │    x = UNDEF
+   └─ OUT:
+        _i = NAC
+        n = UNDEF
+        res = NAC
+        v0 = UNDEF
+        v10 = NAC
+        v11 = NAC
+        v12 = 1
+        v13 = NAC
+        v2 = 0
+        v3 = NAC
+        v4 = UNDEF
+        v5 = 1
+        v6 = NAC
+        v7 = NAC
+        v8 = NAC
+        v9 = UNDEF
+        x = UNDEF
+
+ Block: for.end.1
+   ┌─ IN:
+   │    _i = NAC
+   │    n = UNDEF
+   │    res = NAC
+   │    v0 = UNDEF
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v12 = 1
+   │    v13 = NAC
+   │    v2 = 0
+   │    v3 = NAC
+   │    v4 = UNDEF
+   │    v5 = 1
+   │    v6 = NAC
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = UNDEF
+   │    x = UNDEF
+   └─ OUT:
+        _i = NAC
+        n = UNDEF
+        res = NAC
+        v0 = UNDEF
+        v10 = NAC
+        v11 = NAC
+        v12 = 1
+        v13 = NAC
+        v14 = NAC
+        v2 = 0
+        v3 = NAC
+        v4 = UNDEF
+        v5 = 1
+        v6 = NAC
+        v7 = NAC
+        v8 = NAC
+        v9 = UNDEF
+        x = UNDEF
+
+ Block: v0
+   ┌─ IN:
+   │    n = UNDEF
+   │    x = UNDEF
+   └─ OUT:
+        _i = 0
+        n = UNDEF
+        res = UNDEF
+        v0 = UNDEF
+        v2 = 0
+        x = UNDEF

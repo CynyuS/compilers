@@ -1,0 +1,63 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: printBinary
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        n = UNDEF
+
+DataFlow ConstProp analysis for function 'printBinary'
+---------------------------------------------
+
+ Block: end
+   ┌─ IN:
+   │    cond = NAC
+   │    n = UNDEF
+   │    two = 2
+   │    v0 = NAC
+   │    v1 = NAC
+   │    zero = 0
+   └─ OUT:
+        cond = NAC
+        n = UNDEF
+        two = 2
+        v0 = NAC
+        v1 = NAC
+        zero = 0
+
+ Block: rec
+   ┌─ IN:
+   │    cond = NAC
+   │    n = UNDEF
+   │    zero = 0
+   └─ OUT:
+        cond = NAC
+        n = UNDEF
+        two = 2
+        v0 = NAC
+        v1 = NAC
+        zero = 0
+
+ Block: zero
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        cond = NAC
+        n = UNDEF
+        zero = 0
+
+DataFlow ConstProp analysis for function 'mod'
+---------------------------------------------
+
+ Block: v0
+   ┌─ IN:
+   │    a0 = UNDEF
+   │    a1 = UNDEF
+   └─ OUT:
+        a0 = UNDEF
+        a1 = UNDEF
+        v0 = NAC
+        v1 = NAC
+        v2 = NAC

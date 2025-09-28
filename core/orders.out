@@ -1,0 +1,245 @@
+
+DataFlow ConstProp analysis for function 'abs'
+---------------------------------------------
+
+ Block: abs_res
+   ┌─ IN:
+   │    a = NAC
+   │    is_neg = NAC
+   │    neg_one = -1
+   │    zero = 0
+   └─ OUT:
+        a = NAC
+        is_neg = NAC
+        neg_one = -1
+        zero = 0
+
+ Block: mul_neg_one
+   ┌─ IN:
+   │    a = UNDEF
+   │    is_neg = NAC
+   │    zero = 0
+   └─ OUT:
+        a = NAC
+        is_neg = NAC
+        neg_one = -1
+        zero = 0
+
+ Block: zero
+   ┌─ IN:
+   │    a = UNDEF
+   └─ OUT:
+        a = UNDEF
+        is_neg = NAC
+        zero = 0
+
+DataFlow ConstProp analysis for function 'mod'
+---------------------------------------------
+
+ Block: q
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   └─ OUT:
+        a = UNDEF
+        aq = NAC
+        b = UNDEF
+        mod = NAC
+        q = NAC
+
+DataFlow ConstProp analysis for function 'gcd'
+---------------------------------------------
+
+ Block: while.body
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   │    is_term = NAC
+   │    mod = NAC
+   │    zero = 0
+   └─ OUT:
+        a = UNDEF
+        b = NAC
+        is_term = NAC
+        mod = NAC
+        zero = 0
+
+ Block: while.cond
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        is_term = NAC
+        mod = NAC
+        zero = 0
+
+ Block: while.finish
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   │    is_term = NAC
+   │    mod = NAC
+   │    zero = 0
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        is_term = NAC
+        mod = NAC
+        zero = 0
+
+DataFlow ConstProp analysis for function 'lcm'
+---------------------------------------------
+
+ Block: check_b
+   ┌─ IN:
+   │    a = UNDEF
+   │    a_is_zero = NAC
+   │    b = UNDEF
+   │    zero = 0
+   └─ OUT:
+        a = UNDEF
+        a_is_zero = NAC
+        b = UNDEF
+        b_is_zero = NAC
+        zero = 0
+
+ Block: is_good
+   ┌─ IN:
+   │    a = UNDEF
+   │    a_is_zero = NAC
+   │    b = UNDEF
+   │    b_is_zero = NAC
+   │    zero = 0
+   └─ OUT:
+        a = UNDEF
+        a_is_zero = NAC
+        ab = NAC
+        b = UNDEF
+        b_is_zero = NAC
+        gcdab = NAC
+        lcm = NAC
+        zero = 0
+
+ Block: special_case
+   ┌─ IN:
+   │    a = UNDEF
+   │    a_is_zero = NAC
+   │    b = UNDEF
+   │    b_is_zero = NAC
+   │    zero = 0
+   └─ OUT:
+        a = UNDEF
+        a_is_zero = NAC
+        b = UNDEF
+        b_is_zero = NAC
+        zero = 0
+
+ Block: zero
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   └─ OUT:
+        a = UNDEF
+        a_is_zero = NAC
+        b = UNDEF
+        zero = 0
+
+DataFlow ConstProp analysis for function 'orders'
+---------------------------------------------
+
+ Block: for.body
+   ┌─ IN:
+   │    is_term = NAC
+   │    n = UNDEF
+   │    u = UNDEF
+   │    use_lcm = UNDEF
+   └─ OUT:
+        is_term = NAC
+        n = UNDEF
+        u = UNDEF
+        use_lcm = UNDEF
+
+ Block: for.body.print
+   ┌─ IN:
+   │    gcdun = NAC
+   │    is_term = NAC
+   │    lcm = NAC
+   │    n = UNDEF
+   │    ordu = NAC
+   │    u = UNDEF
+   │    use_lcm = UNDEF
+   └─ OUT:
+        gcdun = NAC
+        is_term = NAC
+        lcm = NAC
+        n = UNDEF
+        one = 1
+        ordu = NAC
+        u = NAC
+        use_lcm = UNDEF
+
+ Block: for.cond
+   ┌─ IN:
+   │    n = UNDEF
+   │    u = UNDEF
+   │    use_lcm = UNDEF
+   └─ OUT:
+        is_term = NAC
+        n = UNDEF
+        u = UNDEF
+        use_lcm = UNDEF
+
+ Block: for.finish
+   ┌─ IN:
+   │    is_term = NAC
+   │    n = UNDEF
+   │    u = UNDEF
+   │    use_lcm = UNDEF
+   └─ OUT:
+        is_term = NAC
+        n = UNDEF
+        u = UNDEF
+        use_lcm = UNDEF
+
+ Block: gcd
+   ┌─ IN:
+   │    is_term = NAC
+   │    n = UNDEF
+   │    u = UNDEF
+   │    use_lcm = UNDEF
+   └─ OUT:
+        gcdun = NAC
+        is_term = NAC
+        n = UNDEF
+        ordu = NAC
+        u = UNDEF
+        use_lcm = UNDEF
+
+ Block: lcm
+   ┌─ IN:
+   │    is_term = NAC
+   │    n = UNDEF
+   │    u = UNDEF
+   │    use_lcm = UNDEF
+   └─ OUT:
+        is_term = NAC
+        lcm = NAC
+        n = UNDEF
+        ordu = NAC
+        u = UNDEF
+        use_lcm = UNDEF
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: zero
+   ┌─ IN:
+   │    n = UNDEF
+   │    use_lcm = UNDEF
+   └─ OUT:
+        n = NAC
+        u = 1
+        use_lcm = UNDEF
+        zero = 0

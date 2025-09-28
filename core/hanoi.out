@@ -1,0 +1,67 @@
+
+DataFlow ConstProp analysis for function 'hanoi'
+---------------------------------------------
+
+ Block: else
+   ┌─ IN:
+   │    above = NAC
+   │    disks = UNDEF
+   │    dst = UNDEF
+   │    one = 1
+   │    pos = NAC
+   │    spare = UNDEF
+   │    src = UNDEF
+   │    zero = 0
+   └─ OUT:
+        above = NAC
+        disks = UNDEF
+        dst = UNDEF
+        one = 1
+        pos = NAC
+        spare = UNDEF
+        src = UNDEF
+        zero = 0
+
+ Block: then
+   ┌─ IN:
+   │    disks = UNDEF
+   │    dst = UNDEF
+   │    pos = NAC
+   │    spare = UNDEF
+   │    src = UNDEF
+   │    zero = 0
+   └─ OUT:
+        above = NAC
+        disks = UNDEF
+        dst = UNDEF
+        one = 1
+        pos = NAC
+        spare = UNDEF
+        src = UNDEF
+        zero = 0
+
+ Block: zero
+   ┌─ IN:
+   │    disks = UNDEF
+   │    dst = UNDEF
+   │    spare = UNDEF
+   │    src = UNDEF
+   └─ OUT:
+        disks = UNDEF
+        dst = UNDEF
+        pos = NAC
+        spare = UNDEF
+        src = UNDEF
+        zero = 0
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: src
+   ┌─ IN:
+   │    disks = UNDEF
+   └─ OUT:
+        disks = UNDEF
+        dst = 2
+        spare = 1
+        src = 0

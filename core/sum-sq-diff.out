@@ -1,0 +1,268 @@
+
+DataFlow ConstProp analysis for function 'sumOfSquares'
+---------------------------------------------
+
+ Block: for.body.1
+   ┌─ IN:
+   │    i = NAC
+   │    n = UNDEF
+   │    res = NAC
+   │    sq = NAC
+   │    v0 = 0
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v12 = NAC
+   │    v13 = 1
+   │    v14 = NAC
+   │    v2 = 1
+   │    v3 = NAC
+   │    v4 = UNDEF
+   │    v5 = NAC
+   │    v6 = NAC
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   └─ OUT:
+        i = NAC
+        n = UNDEF
+        res = NAC
+        sq = NAC
+        v0 = 0
+        v10 = NAC
+        v11 = NAC
+        v12 = NAC
+        v13 = 1
+        v14 = NAC
+        v2 = 1
+        v3 = NAC
+        v4 = UNDEF
+        v5 = NAC
+        v6 = NAC
+        v7 = NAC
+        v8 = NAC
+        v9 = NAC
+
+ Block: for.cond.1
+   ┌─ IN:
+   │    i = NAC
+   │    n = UNDEF
+   │    res = NAC
+   │    sq = NAC
+   │    v0 = 0
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v12 = NAC
+   │    v13 = 1
+   │    v14 = NAC
+   │    v2 = 1
+   │    v3 = NAC
+   │    v4 = UNDEF
+   │    v5 = NAC
+   │    v6 = NAC
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   └─ OUT:
+        i = NAC
+        n = UNDEF
+        res = NAC
+        sq = NAC
+        v0 = 0
+        v10 = NAC
+        v11 = NAC
+        v12 = NAC
+        v13 = 1
+        v14 = NAC
+        v2 = 1
+        v3 = NAC
+        v4 = UNDEF
+        v5 = NAC
+        v6 = NAC
+        v7 = NAC
+        v8 = NAC
+        v9 = NAC
+
+ Block: for.end.1
+   ┌─ IN:
+   │    i = NAC
+   │    n = UNDEF
+   │    res = NAC
+   │    sq = NAC
+   │    v0 = 0
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v12 = NAC
+   │    v13 = 1
+   │    v14 = NAC
+   │    v2 = 1
+   │    v3 = NAC
+   │    v4 = UNDEF
+   │    v5 = NAC
+   │    v6 = NAC
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   └─ OUT:
+        i = NAC
+        n = UNDEF
+        res = NAC
+        sq = NAC
+        v0 = 0
+        v10 = NAC
+        v11 = NAC
+        v12 = NAC
+        v13 = 1
+        v14 = NAC
+        v15 = NAC
+        v2 = 1
+        v3 = NAC
+        v4 = UNDEF
+        v5 = NAC
+        v6 = NAC
+        v7 = NAC
+        v8 = NAC
+        v9 = NAC
+
+ Block: v0
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        i = 1
+        n = UNDEF
+        res = 0
+        v0 = 0
+        v2 = 1
+
+DataFlow ConstProp analysis for function 'squareOfSum'
+---------------------------------------------
+
+ Block: for.body.1
+   ┌─ IN:
+   │    i = NAC
+   │    n = UNDEF
+   │    res = NAC
+   │    v0 = 0
+   │    v10 = 1
+   │    v11 = NAC
+   │    v2 = 1
+   │    v3 = NAC
+   │    v4 = UNDEF
+   │    v5 = NAC
+   │    v6 = NAC
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   └─ OUT:
+        i = NAC
+        n = UNDEF
+        res = NAC
+        v0 = 0
+        v10 = 1
+        v11 = NAC
+        v2 = 1
+        v3 = NAC
+        v4 = UNDEF
+        v5 = NAC
+        v6 = NAC
+        v7 = NAC
+        v8 = NAC
+        v9 = NAC
+
+ Block: for.cond.1
+   ┌─ IN:
+   │    i = NAC
+   │    n = UNDEF
+   │    res = NAC
+   │    v0 = 0
+   │    v10 = 1
+   │    v11 = NAC
+   │    v2 = 1
+   │    v3 = NAC
+   │    v4 = UNDEF
+   │    v5 = NAC
+   │    v6 = NAC
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   └─ OUT:
+        i = NAC
+        n = UNDEF
+        res = NAC
+        v0 = 0
+        v10 = 1
+        v11 = NAC
+        v2 = 1
+        v3 = NAC
+        v4 = UNDEF
+        v5 = NAC
+        v6 = NAC
+        v7 = NAC
+        v8 = NAC
+        v9 = NAC
+
+ Block: for.end.1
+   ┌─ IN:
+   │    i = NAC
+   │    n = UNDEF
+   │    res = NAC
+   │    v0 = 0
+   │    v10 = 1
+   │    v11 = NAC
+   │    v2 = 1
+   │    v3 = NAC
+   │    v4 = UNDEF
+   │    v5 = NAC
+   │    v6 = NAC
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   └─ OUT:
+        i = NAC
+        n = UNDEF
+        res = NAC
+        square = NAC
+        v0 = 0
+        v10 = 1
+        v11 = NAC
+        v12 = NAC
+        v13 = NAC
+        v14 = NAC
+        v15 = NAC
+        v2 = 1
+        v3 = NAC
+        v4 = UNDEF
+        v5 = NAC
+        v6 = NAC
+        v7 = NAC
+        v8 = NAC
+        v9 = NAC
+
+ Block: v0
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        i = 1
+        n = UNDEF
+        res = 0
+        v0 = 0
+        v2 = 1
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: v0
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        diff = NAC
+        n = UNDEF
+        square = NAC
+        sum = NAC
+        v0 = UNDEF
+        v1 = UNDEF
+        v2 = NAC
+        v3 = NAC
+        v4 = NAC
+        v5 = NAC
+        v6 = 0
+        v7 = NAC

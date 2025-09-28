@@ -1,0 +1,120 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: v1
+   ┌─ IN:
+   │    n = UNDEF
+   └─ OUT:
+        ans = NAC
+        n = UNDEF
+        v1 = UNDEF
+        v2 = UNDEF
+        v3 = NAC
+        v4 = 0
+
+DataFlow ConstProp analysis for function 'count_path'
+---------------------------------------------
+
+ Block: else.0
+   ┌─ IN:
+   │    v1 = UNDEF
+   │    v2 = 0
+   │    v3 = NAC
+   │    x = UNDEF
+   │    y = UNDEF
+   └─ OUT:
+        v1 = UNDEF
+        v2 = 0
+        v3 = NAC
+        v6 = UNDEF
+        v7 = 0
+        v8 = NAC
+        x = UNDEF
+        y = UNDEF
+
+ Block: else.5
+   ┌─ IN:
+   │    v1 = UNDEF
+   │    v2 = 0
+   │    v3 = NAC
+   │    v6 = UNDEF
+   │    v7 = 0
+   │    v8 = NAC
+   │    x = UNDEF
+   │    y = UNDEF
+   └─ OUT:
+        v1 = UNDEF
+        v10 = UNDEF
+        v11 = 1
+        v12 = NAC
+        v13 = UNDEF
+        v14 = NAC
+        v15 = UNDEF
+        v16 = UNDEF
+        v17 = 1
+        v18 = NAC
+        v19 = NAC
+        v2 = 0
+        v20 = NAC
+        v21 = UNDEF
+        v22 = 1
+        v23 = NAC
+        v24 = UNDEF
+        v25 = 1
+        v26 = NAC
+        v27 = NAC
+        v28 = NAC
+        v3 = NAC
+        v6 = UNDEF
+        v7 = 0
+        v8 = NAC
+        x = UNDEF
+        y = UNDEF
+
+ Block: then.0
+   ┌─ IN:
+   │    v1 = UNDEF
+   │    v2 = 0
+   │    v3 = NAC
+   │    x = UNDEF
+   │    y = UNDEF
+   └─ OUT:
+        v1 = UNDEF
+        v2 = 0
+        v3 = NAC
+        v4 = 1
+        x = UNDEF
+        y = UNDEF
+
+ Block: then.5
+   ┌─ IN:
+   │    v1 = UNDEF
+   │    v2 = 0
+   │    v3 = NAC
+   │    v6 = UNDEF
+   │    v7 = 0
+   │    v8 = NAC
+   │    x = UNDEF
+   │    y = UNDEF
+   └─ OUT:
+        v1 = UNDEF
+        v2 = 0
+        v3 = NAC
+        v6 = UNDEF
+        v7 = 0
+        v8 = NAC
+        v9 = 1
+        x = UNDEF
+        y = UNDEF
+
+ Block: v1
+   ┌─ IN:
+   │    x = UNDEF
+   │    y = UNDEF
+   └─ OUT:
+        v1 = UNDEF
+        v2 = 0
+        v3 = NAC
+        x = UNDEF
+        y = UNDEF

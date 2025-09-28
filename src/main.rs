@@ -54,7 +54,6 @@ fn main() {
     let df_pass = DataFlow::new();
     program_ast.apply_pass(Box::new(df_pass));
     
-
 }
 
 // print functions for debugging purposes
@@ -77,6 +76,17 @@ fn _print_bb(program_ast: &ProgramAST){
         let blocks = function.cfg._get_blocks();
         for (block_name, basic_blocks) in blocks {
             println!("  {:?} -> {:?}", block_name, basic_blocks);
+        }
+    }
+}
+
+fn _print_bb_order(program_ast: &ProgramAST){
+    println!("Basic Block Order:");
+    for function in &program_ast.functions {
+        println!("Function: {}", function.name);
+        let blk_order = function.cfg._get_block_order();
+        for block_name in blk_order {
+            println!("  {:?} ", block_name);
         }
     }
 }

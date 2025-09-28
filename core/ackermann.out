@@ -1,0 +1,94 @@
+
+DataFlow ConstProp analysis for function 'ack'
+---------------------------------------------
+
+ Block: m_nonzero
+   ┌─ IN:
+   │    cond_m = NAC
+   │    m = UNDEF
+   │    n = UNDEF
+   │    one = 1
+   │    zero = 0
+   └─ OUT:
+        cond_m = NAC
+        cond_n = NAC
+        m = UNDEF
+        n = UNDEF
+        one = 1
+        zero = 0
+
+ Block: m_zero
+   ┌─ IN:
+   │    cond_m = NAC
+   │    m = UNDEF
+   │    n = UNDEF
+   │    one = 1
+   │    zero = 0
+   └─ OUT:
+        cond_m = NAC
+        m = UNDEF
+        n = UNDEF
+        one = 1
+        tmp = NAC
+        zero = 0
+
+ Block: n_nonzero
+   ┌─ IN:
+   │    cond_m = NAC
+   │    cond_n = NAC
+   │    m = UNDEF
+   │    n = UNDEF
+   │    one = 1
+   │    zero = 0
+   └─ OUT:
+        cond_m = NAC
+        cond_n = NAC
+        m = UNDEF
+        m1 = NAC
+        n = UNDEF
+        n1 = NAC
+        one = 1
+        t1 = NAC
+        t2 = NAC
+        zero = 0
+
+ Block: n_zero
+   ┌─ IN:
+   │    cond_m = NAC
+   │    cond_n = NAC
+   │    m = UNDEF
+   │    n = UNDEF
+   │    one = 1
+   │    zero = 0
+   └─ OUT:
+        cond_m = NAC
+        cond_n = NAC
+        m = UNDEF
+        m1 = NAC
+        n = UNDEF
+        one = 1
+        tmp = NAC
+        zero = 0
+
+ Block: zero
+   ┌─ IN:
+   │    m = UNDEF
+   │    n = UNDEF
+   └─ OUT:
+        cond_m = NAC
+        m = UNDEF
+        n = UNDEF
+        one = 1
+        zero = 0
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: tmp
+   ┌─ IN:
+   │    m = UNDEF
+   │    n = UNDEF
+   └─ OUT:
+        m = UNDEF
+        n = UNDEF
+        tmp = NAC

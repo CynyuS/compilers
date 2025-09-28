@@ -1,0 +1,554 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: v0
+   ┌─ IN:
+   │    ∅
+   └─ OUT:
+        a = 20
+        v0 = 20
+        v1 = 20
+        v2 = 0
+
+DataFlow ConstProp analysis for function 'mod'
+---------------------------------------------
+
+ Block: v0
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        v0 = UNDEF
+        v1 = UNDEF
+        v2 = NAC
+        v3 = NAC
+        v4 = NAC
+
+DataFlow ConstProp analysis for function 'gcd'
+---------------------------------------------
+
+ Block: else.0
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   │    v1 = UNDEF
+   │    v2 = UNDEF
+   │    v3 = NAC
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        v1 = UNDEF
+        v2 = UNDEF
+        v3 = NAC
+
+ Block: else.12
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   │    tmp = UNDEF
+   │    v1 = UNDEF
+   │    v10 = NAC
+   │    v13 = UNDEF
+   │    v14 = 0
+   │    v15 = NAC
+   │    v2 = UNDEF
+   │    v3 = NAC
+   │    v4 = UNDEF
+   │    v5 = UNDEF
+   │    v6 = UNDEF
+   │    v8 = UNDEF
+   │    v9 = 0
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        tmp = UNDEF
+        v1 = UNDEF
+        v10 = NAC
+        v13 = UNDEF
+        v14 = 0
+        v15 = NAC
+        v2 = UNDEF
+        v3 = NAC
+        v4 = UNDEF
+        v5 = UNDEF
+        v6 = UNDEF
+        v8 = UNDEF
+        v9 = 0
+
+ Block: else.7
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   │    tmp = UNDEF
+   │    v1 = UNDEF
+   │    v10 = NAC
+   │    v2 = UNDEF
+   │    v3 = NAC
+   │    v4 = UNDEF
+   │    v5 = UNDEF
+   │    v6 = UNDEF
+   │    v8 = UNDEF
+   │    v9 = 0
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        tmp = UNDEF
+        v1 = UNDEF
+        v10 = NAC
+        v13 = UNDEF
+        v14 = 0
+        v15 = NAC
+        v2 = UNDEF
+        v3 = NAC
+        v4 = UNDEF
+        v5 = UNDEF
+        v6 = UNDEF
+        v8 = UNDEF
+        v9 = 0
+
+ Block: endif.0
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   │    tmp = UNDEF
+   │    v1 = UNDEF
+   │    v2 = UNDEF
+   │    v3 = NAC
+   │    v4 = UNDEF
+   │    v5 = UNDEF
+   │    v6 = UNDEF
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        tmp = UNDEF
+        v1 = UNDEF
+        v10 = NAC
+        v2 = UNDEF
+        v3 = NAC
+        v4 = UNDEF
+        v5 = UNDEF
+        v6 = UNDEF
+        v8 = UNDEF
+        v9 = 0
+
+ Block: endif.12
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   │    tmp = UNDEF
+   │    v1 = UNDEF
+   │    v10 = NAC
+   │    v13 = UNDEF
+   │    v14 = 0
+   │    v15 = NAC
+   │    v2 = UNDEF
+   │    v3 = NAC
+   │    v4 = UNDEF
+   │    v5 = UNDEF
+   │    v6 = UNDEF
+   │    v8 = UNDEF
+   │    v9 = 0
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        tmp = UNDEF
+        v1 = UNDEF
+        v10 = NAC
+        v13 = UNDEF
+        v14 = 0
+        v15 = NAC
+        v2 = UNDEF
+        v3 = NAC
+        v4 = UNDEF
+        v5 = UNDEF
+        v6 = UNDEF
+        v8 = UNDEF
+        v9 = 0
+
+ Block: endif.7
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   │    tmp = UNDEF
+   │    v1 = UNDEF
+   │    v10 = NAC
+   │    v13 = UNDEF
+   │    v14 = 0
+   │    v15 = NAC
+   │    v2 = UNDEF
+   │    v3 = NAC
+   │    v4 = UNDEF
+   │    v5 = UNDEF
+   │    v6 = UNDEF
+   │    v8 = UNDEF
+   │    v9 = 0
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        g = NAC
+        remainder = NAC
+        tmp = UNDEF
+        v1 = UNDEF
+        v10 = NAC
+        v13 = UNDEF
+        v14 = 0
+        v15 = NAC
+        v17 = UNDEF
+        v18 = UNDEF
+        v19 = UNDEF
+        v2 = UNDEF
+        v20 = NAC
+        v21 = NAC
+        v3 = NAC
+        v4 = UNDEF
+        v5 = UNDEF
+        v6 = UNDEF
+        v8 = UNDEF
+        v9 = 0
+
+ Block: jmp
+   ┌─ IN:
+   │    ∅
+   └─ OUT:
+        ∅
+
+ Block: jmp1
+   ┌─ IN:
+   │    ∅
+   └─ OUT:
+        ∅
+
+ Block: then.0
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   │    v1 = UNDEF
+   │    v2 = UNDEF
+   │    v3 = NAC
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        tmp = UNDEF
+        v1 = UNDEF
+        v2 = UNDEF
+        v3 = NAC
+        v4 = UNDEF
+        v5 = UNDEF
+        v6 = UNDEF
+
+ Block: then.12
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   │    tmp = UNDEF
+   │    v1 = UNDEF
+   │    v10 = NAC
+   │    v13 = UNDEF
+   │    v14 = 0
+   │    v15 = NAC
+   │    v2 = UNDEF
+   │    v3 = NAC
+   │    v4 = UNDEF
+   │    v5 = UNDEF
+   │    v6 = UNDEF
+   │    v8 = UNDEF
+   │    v9 = 0
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        tmp = UNDEF
+        v1 = UNDEF
+        v10 = NAC
+        v13 = UNDEF
+        v14 = 0
+        v15 = NAC
+        v16 = UNDEF
+        v2 = UNDEF
+        v3 = NAC
+        v4 = UNDEF
+        v5 = UNDEF
+        v6 = UNDEF
+        v8 = UNDEF
+        v9 = 0
+
+ Block: then.7
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   │    tmp = UNDEF
+   │    v1 = UNDEF
+   │    v10 = NAC
+   │    v2 = UNDEF
+   │    v3 = NAC
+   │    v4 = UNDEF
+   │    v5 = UNDEF
+   │    v6 = UNDEF
+   │    v8 = UNDEF
+   │    v9 = 0
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        tmp = UNDEF
+        v1 = UNDEF
+        v10 = NAC
+        v11 = UNDEF
+        v2 = UNDEF
+        v3 = NAC
+        v4 = UNDEF
+        v5 = UNDEF
+        v6 = UNDEF
+        v8 = UNDEF
+        v9 = 0
+
+ Block: v1
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = UNDEF
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        v1 = UNDEF
+        v2 = UNDEF
+        v3 = NAC
+
+DataFlow ConstProp analysis for function 'relative_primes'
+---------------------------------------------
+
+ Block: else.7
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = NAC
+   │    g = NAC
+   │    v1 = UNDEF
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v12 = 0
+   │    v13 = NAC
+   │    v14 = 1
+   │    v15 = NAC
+   │    v2 = NAC
+   │    v3 = 1
+   │    v4 = NAC
+   │    v5 = UNDEF
+   │    v6 = NAC
+   │    v8 = NAC
+   │    v9 = 1
+   └─ OUT:
+        a = UNDEF
+        b = NAC
+        g = NAC
+        v1 = UNDEF
+        v10 = NAC
+        v11 = NAC
+        v12 = 0
+        v13 = NAC
+        v14 = 1
+        v15 = NAC
+        v2 = NAC
+        v3 = 1
+        v4 = NAC
+        v5 = UNDEF
+        v6 = NAC
+        v8 = NAC
+        v9 = 1
+
+ Block: endif.7
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = NAC
+   │    g = NAC
+   │    v1 = UNDEF
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v12 = 0
+   │    v13 = NAC
+   │    v14 = 1
+   │    v15 = NAC
+   │    v2 = NAC
+   │    v3 = 1
+   │    v4 = NAC
+   │    v5 = UNDEF
+   │    v6 = NAC
+   │    v8 = NAC
+   │    v9 = 1
+   └─ OUT:
+        a = UNDEF
+        b = NAC
+        g = NAC
+        v1 = UNDEF
+        v10 = NAC
+        v11 = NAC
+        v12 = 0
+        v13 = NAC
+        v14 = 1
+        v15 = NAC
+        v2 = NAC
+        v3 = 1
+        v4 = NAC
+        v5 = UNDEF
+        v6 = NAC
+        v8 = NAC
+        v9 = 1
+
+ Block: for.body.0
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = NAC
+   │    g = NAC
+   │    v1 = UNDEF
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v12 = 0
+   │    v13 = NAC
+   │    v14 = 1
+   │    v15 = NAC
+   │    v2 = NAC
+   │    v3 = 1
+   │    v4 = NAC
+   │    v5 = UNDEF
+   │    v6 = NAC
+   │    v8 = NAC
+   │    v9 = 1
+   └─ OUT:
+        a = UNDEF
+        b = NAC
+        g = NAC
+        v1 = UNDEF
+        v10 = NAC
+        v11 = NAC
+        v12 = 0
+        v13 = NAC
+        v14 = 1
+        v15 = NAC
+        v2 = NAC
+        v3 = 1
+        v4 = NAC
+        v5 = UNDEF
+        v6 = NAC
+        v8 = NAC
+        v9 = 1
+
+ Block: for.cond.0
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = NAC
+   │    g = NAC
+   │    v1 = UNDEF
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v12 = 0
+   │    v13 = NAC
+   │    v14 = 1
+   │    v15 = NAC
+   │    v2 = NAC
+   │    v3 = 1
+   │    v4 = NAC
+   │    v5 = UNDEF
+   │    v6 = NAC
+   │    v8 = NAC
+   │    v9 = 1
+   └─ OUT:
+        a = UNDEF
+        b = NAC
+        g = NAC
+        v1 = UNDEF
+        v10 = NAC
+        v11 = NAC
+        v12 = 0
+        v13 = NAC
+        v14 = 1
+        v15 = NAC
+        v2 = NAC
+        v3 = 1
+        v4 = NAC
+        v5 = UNDEF
+        v6 = NAC
+        v8 = NAC
+        v9 = 1
+
+ Block: for.end.0
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = NAC
+   │    g = NAC
+   │    v1 = UNDEF
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v12 = 0
+   │    v13 = NAC
+   │    v14 = 1
+   │    v15 = NAC
+   │    v2 = NAC
+   │    v3 = 1
+   │    v4 = NAC
+   │    v5 = UNDEF
+   │    v6 = NAC
+   │    v8 = NAC
+   │    v9 = 1
+   └─ OUT:
+        a = UNDEF
+        b = NAC
+        g = NAC
+        v1 = UNDEF
+        v10 = NAC
+        v11 = NAC
+        v12 = 0
+        v13 = NAC
+        v14 = 1
+        v15 = NAC
+        v2 = NAC
+        v3 = 1
+        v4 = NAC
+        v5 = UNDEF
+        v6 = NAC
+        v8 = NAC
+        v9 = 1
+
+ Block: then.7
+   ┌─ IN:
+   │    a = UNDEF
+   │    b = NAC
+   │    g = NAC
+   │    v1 = UNDEF
+   │    v10 = NAC
+   │    v11 = NAC
+   │    v12 = 0
+   │    v13 = NAC
+   │    v14 = 1
+   │    v15 = NAC
+   │    v2 = NAC
+   │    v3 = 1
+   │    v4 = NAC
+   │    v5 = UNDEF
+   │    v6 = NAC
+   │    v8 = NAC
+   │    v9 = 1
+   └─ OUT:
+        a = UNDEF
+        b = NAC
+        g = NAC
+        v1 = UNDEF
+        v10 = NAC
+        v11 = NAC
+        v12 = 0
+        v13 = NAC
+        v14 = 1
+        v15 = NAC
+        v2 = NAC
+        v3 = 1
+        v4 = NAC
+        v5 = UNDEF
+        v6 = NAC
+        v8 = NAC
+        v9 = 1
+
+ Block: v1
+   ┌─ IN:
+   │    a = UNDEF
+   └─ OUT:
+        a = UNDEF
+        b = UNDEF
+        v1 = UNDEF

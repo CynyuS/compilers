@@ -1,0 +1,118 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: for.body.2
+   ┌─ IN:
+   │    i = NAC
+   │    n = 10
+   │    sum = NAC
+   │    v0 = 10
+   │    v1 = 0
+   │    v10 = NAC
+   │    v11 = 1
+   │    v12 = NAC
+   │    v3 = 1
+   │    v4 = NAC
+   │    v5 = 10
+   │    v6 = NAC
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   └─ OUT:
+        i = NAC
+        n = 10
+        sum = NAC
+        v0 = 10
+        v1 = 0
+        v10 = NAC
+        v11 = 1
+        v12 = NAC
+        v3 = 1
+        v4 = NAC
+        v5 = 10
+        v6 = NAC
+        v7 = NAC
+        v8 = NAC
+        v9 = NAC
+
+ Block: for.cond.2
+   ┌─ IN:
+   │    i = NAC
+   │    n = 10
+   │    sum = NAC
+   │    v0 = 10
+   │    v1 = 0
+   │    v10 = NAC
+   │    v11 = 1
+   │    v12 = NAC
+   │    v3 = 1
+   │    v4 = NAC
+   │    v5 = 10
+   │    v6 = NAC
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   └─ OUT:
+        i = NAC
+        n = 10
+        sum = NAC
+        v0 = 10
+        v1 = 0
+        v10 = NAC
+        v11 = 1
+        v12 = NAC
+        v3 = 1
+        v4 = NAC
+        v5 = 10
+        v6 = NAC
+        v7 = NAC
+        v8 = NAC
+        v9 = NAC
+
+ Block: for.end.2
+   ┌─ IN:
+   │    i = NAC
+   │    n = 10
+   │    sum = NAC
+   │    v0 = 10
+   │    v1 = 0
+   │    v10 = NAC
+   │    v11 = 1
+   │    v12 = NAC
+   │    v3 = 1
+   │    v4 = NAC
+   │    v5 = 10
+   │    v6 = NAC
+   │    v7 = NAC
+   │    v8 = NAC
+   │    v9 = NAC
+   └─ OUT:
+        i = NAC
+        n = 10
+        sum = NAC
+        v0 = 10
+        v1 = 0
+        v10 = NAC
+        v11 = 1
+        v12 = NAC
+        v13 = NAC
+        v14 = 0
+        v3 = 1
+        v4 = NAC
+        v5 = 10
+        v6 = NAC
+        v7 = NAC
+        v8 = NAC
+        v9 = NAC
+
+ Block: v0
+   ┌─ IN:
+   │    ∅
+   └─ OUT:
+        i = 1
+        n = 10
+        sum = 0
+        v0 = 10
+        v1 = 0
+        v3 = 1
