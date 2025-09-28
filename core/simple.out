@@ -1,0 +1,12 @@
+
+DataFlow ConstProp analysis for function 'main'
+---------------------------------------------
+
+ Block: a
+   ┌─ IN:
+   │    ∅
+   └─ OUT:
+        a = 4
+        b = 2
+        c = 1
+        d = 6
