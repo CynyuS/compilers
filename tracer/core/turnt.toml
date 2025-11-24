@@ -1,0 +1,2 @@
+command = "python ../trace.py -f {filename} {args} | python ../lvn.py | python ../dce.py | bril2txt"
+output.out = "-"

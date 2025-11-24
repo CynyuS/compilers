@@ -1,0 +1,17 @@
+extract = 'program_output: (\d+)'
+benchmarks = '../core/*.bril'
+
+[runs.baseline]
+pipeline = [
+  "bril2json", 
+  "brili {args}",
+]
+
+
+[runs.trace_correctness]
+pipeline = [
+  "python ../trace.py -std", 
+  "python ../lvn.py",
+  "python ../dce.py",
+  "brili {args}",
+]

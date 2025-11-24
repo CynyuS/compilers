@@ -1,3 +1,4 @@
+# TRACE_ARG: 5
 # ARGS: 1234567890
 @main(n: int) {
   v0: int = const 0;

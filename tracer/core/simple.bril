@@ -1,0 +1,20 @@
+# TRACE_ARG: 8
+# ARGS: 111
+@main (input: int){
+  v1: int = const 1;
+  y: int = add input v1;
+  v100: int = const 100; 
+  l100: bool = lt input v100;
+  br l100 .f .g;
+
+.f:
+  z: int = const 5;
+  jmp .end;
+
+.g:
+  z: int = const 10;
+
+.end:
+  print z;
+  ret z;
+}

@@ -1,6 +1,24 @@
-# TRACE_ARG: 10
-# ARGS: 123
-@main (input: int){
+@main(input: int) {
+  speculate;
+  n: int = id input;
+  v0: int = const 0;
+  v1: int = const 10;
+  result: int = id v0;
+  v2: bool = const true;
+  notdone: bool = id v2;
+  v4: bool = id v2;
+  guard v2 .original_code;
+  v5: int = id n;
+  a: int = div n v1;
+  floor: int = mul a v1;
+  remainder: int = sub n floor;
+  result: int = mul v0 v1;
+  result: int = add result remainder;
+  n: int = id a;
+  comp1: bool = eq a v0;
+  guard comp1 .original_code;
+  commit;
+.original_code:
   n: int = id input;
   v0: int = const 0;
   v1: int = const 10;
@@ -18,9 +36,9 @@
   result: int = mul result v1;
   result: int = add result remainder;
   n: int = id a;
-  comp1: bool = eq n v0;
+  comp1: bool = eq a v0;
   br comp1 .if.body .for.incre;
- .if.body:
+.if.body:
   notdone: bool = const false;
   jmp .for.cond.3;
 .for.incre:

@@ -1,6 +1,24 @@
-# TRACE_ARG: 19
-# ARGS: 10
 @main(n: int) {
+  speculate;
+  v0: int = id n;
+  n: int = id v0;
+  v1: int = const 0;
+  sum: int = id v1;
+  v3: int = const 1;
+  i: int = id v3;
+  v4: int = id v3;
+  v5: int = id v0;
+  v6: bool = le v3 v0;
+  guard v6 .original_code;
+  v7: int = id v1;
+  v8: int = id v3;
+  v9: int = add v1 v3;
+  sum: int = id v9;
+  v11: int = id v3;
+  v12: int = add v3 v3;
+  i: int = id v12;
+  commit;
+.original_code:
   v0: int = id n;
   n: int = id v0;
   v1: int = const 0;
@@ -17,13 +35,11 @@
   v8: int = id i;
   v9: int = add v7 v8;
   sum: int = id v9;
-  v10: int = id i;
   v11: int = const 1;
-  v12: int = add v10 v11;
+  v12: int = add v8 v11;
   i: int = id v12;
   jmp .for.cond.2;
 .for.end.2:
   v13: int = id sum;
   print v13;
-  v14: int = const 0;
 }

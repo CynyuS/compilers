@@ -1,0 +1,22 @@
+@main(input: int) {
+  speculate;
+  v100: int = const 100;
+  l100: bool = lt input v100;
+  guard l100 .original_code;
+  z: int = const 10;
+  commit;
+  print z;
+  ret z;
+.original_code:
+  v100: int = const 100;
+  l100: bool = lt input v100;
+  br l100 .f .g;
+.f:
+  z: int = const 5;
+  jmp .end;
+.g:
+  z: int = const 10;
+.end:
+  print z;
+  ret z;
+}

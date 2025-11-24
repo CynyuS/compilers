@@ -1,0 +1,9 @@
+benchmark,run,result
+reverse,baseline,321
+reverse,trace_correctness,321
+simple,baseline,10
+simple,trace_correctness,10
+sum-digits,baseline,45
+sum-digits,trace_correctness,45
+sum-to-n,baseline,55
+sum-to-n,trace_correctness,55
